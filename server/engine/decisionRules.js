@@ -231,3 +231,4 @@ function evaluateRequirement(requirement, policy, contracts = [], poHistory = []
 module.exports = {
   evaluateRequirement
 };
+

@@ -60,3 +60,4 @@ function consolidatePOs(evaluatedRequirements, windowHours = 24) {
 module.exports = {
   consolidatePOs
 };
+

@@ -20,3 +20,4 @@ const contractSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 module.exports = mongoose.model('Contract', contractSchema);
+

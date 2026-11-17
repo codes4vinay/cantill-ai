@@ -17,7 +17,10 @@ const SYNONYMS = {
 
 const STOPWORDS = new Set([
   'for', 'maintenance', 'plant', 'urgent', 'as', 'per', 'sample',
-  'required', 'need', 'plz', 'please', 'nos', 'qty', 'standard', 'make'
+  'required', 'need', 'plz', 'please', 'nos', 'qty', 'standard', 'make',
+  'pieces', 'piece', 'units', 'items', 'chakan', 'pune', 'chk1', 'pun1',
+  'friday', 'monday', 'tuesday', 'wednesday', 'thursday', 'saturday', 'sunday',
+  'today', 'tomorrow', 'next', 'week', 'month', 'delivery', 'by', 'in'
 ]);
 
 function normalizeText(text) {
@@ -31,7 +34,9 @@ function normalizeText(text) {
 function extractNumbersAndCodes(text) {
   if (!text) return [];
   const matches = String(text).match(/\b([0-9]+[a-z0-9/x-]*|[a-z]+[0-9]+)\b/gi) || [];
-  return matches.map(m => m.toLowerCase().trim()).filter(m => m.length >= 2);
+  return matches
+    .map(m => m.toLowerCase().trim())
+    .filter(m => m.length >= 2 && !STOPWORDS.has(m) && !/^[0-9]{1,2}$/.test(m)); // Ignore standalone small quantities like 10, 50
 }
 
 function tokenSimilarity(str1, str2) {
@@ -149,3 +154,4 @@ module.exports = {
   tokenSimilarity,
   matchItem
 };
+

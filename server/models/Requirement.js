@@ -56,3 +56,4 @@ const requirementSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 module.exports = mongoose.model('Requirement', requirementSchema);
+

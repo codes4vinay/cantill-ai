@@ -23,3 +23,4 @@ const policySchema = new mongoose.Schema({
 }, { timestamps: true });
 
 module.exports = mongoose.model('Policy', policySchema);
+

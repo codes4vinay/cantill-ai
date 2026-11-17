@@ -227,3 +227,4 @@ During the blind test window, when the new test dataset (`new_pr_batch.csv`) and
 - **Task Data Isolation:** As required by task guidelines, `.gitignore` strictly excludes `data/`, `master_data/`, `contracts/`, and `pr_batches/` from being pushed to the public Git repository.
 - **AI Disclosure:** Full disclosure of AI tools utilized during development and within the application is documented in [APPROACH.md](file:///C:/Users/kumar/OneDrive/Desktop/cantill-procurement-app/APPROACH.md).
 - **Assumptions & Edge Cases:** All business assumptions and mathematical proofs are documented in [DECISIONS.md](file:///C:/Users/kumar/OneDrive/Desktop/cantill-procurement-app/DECISIONS.md).
+

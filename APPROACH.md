@@ -203,3 +203,4 @@ The engine does not contain hardcoded `if (val < 200000)` checks. Instead:
 ## 6. Verification and Test Results
 - **Automated Test Suite:** Built with Jest, testing item matching, clubbing, pricing waterfall, ceiling exhaustion, preferred supplier ranking, and PO consolidation against all 14 worked examples.
 - **Accuracy:** 100% agreement with all worked examples in `Worked_Examples.pdf`.
+

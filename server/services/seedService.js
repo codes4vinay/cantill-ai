@@ -117,12 +117,14 @@ async function seedAllData() {
 
   const contractsMap = {};
   for (const reg of regRows) {
+    const effDate = new Date(reg.start_date || reg.effective_date || Date.now());
+    const expDate = new Date(reg.end_date || reg.expiry_date || Date.now() + 365*24*60*60*1000);
     contractsMap[reg.contract_id] = {
       contract_id: reg.contract_id,
       supplier_id: reg.supplier_id,
-      effective_date: new Date(reg.effective_date),
-      expiry_date: new Date(reg.expiry_date),
-      overall_ceiling: Number(reg.overall_ceiling || 0),
+      effective_date: isNaN(effDate.getTime()) ? new Date() : effDate,
+      expiry_date: isNaN(expDate.getTime()) ? new Date() : expDate,
+      overall_ceiling: Number(reg.value_cap || reg.overall_ceiling || 0),
       consumed_value: Number(reg.consumed_value || 0),
       lines: [],
       status: 'Active'
@@ -133,7 +135,7 @@ async function seedAllData() {
     if (contractsMap[line.contract_id]) {
       contractsMap[line.contract_id].lines.push({
         item_code: line.item_code,
-        contract_price: Number(line.contract_price || 0),
+        contract_price: Number(line.rate || line.contract_price || 0),
         min_order_qty: Number(line.min_order_qty || 1),
         ceiling: Number(line.line_ceiling || line.ceiling || contractsMap[line.contract_id].overall_ceiling)
       });

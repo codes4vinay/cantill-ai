@@ -185,3 +185,4 @@ This formula was calibrated and verified to reproduce 100% of the rankings given
 | **5.5** | RFQ | Value $<$ ₹10,00,000 (including small items not bought in 365d) | `RFQ` | `SOURCING_REQUEST` | 3 suggested suppliers (preferred list + category top-up) |
 | **5.6** | RFP | Value $\ge$ ₹10,00,000 | `RFP` | `SOURCING_REQUEST` | 5 suggested suppliers (preferred list + category top-up) |
 | **5.7** | Supplier Sanctions | Supplier status `Blocked` or `Inactive` | Hard block | — | Never issue PO or suggest for sourcing |
+
