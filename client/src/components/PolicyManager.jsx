@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {
   ShieldCheck, FileCode, ArrowRight, CheckCircle2, History, AlertCircle,
-  Sparkles, RefreshCw, Layers, Sliders
+  Sparkles, RefreshCw, Layers, Sliders, Check
 } from 'lucide-react';
 import { getPolicy, previewPolicyDiff, activatePolicy } from '../services/api';
 
@@ -85,64 +85,64 @@ export default function PolicyManager({ onPolicyChanged }) {
   ];
 
   return (
-    <div className="space-y-8 max-w-6xl mx-auto">
+    <div className="space-y-6 max-w-6xl mx-auto">
       {/* Header */}
       <div>
         <div className="flex items-center space-x-2">
-          <ShieldCheck className="w-6 h-6 text-indigo-600" />
-          <h2 className="text-xl font-bold text-slate-900 tracking-tight">Policy-as-Data Architecture</h2>
-          <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-indigo-50 text-indigo-700 border border-indigo-200">
+          <ShieldCheck className="w-5 h-5 text-indigo-400" />
+          <h2 className="text-xl font-bold text-white tracking-tight">Policy-as-Data Architecture</h2>
+          <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-indigo-500/10 text-indigo-300 border border-indigo-500/30">
             Zero-Code Updates
           </span>
         </div>
-        <p className="text-xs text-slate-500 mt-1">
-          Corvo Procurement Policy is modeled purely as versioned configuration data. Amendments take effect
+        <p className="text-xs text-slate-400 mt-1">
+          Procurement policy operates as versioned configuration data. When amended, new thresholds take effect
           immediately across the decision engine without any application restarts or code modifications.
         </p>
       </div>
 
       {/* Active Policy Status Cards */}
       {activePolicy && (
-        <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-4">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-slate-100 gap-2">
+        <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4 backdrop-blur-md">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-slate-800 gap-2">
             <div>
-              <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Active Policy</span>
-              <h3 className="text-lg font-bold text-slate-900 flex items-center space-x-2">
-                <span>{activePolicy.title || 'Corvo Procurement Policy'}</span>
-                <span className="px-2.5 py-0.5 rounded-md text-xs font-extrabold bg-emerald-100 text-emerald-800 border border-emerald-300">
+              <span className="text-[10px] font-semibold text-slate-500 uppercase tracking-wider">Active Policy</span>
+              <h3 className="text-base font-bold text-white flex items-center space-x-2 mt-0.5">
+                <span>{activePolicy.title || 'Procurement Policy'}</span>
+                <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
                   {activePolicy.version} ACTIVE
                 </span>
               </h3>
             </div>
-            <div className="text-xs text-slate-500">
-              Effective Since: <strong>{new Date(activePolicy.effective_date).toLocaleDateString()}</strong>
+            <div className="text-xs text-slate-400">
+              Effective Since: <strong className="text-white">{new Date(activePolicy.effective_date).toLocaleDateString()}</strong>
             </div>
           </div>
 
           {/* Policy Parameters Grid */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs">
-            <div className="p-3 bg-slate-50 rounded-xl border border-slate-100">
-              <span className="text-slate-400 block text-[10px] uppercase font-semibold">Spot Threshold</span>
-              <span className="text-base font-bold text-slate-800">
+            <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800">
+              <span className="text-slate-500 block text-[9px] uppercase font-semibold">Spot Threshold</span>
+              <span className="text-base font-bold text-white">
                 ₹{activePolicy.clauses?.spot_threshold_inr?.toLocaleString('en-IN')}
               </span>
             </div>
-            <div className="p-3 bg-slate-50 rounded-xl border border-slate-100">
-              <span className="text-slate-400 block text-[10px] uppercase font-semibold">RFQ Ceiling</span>
-              <span className="text-base font-bold text-slate-800">
+            <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800">
+              <span className="text-slate-500 block text-[9px] uppercase font-semibold">RFQ Ceiling</span>
+              <span className="text-base font-bold text-white">
                 ₹{activePolicy.clauses?.rfq_max_threshold_inr?.toLocaleString('en-IN')}
               </span>
             </div>
-            <div className="p-3 bg-slate-50 rounded-xl border border-slate-100">
-              <span className="text-slate-400 block text-[10px] uppercase font-semibold">Emergency Cap</span>
-              <span className="text-base font-bold text-slate-800">
+            <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800">
+              <span className="text-slate-500 block text-[9px] uppercase font-semibold">Emergency Cap</span>
+              <span className="text-base font-bold text-white">
                 ₹{activePolicy.clauses?.emergency_threshold_inr?.toLocaleString('en-IN')}
               </span>
             </div>
-            <div className="p-3 bg-slate-50 rounded-xl border border-slate-100">
-              <span className="text-slate-400 block text-[10px] uppercase font-semibold">Clubbing Windows</span>
-              <span className="text-base font-bold text-slate-800">
-                {activePolicy.clauses?.clubbing_window_days_creation}d / {activePolicy.clauses?.clubbing_window_days_need_by}d
+            <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800">
+              <span className="text-slate-500 block text-[9px] uppercase font-semibold">Clubbing Windows</span>
+              <span className="text-base font-bold text-white">
+                {activePolicy.clauses?.clubbing_window_days_creation}d create / {activePolicy.clauses?.clubbing_window_days_need_by}d need-by
               </span>
             </div>
           </div>
@@ -150,31 +150,31 @@ export default function PolicyManager({ onPolicyChanged }) {
       )}
 
       {/* Policy Amendment Studio */}
-      <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-6">
+      <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6 backdrop-blur-md">
         <div className="flex items-center space-x-2">
-          <Sparkles className="w-5 h-5 text-indigo-600" />
-          <h3 className="font-bold text-slate-900 text-base">Policy Amendment Studio</h3>
+          <Sparkles className="w-4 h-4 text-indigo-400" />
+          <h3 className="font-bold text-white text-sm">Policy Amendment Studio</h3>
         </div>
 
         {/* Natural Language Prompt or Input */}
         <div className="space-y-2">
-          <label className="text-xs font-semibold text-slate-700 block">
-            Dictate Policy Amendment (Natural Language or Document Snippet)
+          <label className="text-xs font-semibold text-slate-300 block">
+            Dictate Policy Amendment (Natural Language Prompt or Document Text)
           </label>
           <textarea
             rows={3}
             value={amendmentPrompt}
             onChange={(e) => setAmendmentPrompt(e.target.value)}
             placeholder="e.g. Please raise spot purchase threshold to INR 3,00,000 and emergency limit to INR 7,50,000..."
-            className="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+            className="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-700 text-white placeholder-slate-500 text-xs focus:ring-2 focus:ring-indigo-500 focus:outline-none"
           />
           <div className="flex flex-wrap gap-2 pt-1 text-xs">
-            <span className="text-slate-400 text-[11px] self-center">Templates:</span>
+            <span className="text-slate-500 text-[10px] self-center">Templates:</span>
             {sampleAmendments.map((s, idx) => (
               <button
                 key={idx}
                 onClick={() => setAmendmentPrompt(s)}
-                className="px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600 hover:bg-indigo-50 hover:text-indigo-600 transition-colors text-[11px]"
+                className="px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 hover:bg-indigo-600 hover:text-white transition-all text-[11px]"
               >
                 {s}
               </button>
@@ -182,49 +182,49 @@ export default function PolicyManager({ onPolicyChanged }) {
           </div>
         </div>
 
-        {/* Manual Threshold Tweaks */}
-        <div className="border border-slate-200 rounded-xl p-4 bg-slate-50/50 space-y-3">
-          <div className="flex items-center space-x-2 text-xs font-semibold text-slate-700">
-            <Sliders className="w-4 h-4 text-slate-500" />
-            <span>Direct Parameter Overrides</span>
+        {/* Direct Parameter Overrides */}
+        <div className="border border-slate-800 rounded-xl p-4 bg-slate-950/60 space-y-3">
+          <div className="flex items-center space-x-2 text-xs font-semibold text-slate-300">
+            <Sliders className="w-3.5 h-3.5 text-indigo-400" />
+            <span>Interactive Parameter Adjustments</span>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
             <div>
-              <label className="text-[11px] text-slate-500 block mb-1">Spot Threshold (INR)</label>
+              <label className="text-[10px] text-slate-400 block mb-1">Spot Threshold (INR)</label>
               <input
                 type="number"
                 value={editableClauses.spot_threshold_inr || ''}
                 onChange={(e) => setEditableClauses({ ...editableClauses, spot_threshold_inr: Number(e.target.value) })}
-                className="w-full px-3 py-1.5 rounded-lg border border-slate-300 text-xs bg-white"
+                className="w-full px-3 py-2 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
             <div>
-              <label className="text-[11px] text-slate-500 block mb-1">Emergency Limit (INR)</label>
+              <label className="text-[10px] text-slate-400 block mb-1">Emergency Limit (INR)</label>
               <input
                 type="number"
                 value={editableClauses.emergency_threshold_inr || ''}
                 onChange={(e) => setEditableClauses({ ...editableClauses, emergency_threshold_inr: Number(e.target.value) })}
-                className="w-full px-3 py-1.5 rounded-lg border border-slate-300 text-xs bg-white"
+                className="w-full px-3 py-2 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
             <div>
-              <label className="text-[11px] text-slate-500 block mb-1">RFQ Upper Limit (INR)</label>
+              <label className="text-[10px] text-slate-400 block mb-1">RFQ Upper Limit (INR)</label>
               <input
                 type="number"
                 value={editableClauses.rfq_max_threshold_inr || ''}
                 onChange={(e) => setEditableClauses({ ...editableClauses, rfq_max_threshold_inr: Number(e.target.value) })}
-                className="w-full px-3 py-1.5 rounded-lg border border-slate-300 text-xs bg-white"
+                className="w-full px-3 py-2 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
           </div>
         </div>
 
-        {/* Preview Diff Button */}
+        {/* Action Button */}
         <div className="flex justify-end">
           <button
             onClick={handlePreviewDiff}
-            className="px-5 py-2.5 rounded-xl bg-slate-900 text-white font-semibold text-xs hover:bg-slate-800 transition-all shadow-sm flex items-center space-x-2"
+            className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-indigo-500 text-white font-semibold text-xs hover:from-indigo-500 hover:to-indigo-400 transition-all shadow-md shadow-indigo-600/20 flex items-center space-x-2"
           >
             <span>Preview Plain-English Diff</span>
             <ArrowRight className="w-3.5 h-3.5" />
@@ -233,23 +233,23 @@ export default function PolicyManager({ onPolicyChanged }) {
 
         {/* Side-by-Side Diff Display */}
         {diffResults && (
-          <div className="mt-4 p-5 rounded-2xl bg-indigo-50/50 border border-indigo-200 space-y-4 text-xs">
-            <h4 className="font-bold text-indigo-950 text-sm flex items-center space-x-2">
-              <CheckCircle2 className="w-4 h-4 text-indigo-600" />
+          <div className="mt-4 p-5 rounded-2xl bg-indigo-950/30 border border-indigo-500/30 space-y-4 text-xs">
+            <h4 className="font-bold text-white text-sm flex items-center space-x-2">
+              <CheckCircle2 className="w-4 h-4 text-indigo-400" />
               <span>Proposed Policy Changes & Impact Analysis</span>
             </h4>
 
             {diffResults.diffs.length === 0 ? (
-              <p className="text-slate-600 italic">No parameter changes detected in the proposal.</p>
+              <p className="text-slate-400 italic">No parameter changes detected in the proposal.</p>
             ) : (
               <div className="space-y-2">
                 {diffResults.diffs.map((d, i) => (
-                  <div key={i} className="p-3 bg-white rounded-xl border border-indigo-100 flex items-center justify-between">
+                  <div key={i} className="p-3.5 bg-slate-900 rounded-xl border border-slate-800 flex items-center justify-between">
                     <div>
-                      <strong className="text-slate-900 block">{d.label}</strong>
-                      <span className="text-indigo-700 font-mono text-[11px]">{d.summary}</span>
+                      <strong className="text-white block">{d.label}</strong>
+                      <span className="text-indigo-300 font-mono text-[11px]">{d.summary}</span>
                     </div>
-                    <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-800">
+                    <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/10 text-amber-400 border border-amber-500/20">
                       Modified
                     </span>
                   </div>
@@ -258,24 +258,24 @@ export default function PolicyManager({ onPolicyChanged }) {
             )}
 
             {/* Versioning & Activation Box */}
-            <div className="pt-4 border-t border-indigo-200/80 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div className="pt-4 border-t border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
               <div className="flex items-center space-x-3">
                 <div>
-                  <label className="text-[10px] uppercase font-semibold text-slate-500 block">Target Version</label>
+                  <label className="text-[9px] uppercase font-semibold text-slate-500 block">Target Version</label>
                   <input
                     type="text"
                     value={targetVersion}
                     onChange={(e) => setTargetVersion(e.target.value)}
-                    className="px-2.5 py-1 rounded-lg border border-slate-300 text-xs font-mono font-bold w-24 bg-white"
+                    className="px-3 py-1.5 rounded-lg bg-slate-950 border border-slate-700 text-xs font-mono font-bold text-white w-24"
                   />
                 </div>
                 <div>
-                  <label className="text-[10px] uppercase font-semibold text-slate-500 block">Effective Date</label>
+                  <label className="text-[9px] uppercase font-semibold text-slate-500 block">Effective Date</label>
                   <input
                     type="date"
                     value={effectiveDate}
                     onChange={(e) => setEffectiveDate(e.target.value)}
-                    className="px-2.5 py-1 rounded-lg border border-slate-300 text-xs bg-white"
+                    className="px-3 py-1.5 rounded-lg bg-slate-950 border border-slate-700 text-xs text-white"
                   />
                 </div>
               </div>
@@ -283,7 +283,7 @@ export default function PolicyManager({ onPolicyChanged }) {
               <button
                 onClick={handleActivate}
                 disabled={activating}
-                className="px-6 py-2.5 rounded-xl bg-emerald-600 text-white font-bold text-xs hover:bg-emerald-700 disabled:opacity-50 transition-all shadow-md shadow-emerald-200"
+                className="px-6 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs disabled:opacity-40 transition-all shadow-lg shadow-emerald-600/30"
               >
                 {activating ? 'Activating Policy...' : `Approve & Activate ${targetVersion}`}
               </button>
@@ -292,39 +292,39 @@ export default function PolicyManager({ onPolicyChanged }) {
         )}
 
         {activationMsg && (
-          <div className="p-4 rounded-xl bg-emerald-50 border border-emerald-300 text-emerald-800 text-xs font-medium flex items-center space-x-2">
-            <CheckCircle2 className="w-5 h-5 text-emerald-600 flex-shrink-0" />
+          <div className="p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 text-xs font-medium flex items-center space-x-2">
+            <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
             <span>{activationMsg}</span>
           </div>
         )}
       </div>
 
       {/* Version History Table */}
-      <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-4 text-xs">
+      <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4 text-xs backdrop-blur-md">
         <div className="flex items-center space-x-2">
-          <History className="w-4 h-4 text-slate-500" />
-          <h3 className="font-bold text-slate-900 text-sm">Policy Version History & Audit Trail</h3>
+          <History className="w-4 h-4 text-slate-400" />
+          <h3 className="font-bold text-white text-sm">Policy Version History & Audit Trail</h3>
         </div>
 
-        <div className="divide-y divide-slate-100 border border-slate-200 rounded-xl overflow-hidden">
+        <div className="divide-y divide-slate-800/80 border border-slate-800 rounded-xl overflow-hidden bg-slate-950/60">
           {history.map((h, i) => (
-            <div key={i} className="p-3.5 flex items-center justify-between hover:bg-slate-50">
+            <div key={i} className="p-3.5 flex items-center justify-between hover:bg-slate-900/40">
               <div>
                 <div className="flex items-center space-x-2">
-                  <span className="font-bold font-mono text-slate-900">{h.version}</span>
+                  <span className="font-bold font-mono text-white">{h.version}</span>
                   {h.active ? (
-                    <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-100 text-emerald-800">
+                    <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
                       ACTIVE
                     </span>
                   ) : (
-                    <span className="px-1.5 py-0.5 rounded text-[10px] font-medium bg-slate-100 text-slate-600">
+                    <span className="px-2 py-0.5 rounded-full text-[10px] font-medium bg-slate-800 text-slate-400">
                       Archived
                     </span>
                   )}
                 </div>
-                <p className="text-slate-500 text-[11px] mt-0.5">{h.change_summary || h.title}</p>
+                <p className="text-slate-400 text-[11px] mt-0.5">{h.change_summary || h.title}</p>
               </div>
-              <div className="text-slate-400 text-[11px]">
+              <div className="text-slate-500 text-[11px]">
                 Effective: {new Date(h.effective_date).toLocaleDateString()}
               </div>
             </div>
@@ -334,4 +334,3 @@ export default function PolicyManager({ onPolicyChanged }) {
     </div>
   );
 }
-

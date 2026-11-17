@@ -10,6 +10,7 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('chat');
   const [policyVersion, setPolicyVersion] = useState('v5.0');
   const [isHealthy, setIsHealthy] = useState(false);
+  const [stats, setStats] = useState(null);
 
   const checkStatus = async () => {
     try {
@@ -18,6 +19,9 @@ export default function App() {
       if (res.data.active_policy_version) {
         setPolicyVersion(res.data.active_policy_version);
       }
+      if (res.data.stats) {
+        setStats(res.data.stats);
+      }
     } catch (err) {
       setIsHealthy(false);
     }
@@ -25,12 +29,19 @@ export default function App() {
 
   useEffect(() => {
     checkStatus();
-    const interval = setInterval(checkStatus, 30000);
+    const interval = setInterval(checkStatus, 20000);
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col font-sans">
+    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-indigo-500 selection:text-white">
+      {/* Background ambient subtle gradients */}
+      <div className="fixed inset-0 pointer-events-none overflow-hidden -z-10">
+        <div className="absolute -top-40 -left-40 w-96 h-96 bg-indigo-600/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/3 -right-40 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl"></div>
+        <div className="absolute -bottom-40 left-1/3 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl"></div>
+      </div>
+
       <Navbar
         activeTab={activeTab}
         setActiveTab={setActiveTab}
@@ -38,9 +49,12 @@ export default function App() {
         isHealthy={isHealthy}
       />
 
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {activeTab === 'chat' && (
-          <ChatIntake onRequirementCreated={() => checkStatus()} />
+          <ChatIntake
+            onRequirementCreated={() => checkStatus()}
+            onNavigateToBuyer={() => setActiveTab('buyer')}
+          />
         )}
         {activeTab === 'buyer' && (
           <BuyerWorkspace />
@@ -52,13 +66,6 @@ export default function App() {
           <SuppliersContracts />
         )}
       </main>
-
-      <footer className="bg-white border-t border-slate-200 py-4 text-center text-xs text-slate-500">
-        <p>
-          Corvo Engineering Autonomous Procurement System • Built for Cantill.ai Full-stack Challenge • MERN Stack (React + Express + Node + MongoDB)
-        </p>
-      </footer>
     </div>
   );
 }
-
