@@ -1,7 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import {
   Send, Upload, Sparkles, AlertCircle, CheckCircle2, FileSpreadsheet,
-  ArrowRight, RefreshCw, Bot, User, CornerDownRight, ExternalLink, ShieldCheck
+  ArrowRight, RefreshCw, Bot, User, RotateCcw, ExternalLink, ShieldCheck,
+  Building2, Hash, Calendar, DollarSign
 } from 'lucide-react';
 import { sendChatMessage, processBatchUpload } from '../services/api';
 
@@ -10,7 +11,7 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
   const [messages, setMessages] = useState([
     {
       sender: 'bot',
-      text: "👋 **Welcome to Cantill ProcureOS Intake.**\n\nRaise purchase requests naturally. Describe what you need (e.g. *\"Need 50 pieces of bearing 6308 ZZ for Chakan plant by next Friday\"*), and the engine will identify the catalog item, ask for missing details, and evaluate the active procurement policy to decide between a direct Purchase Order or a sourcing request.",
+      text: "Welcome to Cantill ProcureOS. You can raise purchase requests naturally. Describe what you need, and the engine will match catalog items, confirm missing details, and evaluate policy rules to decide whether to issue a direct Purchase Order or begin a competitive sourcing request.",
       timestamp: new Date()
     }
   ]);
@@ -39,6 +40,17 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
+
+  const handleResetChat = () => {
+    setSessionState({});
+    setMessages([
+      {
+        sender: 'bot',
+        text: "Session reset. What would you like to request?",
+        timestamp: new Date()
+      }
+    ]);
+  };
 
   const handleSend = async (textToSend) => {
     const text = textToSend || input;
@@ -71,7 +83,7 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
         ...prev,
         {
           sender: 'bot',
-          text: `⚠️ **Error:** ${err.response?.data?.error || err.message}`,
+          text: `Error: ${err.response?.data?.error || err.message}`,
           timestamp: new Date()
         }
       ]);
@@ -103,43 +115,43 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
     CONTRACT_PO: {
       bg: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30',
       label: 'CONTRACT_PO',
-      desc: 'Direct Contract PO'
+      desc: 'Direct Contract Purchase Order'
     },
     SPOT_PO: {
       bg: 'bg-cyan-500/10 text-cyan-400 border-cyan-500/30',
       label: 'SPOT_PO',
-      desc: 'Direct Spot PO (≤ ₹2,00,000)'
+      desc: 'Direct Spot Purchase Order'
     },
     RFQ: {
       bg: 'bg-amber-500/10 text-amber-400 border-amber-500/30',
       label: 'RFQ',
-      desc: 'Request for Quotation (Min 3 quotes)'
+      desc: 'Competitive RFQ (3 quotes required)'
     },
     RFP: {
       bg: 'bg-purple-500/10 text-purple-400 border-purple-500/30',
       label: 'RFP',
-      desc: 'Request for Proposal (> ₹10,00,000)'
+      desc: 'Sealed RFP (> ₹10,00,000)'
     },
     EMERGENCY_PO: {
       bg: 'bg-rose-500/10 text-rose-400 border-rose-500/30',
       label: 'EMERGENCY_PO',
-      desc: 'Emergency PO (≤ ₹5,00,000)'
+      desc: 'Emergency PO'
     },
     NEW_ITEM_SOURCING: {
       bg: 'bg-slate-500/10 text-slate-300 border-slate-500/30',
       label: 'NEW_ITEM_SOURCING',
-      desc: 'Technical Qualification & Sourcing'
+      desc: 'Non-Catalog Technical Sourcing'
     }
   };
 
   return (
     <div className="max-w-5xl mx-auto space-y-6">
-      {/* Mode Switcher */}
-      <div className="flex items-center justify-between">
+      {/* Mode Switcher & Reset Button */}
+      <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="flex bg-slate-900/90 p-1 rounded-xl border border-slate-800 shadow-md">
           <button
             onClick={() => setMode('chat')}
-            className={`flex items-center space-x-2 px-5 py-2 rounded-lg text-xs font-semibold transition-all duration-200 ${
+            className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-xs font-semibold transition-all duration-200 ${
               mode === 'chat'
                 ? 'bg-gradient-to-r from-indigo-600 to-indigo-500 text-white shadow-md shadow-indigo-600/30'
                 : 'text-slate-400 hover:text-slate-200'
@@ -150,7 +162,7 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
           </button>
           <button
             onClick={() => setMode('batch')}
-            className={`flex items-center space-x-2 px-5 py-2 rounded-lg text-xs font-semibold transition-all duration-200 ${
+            className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-xs font-semibold transition-all duration-200 ${
               mode === 'batch'
                 ? 'bg-gradient-to-r from-indigo-600 to-indigo-500 text-white shadow-md shadow-indigo-600/30'
                 : 'text-slate-400 hover:text-slate-200'
@@ -161,15 +173,21 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
           </button>
         </div>
 
-        <div className="text-xs text-slate-400 hidden sm:block">
-          Powered by <strong className="text-slate-200">Policy-as-Data Engine</strong>
-        </div>
+        {mode === 'chat' && (
+          <button
+            onClick={handleResetChat}
+            className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-400 hover:text-slate-200 text-xs font-medium transition-all shadow-sm"
+          >
+            <RotateCcw className="w-3.5 h-3.5" />
+            <span>Start Fresh PR</span>
+          </button>
+        )}
       </div>
 
       {mode === 'chat' ? (
-        <div className="bg-slate-900/70 border border-slate-800 rounded-2xl shadow-xl flex flex-col h-[700px] overflow-hidden backdrop-blur-md">
+        <div className="bg-slate-900/70 border border-slate-800 rounded-2xl shadow-xl flex flex-col h-[650px] overflow-hidden backdrop-blur-md">
           {/* Messages Stream */}
-          <div className="flex-1 p-6 overflow-y-auto space-y-5">
+          <div className="flex-1 p-6 overflow-y-auto space-y-4">
             {messages.map((m, idx) => (
               <div
                 key={idx}
@@ -177,35 +195,35 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
               >
                 {/* Avatar */}
                 <div
-                  className={`w-8 h-8 rounded-xl flex items-center justify-center flex-shrink-0 shadow-md ${
+                  className={`w-7 h-7 rounded-lg flex items-center justify-center flex-shrink-0 shadow-md ${
                     m.sender === 'user'
                       ? 'bg-indigo-600 text-white'
                       : 'bg-slate-800 text-indigo-400 border border-slate-700'
                   }`}
                 >
-                  {m.sender === 'user' ? <User className="w-4 h-4" /> : <Bot className="w-4 h-4" />}
+                  {m.sender === 'user' ? <User className="w-3.5 h-3.5" /> : <Bot className="w-3.5 h-3.5" />}
                 </div>
 
                 {/* Message Bubble */}
                 <div
-                  className={`max-w-2xl rounded-2xl px-5 py-4 text-xs leading-relaxed shadow-sm ${
+                  className={`max-w-2xl rounded-2xl px-5 py-3.5 text-xs leading-relaxed shadow-sm ${
                     m.sender === 'user'
                       ? 'bg-gradient-to-r from-indigo-600 to-indigo-500 text-white'
                       : 'bg-slate-800/90 text-slate-200 border border-slate-700/80'
                   }`}
                 >
-                  <div className="whitespace-pre-line prose prose-invert prose-xs">{m.text}</div>
+                  <p>{m.text}</p>
 
-                  {/* Embedded Decision Preview Card */}
+                  {/* Clean Visual Requirement Card */}
                   {m.requirement && (
-                    <div className="mt-4 pt-3.5 border-t border-slate-700/80 bg-slate-950/60 rounded-xl p-4 space-y-3">
+                    <div className="mt-3.5 pt-3 border-t border-slate-700/80 bg-slate-950/70 rounded-xl p-3.5 space-y-3">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-2">
-                          <span className="font-mono text-[11px] font-bold text-indigo-400">
+                          <span className="font-mono text-xs font-bold text-indigo-400">
                             {m.requirement.req_id}
                           </span>
                           <span
-                            className={`px-2.5 py-0.5 rounded-full text-[11px] font-bold border ${
+                            className={`px-2.5 py-0.5 rounded-full text-[10px] font-bold border ${
                               routeBadges[m.requirement.system_route]?.bg || 'bg-slate-800 text-slate-300'
                             }`}
                           >
@@ -223,8 +241,8 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
                         )}
                       </div>
 
-                      {/* Policy Clause Citation Box */}
-                      <div className="p-2.5 rounded-lg bg-slate-900/80 border border-slate-800 text-[11px] text-slate-300 flex items-start space-x-2">
+                      {/* Policy Citation Quotation */}
+                      <div className="p-2.5 rounded-lg bg-slate-900 border border-slate-800 text-[11px] text-slate-300 flex items-start space-x-2">
                         <ShieldCheck className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
                         <div>
                           <strong className="text-white block">Policy Decision Explanation:</strong>
@@ -232,19 +250,23 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
                         </div>
                       </div>
 
-                      {/* Financial & Sourcing Info */}
-                      <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-[11px] pt-1 border-t border-slate-800/60">
+                      {/* Key-Value Summary Grid */}
+                      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-[11px] pt-1 border-t border-slate-800/60">
                         <div>
-                          <span className="text-slate-500 block uppercase text-[10px]">Total Value</span>
+                          <span className="text-slate-500 block uppercase text-[9px] font-semibold">Total Qty</span>
+                          <span className="font-bold text-white">{m.requirement.total_quantity}</span>
+                        </div>
+                        <div>
+                          <span className="text-slate-500 block uppercase text-[9px] font-semibold">Destination</span>
+                          <span className="font-bold text-white">{m.requirement.plant}</span>
+                        </div>
+                        <div>
+                          <span className="text-slate-500 block uppercase text-[9px] font-semibold">Total Value</span>
                           <span className="font-bold text-white">₹{m.requirement.total_value_inr?.toLocaleString('en-IN')}</span>
                         </div>
                         <div>
-                          <span className="text-slate-500 block uppercase text-[10px]">Valuation Method</span>
-                          <span className="font-semibold text-indigo-300">{m.requirement.valuation_method}</span>
-                        </div>
-                        <div>
-                          <span className="text-slate-500 block uppercase text-[10px]">Assigned / Recommended</span>
-                          <span className="font-semibold text-slate-200">
+                          <span className="text-slate-500 block uppercase text-[9px] font-semibold">Assigned Supplier</span>
+                          <span className="font-semibold text-indigo-300">
                             {m.requirement.system_supplier_name || m.requirement.system_supplier_id || 'Multi-Vendor Sourcing'}
                           </span>
                         </div>
@@ -257,21 +279,21 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
 
             {loading && (
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 rounded-xl bg-slate-800 text-indigo-400 border border-slate-700 flex items-center justify-center flex-shrink-0">
-                  <Bot className="w-4 h-4" />
+                <div className="w-7 h-7 rounded-lg bg-slate-800 text-indigo-400 border border-slate-700 flex items-center justify-center flex-shrink-0">
+                  <Bot className="w-3.5 h-3.5" />
                 </div>
-                <div className="bg-slate-800/80 border border-slate-700 px-4 py-2.5 rounded-2xl text-xs text-slate-400 flex items-center space-x-2">
-                  <RefreshCw className="w-3.5 h-3.5 animate-spin text-indigo-400" />
-                  <span>Evaluating item specifications & policy clauses...</span>
+                <div className="bg-slate-800/80 border border-slate-700 px-4 py-2 rounded-xl text-xs text-slate-400 flex items-center space-x-2">
+                  <RefreshCw className="w-3 h-3 animate-spin text-indigo-400" />
+                  <span>Evaluating policy clauses...</span>
                 </div>
               </div>
             )}
             <div ref={messagesEndRef} />
           </div>
 
-          {/* Quick Prompts Bar */}
-          <div className="px-6 py-2.5 bg-slate-950/60 border-t border-slate-800/80 flex items-center space-x-2 overflow-x-auto text-xs">
-            <span className="text-slate-500 font-semibold text-[11px] whitespace-nowrap">Try:</span>
+          {/* Quick Prompts Bar (Scrollbar hidden) */}
+          <div className="px-6 py-2 bg-slate-950/60 border-t border-slate-800/80 flex items-center space-x-2 overflow-x-auto no-scrollbar text-xs">
+            <span className="text-slate-500 font-semibold text-[10px] uppercase whitespace-nowrap">Try:</span>
             {quickPrompts.map((p, i) => (
               <button
                 key={i}
@@ -295,14 +317,14 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="e.g. Need 200 nitrile gloves for Chakan plant by next Monday..."
-              className="flex-1 px-4 py-3 rounded-xl bg-slate-950 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-xs transition-all"
+              placeholder="e.g. Need 50 pieces of bearing 6308 ZZ for Chakan plant by next Friday..."
+              className="flex-1 px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-xs transition-all"
               disabled={loading}
             />
             <button
               type="submit"
               disabled={loading || !input.trim()}
-              className="px-5 py-3 rounded-xl bg-gradient-to-r from-indigo-600 to-indigo-500 text-white font-semibold text-xs flex items-center space-x-2 hover:from-indigo-500 hover:to-indigo-400 disabled:opacity-40 disabled:cursor-not-allowed shadow-md shadow-indigo-600/20 transition-all"
+              className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-indigo-500 text-white font-semibold text-xs flex items-center space-x-2 hover:from-indigo-500 hover:to-indigo-400 disabled:opacity-40 disabled:cursor-not-allowed shadow-md shadow-indigo-600/20 transition-all"
             >
               <span>Submit PR</span>
               <Send className="w-3.5 h-3.5" />
@@ -375,7 +397,7 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
                 </div>
               </div>
 
-              <div className="overflow-x-auto border border-slate-800 rounded-xl bg-slate-950/60">
+              <div className="overflow-x-auto border border-slate-800 rounded-xl bg-slate-950/60 no-scrollbar">
                 <table className="w-full text-left text-xs">
                   <thead className="bg-slate-900/90 text-slate-400 font-semibold uppercase text-[10px]">
                     <tr>

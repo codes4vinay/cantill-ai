@@ -50,7 +50,6 @@ function extractNeedByDate(text) {
     if (!isNaN(parsed.getTime())) return parsed;
   }
 
-  // Default to 14 days out if not specified
   return null;
 }
 
@@ -71,13 +70,28 @@ function extractCapex(text) {
 router.post('/', async (req, res) => {
   try {
     const { message, session_state = {} } = req.body;
-    if (!message) {
+    if (!message || !message.trim()) {
       return res.status(400).json({ error: 'Message cannot be empty.' });
     }
 
-    const currentState = { ...session_state };
+    let currentState = { ...session_state };
 
-    // Update state from current message
+    // If previous request completed OR user clearly starts a fresh PR statement, reset session state
+    const isNewStatement = /^(need|require|please|order|i want|[0-9]+\s+[a-z]+)/i.test(message.trim());
+    if (currentState.is_complete || (isNewStatement && !currentState.awaiting_price && !currentState.awaiting_field)) {
+      currentState = {};
+    }
+
+    // Check if user is answering a unit price question for a new item
+    if (currentState.awaiting_price) {
+      const priceMatch = message.match(/(?:inr|rs\.?)?\s*([0-9,]+(?:\.[0-9]+)?)/i);
+      if (priceMatch) {
+        currentState.estimated_unit_price = Number(priceMatch[1].replace(/,/g, ''));
+        currentState.awaiting_price = false;
+      }
+    }
+
+    // Extract entities from current message
     const detectedQty = extractQuantity(message);
     if (detectedQty !== null) currentState.quantity = detectedQty;
 
@@ -90,16 +104,7 @@ router.post('/', async (req, res) => {
     if (extractUrgency(message) === 'Emergency') currentState.urgency = 'Emergency';
     if (extractCapex(message)) currentState.is_capex = true;
 
-    // Check price if asking for new item estimate
-    if (currentState.awaiting_price) {
-      const priceMatch = message.match(/(?:inr|rs\.?)?\s*([0-9,]+(?:\.[0-9]+)?)/i);
-      if (priceMatch) {
-        currentState.estimated_unit_price = Number(priceMatch[1].replace(/,/g, ''));
-        currentState.awaiting_price = false;
-      }
-    }
-
-    // Item matching if description is not already locked
+    // Item matching if item is not locked yet
     if (!currentState.item_code) {
       const items = store.items || [];
       const match = matchItem({ description: message }, items);
@@ -118,34 +123,37 @@ router.post('/', async (req, res) => {
       }
     }
 
-    // Check missing fields and build conversational response
+    // Conversational follow-ups for missing fields
     if (!currentState.item_code) {
       return res.json({
-        reply: "Hello! I am your Corvo Procurement Assistant. What item or spare part would you like to request today?",
+        reply: "Hello! What item or spare part would you like to request today?",
         session_state: currentState,
         is_complete: false
       });
     }
 
     if (!currentState.quantity) {
+      currentState.awaiting_field = 'quantity';
       return res.json({
-        reply: `I identified **${currentState.item_name}** (${currentState.item_code}). How many units do you need?`,
+        reply: `Identified: ${currentState.item_name} (${currentState.item_code}). How many units do you need?`,
         session_state: currentState,
         is_complete: false
       });
     }
 
     if (!currentState.plant) {
+      currentState.awaiting_field = 'plant';
       return res.json({
-        reply: `Got it: **${currentState.quantity} units** of ${currentState.item_name}. Which destination plant is this for? (e.g., **Chakan [CHK1]** or **Pune [PUN1]**)`,
+        reply: `Noted: ${currentState.quantity} units of ${currentState.item_name}. Which destination plant is this for? (Chakan [CHK1] or Pune [PUN1])`,
         session_state: currentState,
         is_complete: false
       });
     }
 
     if (!currentState.need_by_date) {
+      currentState.awaiting_field = 'need_by_date';
       return res.json({
-        reply: `Understood for plant **${currentState.plant}**. When do you need this delivered by? (e.g., "next Friday", "in 2 weeks", or YYYY-MM-DD)`,
+        reply: `Destination plant set to ${currentState.plant}. When do you need this delivered by? (e.g. "next Friday", "in 2 weeks", or YYYY-MM-DD)`,
         session_state: currentState,
         is_complete: false
       });
@@ -154,13 +162,16 @@ router.post('/', async (req, res) => {
     if (currentState.is_new && !currentState.estimated_unit_price) {
       currentState.awaiting_price = true;
       return res.json({
-        reply: `This item **"${currentState.item_name}"** is not in our standard catalog. What is your estimated unit price (INR) for technical sourcing?`,
+        reply: `Item "${currentState.item_name}" is a new non-catalog item. What is your estimated unit price in INR for sourcing?`,
         session_state: currentState,
         is_complete: false
       });
     }
 
-    // All fields present! Generate PR & Evaluate through Policy
+    // All fields confirmed! Process Requirement and Evaluate Policy
+    currentState.awaiting_field = null;
+    currentState.awaiting_price = false;
+
     const creationDate = new Date();
     const needByDate = new Date(currentState.need_by_date);
     const prLine = {
@@ -176,7 +187,7 @@ router.post('/', async (req, res) => {
       is_capex: Boolean(currentState.is_capex),
       is_new: Boolean(currentState.is_new),
       estimated_unit_price: currentState.estimated_unit_price || 0,
-      requester: 'Chat User'
+      requester: 'Employee'
     };
 
     const clubbed = clubPRLines([prLine], store.activePolicy?.clauses);
@@ -211,21 +222,12 @@ router.post('/', async (req, res) => {
       await Requirement.create(fullReq);
     } catch (e) {}
 
-    const reply = `### Purchase Request Raised Successfully!
-- **Requirement ID:** \`${fullReq.req_id}\` (${prLine.pr_id})
-- **Item:** ${fullReq.item_name} (\`${fullReq.item_code}\`)
-- **Quantity:** ${fullReq.total_quantity} | **Plant:** ${fullReq.plant}
-- **Need-By Date:** ${needByDate.toISOString().slice(0, 10)}
-- **Estimated Total Value:** ₹${fullReq.total_value_inr.toLocaleString('en-IN')} (${fullReq.valuation_method})
-- **Policy Decision:** **${fullReq.system_route}**
-- **Clause Applied:** ${fullReq.system_clause}
-${fullReq.system_supplier_id ? `- **Assigned Supplier:** ${fullReq.system_supplier_name} (\`${fullReq.system_supplier_id}\`)` : ''}
-
-This request has been placed in the **Buyer Workspace** for final review.`;
+    // Clean conversational confirmation without raw markdown markup
+    const cleanReply = `Purchase request confirmed for ${fullReq.total_quantity} units of ${fullReq.item_name}. The policy engine evaluated this requirement and assigned route: ${fullReq.system_route}.`;
 
     return res.json({
-      reply,
-      session_state: {},
+      reply: cleanReply,
+      session_state: { is_complete: true }, // Mark complete so next prompt starts fresh!
       is_complete: true,
       requirement: fullReq
     });
@@ -236,4 +238,3 @@ This request has been placed in the **Buyer Workspace** for final review.`;
 });
 
 module.exports = router;
-
