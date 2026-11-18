@@ -1,0 +1,6992 @@
+{
+  "items": [
+    {
+      "item_code": "ITM-1001",
+      "item_name": "MS sheet 2mm 1250x2500",
+      "category": "Steel & Metals",
+      "uom": "NOS",
+      "catalog_price": 6800
+    },
+    {
+      "item_code": "ITM-1002",
+      "item_name": "MS sheet 3mm 1250x2500",
+      "category": "Steel & Metals",
+      "uom": "NOS",
+      "catalog_price": 9900
+    },
+    {
+      "item_code": "ITM-1003",
+      "item_name": "EN8 round bar 40mm",
+      "category": "Steel & Metals",
+      "uom": "KG",
+      "catalog_price": 92
+    },
+    {
+      "item_code": "ITM-1004",
+      "item_name": "SS 304 sheet 1.5mm",
+      "category": "Steel & Metals",
+      "uom": "NOS",
+      "catalog_price": 21500
+    },
+    {
+      "item_code": "ITM-1005",
+      "item_name": "MS angle 50x50x5",
+      "category": "Steel & Metals",
+      "uom": "KG",
+      "catalog_price": 74
+    },
+    {
+      "item_code": "ITM-1006",
+      "item_name": "Aluminium plate 6061 10mm",
+      "category": "Steel & Metals",
+      "uom": "KG",
+      "catalog_price": 365
+    },
+    {
+      "item_code": "ITM-1007",
+      "item_name": "MS flat 50x6",
+      "category": "Steel & Metals",
+      "uom": "KG",
+      "catalog_price": 71
+    },
+    {
+      "item_code": "ITM-1008",
+      "item_name": "Bright bar EN1A 25mm",
+      "category": "Steel & Metals",
+      "uom": "KG",
+      "catalog_price": 88
+    },
+    {
+      "item_code": "ITM-1009",
+      "item_name": "Hex bolt M10x40 GR 8.8",
+      "category": "Fasteners",
+      "uom": "NOS",
+      "catalog_price": 7.5
+    },
+    {
+      "item_code": "ITM-1010",
+      "item_name": "Hex nut M10 GR 8",
+      "category": "Fasteners",
+      "uom": "NOS",
+      "catalog_price": 1.9
+    },
+    {
+      "item_code": "ITM-1011",
+      "item_name": "Allen cap screw M8x25",
+      "category": "Fasteners",
+      "uom": "NOS",
+      "catalog_price": 6.2
+    },
+    {
+      "item_code": "ITM-1012",
+      "item_name": "Spring washer M10",
+      "category": "Fasteners",
+      "uom": "NOS",
+      "catalog_price": 0.8
+    },
+    {
+      "item_code": "ITM-1013",
+      "item_name": "Anchor fastener M12x100",
+      "category": "Fasteners",
+      "uom": "NOS",
+      "catalog_price": 38
+    },
+    {
+      "item_code": "ITM-1014",
+      "item_name": "Hex bolt M16x60 GR 10.9",
+      "category": "Fasteners",
+      "uom": "NOS",
+      "catalog_price": 24
+    },
+    {
+      "item_code": "ITM-1015",
+      "item_name": "Welding electrode E6013 3.15mm",
+      "category": "Welding Consumables",
+      "uom": "KG",
+      "catalog_price": 165
+    },
+    {
+      "item_code": "ITM-1016",
+      "item_name": "MIG wire ER70S-6 1.2mm",
+      "category": "Welding Consumables",
+      "uom": "KG",
+      "catalog_price": 128
+    },
+    {
+      "item_code": "ITM-1017",
+      "item_name": "Argon gas cylinder 7 cum",
+      "category": "Welding Consumables",
+      "uom": "CYL",
+      "catalog_price": 1450
+    },
+    {
+      "item_code": "ITM-1018",
+      "item_name": "CO2 gas cylinder 30kg",
+      "category": "Welding Consumables",
+      "uom": "CYL",
+      "catalog_price": 1250
+    },
+    {
+      "item_code": "ITM-1019",
+      "item_name": "Grinding wheel 4 inch",
+      "category": "Welding Consumables",
+      "uom": "NOS",
+      "catalog_price": 42
+    },
+    {
+      "item_code": "ITM-1020",
+      "item_name": "Cutting wheel 14 inch",
+      "category": "Welding Consumables",
+      "uom": "NOS",
+      "catalog_price": 210
+    },
+    {
+      "item_code": "ITM-1021",
+      "item_name": "Ball bearing 6205-2RS",
+      "category": "Bearings & Transmission",
+      "uom": "NOS",
+      "catalog_price": 210
+    },
+    {
+      "item_code": "ITM-1022",
+      "item_name": "Ball bearing 6308-ZZ",
+      "category": "Bearings & Transmission",
+      "uom": "NOS",
+      "catalog_price": 640
+    },
+    {
+      "item_code": "ITM-1023",
+      "item_name": "Taper roller bearing 32210",
+      "category": "Bearings & Transmission",
+      "uom": "NOS",
+      "catalog_price": 1450
+    },
+    {
+      "item_code": "ITM-1024",
+      "item_name": "V-belt B-54",
+      "category": "Bearings & Transmission",
+      "uom": "NOS",
+      "catalog_price": 330
+    },
+    {
+      "item_code": "ITM-1025",
+      "item_name": "Chain sprocket 08B 20T",
+      "category": "Bearings & Transmission",
+      "uom": "NOS",
+      "catalog_price": 780
+    },
+    {
+      "item_code": "ITM-1026",
+      "item_name": "Gearbox oil seal 45x62x8",
+      "category": "Bearings & Transmission",
+      "uom": "NOS",
+      "catalog_price": 95
+    },
+    {
+      "item_code": "ITM-1027",
+      "item_name": "Coupling spider L-100",
+      "category": "Bearings & Transmission",
+      "uom": "NOS",
+      "catalog_price": 260
+    },
+    {
+      "item_code": "ITM-1028",
+      "item_name": "Contactor 3 pole 32A",
+      "category": "Electrical Spares",
+      "uom": "NOS",
+      "catalog_price": 1850
+    },
+    {
+      "item_code": "ITM-1029",
+      "item_name": "MCB 4 pole 63A",
+      "category": "Electrical Spares",
+      "uom": "NOS",
+      "catalog_price": 1650
+    },
+    {
+      "item_code": "ITM-1030",
+      "item_name": "Proximity sensor M18 PNP",
+      "category": "Electrical Spares",
+      "uom": "NOS",
+      "catalog_price": 1200
+    },
+    {
+      "item_code": "ITM-1031",
+      "item_name": "Copper cable 4 core 6 sqmm",
+      "category": "Electrical Spares",
+      "uom": "MTR",
+      "catalog_price": 245
+    },
+    {
+      "item_code": "ITM-1032",
+      "item_name": "LED flood light 100W",
+      "category": "Electrical Spares",
+      "uom": "NOS",
+      "catalog_price": 2350
+    },
+    {
+      "item_code": "ITM-1033",
+      "item_name": "Servo drive 2kW (Vertex CNC)",
+      "category": "Electrical Spares",
+      "uom": "NOS",
+      "catalog_price": 68500
+    },
+    {
+      "item_code": "ITM-1034",
+      "item_name": "Encoder for CNC spindle (Vertex)",
+      "category": "Electrical Spares",
+      "uom": "NOS",
+      "catalog_price": 42000
+    },
+    {
+      "item_code": "ITM-1035",
+      "item_name": "Hydraulic hose 1/2 inch 2 wire",
+      "category": "Hydraulics & Pneumatics",
+      "uom": "MTR",
+      "catalog_price": 420
+    },
+    {
+      "item_code": "ITM-1036",
+      "item_name": "Pneumatic cylinder 50x100",
+      "category": "Hydraulics & Pneumatics",
+      "uom": "NOS",
+      "catalog_price": 3900
+    },
+    {
+      "item_code": "ITM-1037",
+      "item_name": "Solenoid valve 5/2 1/4 inch",
+      "category": "Hydraulics & Pneumatics",
+      "uom": "NOS",
+      "catalog_price": 2650
+    },
+    {
+      "item_code": "ITM-1038",
+      "item_name": "Hydraulic oil HLP 68",
+      "category": "Hydraulics & Pneumatics",
+      "uom": "LTR",
+      "catalog_price": 165
+    },
+    {
+      "item_code": "ITM-1039",
+      "item_name": "FRL unit 1/2 inch",
+      "category": "Hydraulics & Pneumatics",
+      "uom": "NOS",
+      "catalog_price": 2900
+    },
+    {
+      "item_code": "ITM-1040",
+      "item_name": "Hydraulic pump seal kit (Hydrax)",
+      "category": "Hydraulics & Pneumatics",
+      "uom": "SET",
+      "catalog_price": 18500
+    },
+    {
+      "item_code": "ITM-1041",
+      "item_name": "Corrugated box 5 ply 600x400x400",
+      "category": "Packaging",
+      "uom": "NOS",
+      "catalog_price": 78
+    },
+    {
+      "item_code": "ITM-1042",
+      "item_name": "Wooden pallet 1200x1000",
+      "category": "Packaging",
+      "uom": "NOS",
+      "catalog_price": 1150
+    },
+    {
+      "item_code": "ITM-1043",
+      "item_name": "Stretch film 23 micron",
+      "category": "Packaging",
+      "uom": "KG",
+      "catalog_price": 165
+    },
+    {
+      "item_code": "ITM-1044",
+      "item_name": "VCI bag 600x900",
+      "category": "Packaging",
+      "uom": "NOS",
+      "catalog_price": 21
+    },
+    {
+      "item_code": "ITM-1045",
+      "item_name": "PP strapping roll",
+      "category": "Packaging",
+      "uom": "ROL",
+      "catalog_price": 1250
+    },
+    {
+      "item_code": "ITM-1046",
+      "item_name": "Safety shoes steel toe",
+      "category": "Safety & PPE",
+      "uom": "PAIR",
+      "catalog_price": 1150
+    },
+    {
+      "item_code": "ITM-1047",
+      "item_name": "Cotton hand gloves",
+      "category": "Safety & PPE",
+      "uom": "PAIR",
+      "catalog_price": 28
+    },
+    {
+      "item_code": "ITM-1048",
+      "item_name": "Nitrile coated gloves",
+      "category": "Safety & PPE",
+      "uom": "PAIR",
+      "catalog_price": 95
+    },
+    {
+      "item_code": "ITM-1049",
+      "item_name": "Safety helmet ISI",
+      "category": "Safety & PPE",
+      "uom": "NOS",
+      "catalog_price": 210
+    },
+    {
+      "item_code": "ITM-1050",
+      "item_name": "Safety goggles clear",
+      "category": "Safety & PPE",
+      "uom": "NOS",
+      "catalog_price": 120
+    },
+    {
+      "item_code": "ITM-1051",
+      "item_name": "Ear plugs disposable",
+      "category": "Safety & PPE",
+      "uom": "PAIR",
+      "catalog_price": 9
+    },
+    {
+      "item_code": "ITM-1052",
+      "item_name": "Cutting oil soluble 210L",
+      "category": "Lubricants",
+      "uom": "BRL",
+      "catalog_price": 31500
+    },
+    {
+      "item_code": "ITM-1053",
+      "item_name": "Grease EP2 18kg",
+      "category": "Lubricants",
+      "uom": "BKT",
+      "catalog_price": 4200
+    },
+    {
+      "item_code": "ITM-1054",
+      "item_name": "Way lube oil 68",
+      "category": "Lubricants",
+      "uom": "LTR",
+      "catalog_price": 210
+    },
+    {
+      "item_code": "ITM-1055",
+      "item_name": "Slideway oil 220",
+      "category": "Lubricants",
+      "uom": "LTR",
+      "catalog_price": 230
+    },
+    {
+      "item_code": "ITM-1056",
+      "item_name": "Laptop i5 16GB 512GB",
+      "category": "Office & IT",
+      "uom": "NOS",
+      "catalog_price": 68000
+    },
+    {
+      "item_code": "ITM-1057",
+      "item_name": "24 inch monitor",
+      "category": "Office & IT",
+      "uom": "NOS",
+      "catalog_price": 11500
+    },
+    {
+      "item_code": "ITM-1058",
+      "item_name": "A4 paper 75 GSM",
+      "category": "Office & IT",
+      "uom": "REAM",
+      "catalog_price": 265
+    },
+    {
+      "item_code": "ITM-1059",
+      "item_name": "Toner cartridge HP 88A",
+      "category": "Office & IT",
+      "uom": "NOS",
+      "catalog_price": 2950
+    },
+    {
+      "item_code": "ITM-1060",
+      "item_name": "Wireless keyboard mouse combo",
+      "category": "Office & IT",
+      "uom": "NOS",
+      "catalog_price": 1450
+    },
+    {
+      "item_code": "ITM-1061",
+      "item_name": "Housekeeping services (monthly)",
+      "category": "Facility Services",
+      "uom": "MON",
+      "catalog_price": 185000
+    },
+    {
+      "item_code": "ITM-1062",
+      "item_name": "Security guard services (monthly)",
+      "category": "Facility Services",
+      "uom": "MON",
+      "catalog_price": 240000
+    },
+    {
+      "item_code": "ITM-1063",
+      "item_name": "Pest control (quarterly)",
+      "category": "Facility Services",
+      "uom": "QTR",
+      "catalog_price": 18000
+    },
+    {
+      "item_code": "ITM-1064",
+      "item_name": "Canteen services (monthly)",
+      "category": "Facility Services",
+      "uom": "MON",
+      "catalog_price": 310000
+    },
+    {
+      "item_code": "ITM-1065",
+      "item_name": "Calibration of vernier & micrometers",
+      "category": "Testing & Calibration",
+      "uom": "JOB",
+      "catalog_price": 9500
+    },
+    {
+      "item_code": "ITM-1066",
+      "item_name": "CMM calibration service",
+      "category": "Testing & Calibration",
+      "uom": "JOB",
+      "catalog_price": 65000
+    },
+    {
+      "item_code": "ITM-1067",
+      "item_name": "Material testing - tensile test",
+      "category": "Testing & Calibration",
+      "uom": "JOB",
+      "catalog_price": 3500
+    },
+    {
+      "item_code": "ITM-1068",
+      "item_name": "Third party inspection visit",
+      "category": "Testing & Calibration",
+      "uom": "JOB",
+      "catalog_price": 18000
+    },
+    {
+      "item_code": "ITM-1069",
+      "item_name": "CNC turning centre 8 inch chuck",
+      "category": "Capital Equipment",
+      "uom": "NOS",
+      "catalog_price": 4200000
+    },
+    {
+      "item_code": "ITM-1070",
+      "item_name": "Air compressor 30HP screw",
+      "category": "Capital Equipment",
+      "uom": "NOS",
+      "catalog_price": 780000
+    },
+    {
+      "item_code": "ITM-1071",
+      "item_name": "EOT crane 5 ton",
+      "category": "Capital Equipment",
+      "uom": "NOS",
+      "catalog_price": 1450000
+    },
+    {
+      "item_code": "ITM-1072",
+      "item_name": "Hydraulic press 100 ton",
+      "category": "Capital Equipment",
+      "uom": "NOS",
+      "catalog_price": 2600000
+    },
+    {
+      "item_code": "ITM-1073",
+      "item_name": "Forklift electric 2 ton",
+      "category": "Capital Equipment",
+      "uom": "NOS",
+      "catalog_price": 1150000
+    }
+  ],
+  "suppliers": [
+    {
+      "supplier_id": "S001",
+      "name": "Bhosari Steel Traders",
+      "categories": [
+        "Steel & Metals"
+      ],
+      "quality_rating": 3.3,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S002",
+      "name": "Deccan Metals",
+      "categories": [
+        "Steel & Metals"
+      ],
+      "quality_rating": 4.5,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S003",
+      "name": "Shreeji Steel Corporation",
+      "categories": [
+        "Steel & Metals"
+      ],
+      "quality_rating": 4.6,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S004",
+      "name": "Metalink Alloys",
+      "categories": [
+        "Steel & Metals"
+      ],
+      "quality_rating": 4.7,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S005",
+      "name": "Kalyani Steel Stockists",
+      "categories": [
+        "Steel & Metals"
+      ],
+      "quality_rating": 4.6,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S006",
+      "name": "Unbrako Fastener Distributors",
+      "categories": [
+        "Fasteners"
+      ],
+      "quality_rating": 4.8,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S007",
+      "name": "Precision Fasteners Co",
+      "categories": [
+        "Fasteners"
+      ],
+      "quality_rating": 2.9,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S008",
+      "name": "Bolt & Nut House",
+      "categories": [
+        "Fasteners"
+      ],
+      "quality_rating": 3,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S009",
+      "name": "Weldtech Supplies",
+      "categories": [
+        "Welding Consumables"
+      ],
+      "quality_rating": 4.6,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S010",
+      "name": "Inox Gases Dealer Pune",
+      "categories": [
+        "Welding Consumables"
+      ],
+      "quality_rating": 3.9,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S011",
+      "name": "Spark Welding Stores",
+      "categories": [
+        "Welding Consumables"
+      ],
+      "quality_rating": 3.3,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S012",
+      "name": "Ador Consumables Agent",
+      "categories": [
+        "Welding Consumables"
+      ],
+      "quality_rating": 3.3,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S013",
+      "name": "Industrial Bearings Co",
+      "categories": [
+        "Bearings & Transmission"
+      ],
+      "quality_rating": 3.2,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S014",
+      "name": "Mahalaxmi Machine Spares",
+      "categories": [
+        "Bearings & Transmission"
+      ],
+      "quality_rating": 4.4,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S015",
+      "name": "Bharat Bearing House",
+      "categories": [
+        "Bearings & Transmission"
+      ],
+      "quality_rating": 4.4,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S016",
+      "name": "Chakan Transmission Spares",
+      "categories": [
+        "Bearings & Transmission"
+      ],
+      "quality_rating": 3.1,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S017",
+      "name": "Sai Electricals",
+      "categories": [
+        "Electrical Spares"
+      ],
+      "quality_rating": 3.7,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S018",
+      "name": "Powerline Switchgear",
+      "categories": [
+        "Electrical Spares"
+      ],
+      "quality_rating": 2.8,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S019",
+      "name": "Elcon Automation",
+      "categories": [
+        "Electrical Spares"
+      ],
+      "quality_rating": 2.8,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S020",
+      "name": "Vertex CNC Systems",
+      "categories": [
+        "Electrical Spares",
+        "Capital Equipment"
+      ],
+      "quality_rating": 3.3,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S021",
+      "name": "Pneumatic Point",
+      "categories": [
+        "Hydraulics & Pneumatics"
+      ],
+      "quality_rating": 4.6,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S022",
+      "name": "Fluidline Hydraulics",
+      "categories": [
+        "Hydraulics & Pneumatics"
+      ],
+      "quality_rating": 3.5,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S023",
+      "name": "Hydrax Hydraulics",
+      "categories": [
+        "Hydraulics & Pneumatics"
+      ],
+      "quality_rating": 3.9,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S024",
+      "name": "Janatics Dealer Chakan",
+      "categories": [
+        "Hydraulics & Pneumatics"
+      ],
+      "quality_rating": 4.1,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S025",
+      "name": "Kaveri Corrugators",
+      "categories": [
+        "Packaging"
+      ],
+      "quality_rating": 4.8,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S026",
+      "name": "Pallet World",
+      "categories": [
+        "Packaging"
+      ],
+      "quality_rating": 3.2,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S027",
+      "name": "Vardhman Packaging",
+      "categories": [
+        "Packaging"
+      ],
+      "quality_rating": 4.7,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S028",
+      "name": "Zerust VCI Partner",
+      "categories": [
+        "Packaging"
+      ],
+      "quality_rating": 2.8,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S029",
+      "name": "SafeGuard Industrial Supplies",
+      "categories": [
+        "Safety & PPE"
+      ],
+      "quality_rating": 3.1,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S030",
+      "name": "Karam Safety Distributor",
+      "categories": [
+        "Safety & PPE"
+      ],
+      "quality_rating": 3.4,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S031",
+      "name": "Udyogi Safety Dealer",
+      "categories": [
+        "Safety & PPE"
+      ],
+      "quality_rating": 3.4,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S032",
+      "name": "Lubrizone Traders",
+      "categories": [
+        "Lubricants"
+      ],
+      "quality_rating": 4,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S033",
+      "name": "Castrol Industrial Distributor",
+      "categories": [
+        "Lubricants"
+      ],
+      "quality_rating": 4.2,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S034",
+      "name": "Servo Lubes Dealer",
+      "categories": [
+        "Lubricants"
+      ],
+      "quality_rating": 2.9,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S035",
+      "name": "Infoline Systems",
+      "categories": [
+        "Office & IT"
+      ],
+      "quality_rating": 4.5,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S036",
+      "name": "Compuworld Technologies",
+      "categories": [
+        "Office & IT"
+      ],
+      "quality_rating": 4.3,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S037",
+      "name": "Officekart Supplies",
+      "categories": [
+        "Office & IT"
+      ],
+      "quality_rating": 3.8,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S038",
+      "name": "Sparkle Facility Services",
+      "categories": [
+        "Facility Services"
+      ],
+      "quality_rating": 3.2,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S039",
+      "name": "Eagle Eye Security Services",
+      "categories": [
+        "Facility Services"
+      ],
+      "quality_rating": 4.8,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S040",
+      "name": "Annapurna Caterers",
+      "categories": [
+        "Facility Services"
+      ],
+      "quality_rating": 4.8,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S041",
+      "name": "HiCare Pest Control Franchise",
+      "categories": [
+        "Facility Services"
+      ],
+      "quality_rating": 4.6,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S042",
+      "name": "Accurate Calibration Labs",
+      "categories": [
+        "Testing & Calibration"
+      ],
+      "quality_rating": 4,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S043",
+      "name": "TUV Inspection Partner",
+      "categories": [
+        "Testing & Calibration"
+      ],
+      "quality_rating": 3.6,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S044",
+      "name": "Metal Testing Labs",
+      "categories": [
+        "Testing & Calibration"
+      ],
+      "quality_rating": 4.6,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S045",
+      "name": "Indo Machinery Works",
+      "categories": [
+        "Capital Equipment"
+      ],
+      "quality_rating": 2.9,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S046",
+      "name": "Elgi Compressor Dealer",
+      "categories": [
+        "Capital Equipment"
+      ],
+      "quality_rating": 4.1,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S047",
+      "name": "Cranetech Engineers",
+      "categories": [
+        "Capital Equipment"
+      ],
+      "quality_rating": 3.2,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    },
+    {
+      "supplier_id": "S048",
+      "name": "Godrej Material Handling Dealer",
+      "categories": [
+        "Capital Equipment"
+      ],
+      "quality_rating": 3.3,
+      "on_time_delivery_pct": 0,
+      "payment_terms": "Net 30",
+      "active": true
+    }
+  ],
+  "poHistory": [
+    {
+      "po_number": "7300026",
+      "po_date": "2025-06-01T00:00:00.000Z",
+      "supplier_id": "S003",
+      "item_code": "ITM-1003",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 84.98,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300224",
+      "po_date": "2025-06-02T00:00:00.000Z",
+      "supplier_id": "S024",
+      "item_code": "ITM-1035",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 426.21,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300314",
+      "po_date": "2025-06-06T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1047",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 29.72,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300256",
+      "po_date": "2025-06-08T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1038",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 165.92,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300221",
+      "po_date": "2025-06-11T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1034",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 42141.39,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300070",
+      "po_date": "2025-06-13T00:00:00.000Z",
+      "supplier_id": "S006",
+      "item_code": "ITM-1013",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 39.96,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300172",
+      "po_date": "2025-06-15T00:00:00.000Z",
+      "supplier_id": "S019",
+      "item_code": "ITM-1028",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 1899.81,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300192",
+      "po_date": "2025-06-17T00:00:00.000Z",
+      "supplier_id": "S018",
+      "item_code": "ITM-1031",
+      "plant": "PUN1",
+      "quantity": 10,
+      "unit_price": 246.39,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300131",
+      "po_date": "2025-06-18T00:00:00.000Z",
+      "supplier_id": "S013",
+      "item_code": "ITM-1021",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 189.58,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300047",
+      "po_date": "2025-06-20T00:00:00.000Z",
+      "supplier_id": "S006",
+      "item_code": "ITM-1009",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 6.89,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300277",
+      "po_date": "2025-06-22T00:00:00.000Z",
+      "supplier_id": "S028",
+      "item_code": "ITM-1041",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 82.2,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300294",
+      "po_date": "2025-06-23T00:00:00.000Z",
+      "supplier_id": "S027",
+      "item_code": "ITM-1042",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 1204.76,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300426",
+      "po_date": "2025-06-23T00:00:00.000Z",
+      "supplier_id": "S039",
+      "item_code": "ITM-1063",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 17044.96,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300351",
+      "po_date": "2025-06-25T00:00:00.000Z",
+      "supplier_id": "S032",
+      "item_code": "ITM-1052",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 32363.21,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300075",
+      "po_date": "2025-06-29T00:00:00.000Z",
+      "supplier_id": "S008",
+      "item_code": "ITM-1014",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 22.36,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300049",
+      "po_date": "2025-07-01T00:00:00.000Z",
+      "supplier_id": "S007",
+      "item_code": "ITM-1009",
+      "plant": "PUN1",
+      "quantity": 500,
+      "unit_price": 7.95,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300127",
+      "po_date": "2025-07-02T00:00:00.000Z",
+      "supplier_id": "S014",
+      "item_code": "ITM-1021",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 197.54,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300269",
+      "po_date": "2025-07-02T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1040",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 20233.33,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300313",
+      "po_date": "2025-07-02T00:00:00.000Z",
+      "supplier_id": "S030",
+      "item_code": "ITM-1047",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 26.85,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300006",
+      "po_date": "2025-07-04T00:00:00.000Z",
+      "supplier_id": "S005",
+      "item_code": "ITM-1001",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 6619.94,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300291",
+      "po_date": "2025-07-04T00:00:00.000Z",
+      "supplier_id": "S025",
+      "item_code": "ITM-1042",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 1225.47,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300120",
+      "po_date": "2025-07-07T00:00:00.000Z",
+      "supplier_id": "S015",
+      "item_code": "ITM-1021",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 190.1,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300350",
+      "po_date": "2025-07-08T00:00:00.000Z",
+      "supplier_id": "S032",
+      "item_code": "ITM-1052",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 30305.51,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300421",
+      "po_date": "2025-07-09T00:00:00.000Z",
+      "supplier_id": "S041",
+      "item_code": "ITM-1063",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 19790.48,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300208",
+      "po_date": "2025-07-10T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1033",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 67157.87,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300267",
+      "po_date": "2025-07-10T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1039",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 2847.02,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300408",
+      "po_date": "2025-07-11T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1062",
+      "plant": "PUN1",
+      "quantity": 10,
+      "unit_price": 224943.14,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300019",
+      "po_date": "2025-07-13T00:00:00.000Z",
+      "supplier_id": "S002",
+      "item_code": "ITM-1003",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 102.63,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300142",
+      "po_date": "2025-07-15T00:00:00.000Z",
+      "supplier_id": "S013",
+      "item_code": "ITM-1023",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 1520.01,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300251",
+      "po_date": "2025-07-15T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1038",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 172.72,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300253",
+      "po_date": "2025-07-15T00:00:00.000Z",
+      "supplier_id": "S024",
+      "item_code": "ITM-1038",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 181,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300216",
+      "po_date": "2025-07-17T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1034",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 42415.59,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300274",
+      "po_date": "2025-07-18T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1040",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 17985.35,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300004",
+      "po_date": "2025-07-20T00:00:00.000Z",
+      "supplier_id": "S001",
+      "item_code": "ITM-1001",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 7596.1,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300083",
+      "po_date": "2025-07-20T00:00:00.000Z",
+      "supplier_id": "S009",
+      "item_code": "ITM-1015",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 167.83,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300154",
+      "po_date": "2025-07-22T00:00:00.000Z",
+      "supplier_id": "S015",
+      "item_code": "ITM-1024",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 324.89,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300262",
+      "po_date": "2025-07-22T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1039",
+      "plant": "PUN1",
+      "quantity": 10,
+      "unit_price": 2881.64,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300388",
+      "po_date": "2025-07-22T00:00:00.000Z",
+      "supplier_id": "S037",
+      "item_code": "ITM-1059",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 3168.24,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300420",
+      "po_date": "2025-07-24T00:00:00.000Z",
+      "supplier_id": "S038",
+      "item_code": "ITM-1063",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 18442.26,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300403",
+      "po_date": "2025-07-25T00:00:00.000Z",
+      "supplier_id": "S038",
+      "item_code": "ITM-1061",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 180547.87,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300092",
+      "po_date": "2025-08-02T00:00:00.000Z",
+      "supplier_id": "S012",
+      "item_code": "ITM-1017",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 1351.77,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300086",
+      "po_date": "2025-08-03T00:00:00.000Z",
+      "supplier_id": "S012",
+      "item_code": "ITM-1017",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 1432.87,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300450",
+      "po_date": "2025-08-03T00:00:00.000Z",
+      "supplier_id": "S043",
+      "item_code": "ITM-1067",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 3805.88,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300077",
+      "po_date": "2025-08-05T00:00:00.000Z",
+      "supplier_id": "S010",
+      "item_code": "ITM-1015",
+      "plant": "PUN1",
+      "quantity": 500,
+      "unit_price": 176.23,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300144",
+      "po_date": "2025-08-05T00:00:00.000Z",
+      "supplier_id": "S015",
+      "item_code": "ITM-1023",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 1318.57,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300263",
+      "po_date": "2025-08-05T00:00:00.000Z",
+      "supplier_id": "S021",
+      "item_code": "ITM-1039",
+      "plant": "PUN1",
+      "quantity": 500,
+      "unit_price": 2883.78,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300037",
+      "po_date": "2025-08-07T00:00:00.000Z",
+      "supplier_id": "S002",
+      "item_code": "ITM-1005",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 80.21,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300181",
+      "po_date": "2025-08-07T00:00:00.000Z",
+      "supplier_id": "S017",
+      "item_code": "ITM-1029",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 1557.95,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300247",
+      "po_date": "2025-08-08T00:00:00.000Z",
+      "supplier_id": "S022",
+      "item_code": "ITM-1038",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 181.04,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300392",
+      "po_date": "2025-08-09T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1061",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 194254.82,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300145",
+      "po_date": "2025-08-11T00:00:00.000Z",
+      "supplier_id": "S015",
+      "item_code": "ITM-1023",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 1343.45,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300197",
+      "po_date": "2025-08-12T00:00:00.000Z",
+      "supplier_id": "S019",
+      "item_code": "ITM-1031",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 233.63,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300339",
+      "po_date": "2025-08-12T00:00:00.000Z",
+      "supplier_id": "S031",
+      "item_code": "ITM-1051",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 9.34,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300021",
+      "po_date": "2025-08-13T00:00:00.000Z",
+      "supplier_id": "S003",
+      "item_code": "ITM-1003",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 87.61,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300095",
+      "po_date": "2025-08-13T00:00:00.000Z",
+      "supplier_id": "S011",
+      "item_code": "ITM-1017",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 1545.33,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300111",
+      "po_date": "2025-08-13T00:00:00.000Z",
+      "supplier_id": "S010",
+      "item_code": "ITM-1019",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 44.82,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300198",
+      "po_date": "2025-08-14T00:00:00.000Z",
+      "supplier_id": "S019",
+      "item_code": "ITM-1031",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 236.23,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300366",
+      "po_date": "2025-08-14T00:00:00.000Z",
+      "supplier_id": "S032",
+      "item_code": "ITM-1054",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 195.58,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300114",
+      "po_date": "2025-08-15T00:00:00.000Z",
+      "supplier_id": "S012",
+      "item_code": "ITM-1020",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 201.52,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300433",
+      "po_date": "2025-08-18T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1064",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 284399.03,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300228",
+      "po_date": "2025-08-20T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1036",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 4016.06,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300316",
+      "po_date": "2025-08-21T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1047",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 30.33,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300319",
+      "po_date": "2025-08-21T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1048",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 93.26,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300429",
+      "po_date": "2025-08-23T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1063",
+      "plant": "PUN1",
+      "quantity": 500,
+      "unit_price": 18164.47,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300396",
+      "po_date": "2025-08-24T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1061",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 197967.28,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300463",
+      "po_date": "2025-08-24T00:00:00.000Z",
+      "supplier_id": "S043",
+      "item_code": "ITM-1068",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 18638.51,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300109",
+      "po_date": "2025-08-25T00:00:00.000Z",
+      "supplier_id": "S011",
+      "item_code": "ITM-1019",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 41.53,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300116",
+      "po_date": "2025-08-25T00:00:00.000Z",
+      "supplier_id": "S010",
+      "item_code": "ITM-1020",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 226.79,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300440",
+      "po_date": "2025-08-25T00:00:00.000Z",
+      "supplier_id": "S043",
+      "item_code": "ITM-1065",
+      "plant": "PUN1",
+      "quantity": 500,
+      "unit_price": 9427.23,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300434",
+      "po_date": "2025-08-28T00:00:00.000Z",
+      "supplier_id": "S039",
+      "item_code": "ITM-1064",
+      "plant": "PUN1",
+      "quantity": 4,
+      "unit_price": 338219.08,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300113",
+      "po_date": "2025-08-30T00:00:00.000Z",
+      "supplier_id": "S012",
+      "item_code": "ITM-1019",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 40.53,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300147",
+      "po_date": "2025-08-30T00:00:00.000Z",
+      "supplier_id": "S013",
+      "item_code": "ITM-1024",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 322.61,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300468",
+      "po_date": "2025-08-31T00:00:00.000Z",
+      "supplier_id": "S045",
+      "item_code": "ITM-1073",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 1100178.33,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300129",
+      "po_date": "2025-09-01T00:00:00.000Z",
+      "supplier_id": "S016",
+      "item_code": "ITM-1021",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 194.13,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300106",
+      "po_date": "2025-09-04T00:00:00.000Z",
+      "supplier_id": "S009",
+      "item_code": "ITM-1019",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 39.2,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300202",
+      "po_date": "2025-09-04T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1033",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 70235.94,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300177",
+      "po_date": "2025-09-05T00:00:00.000Z",
+      "supplier_id": "S018",
+      "item_code": "ITM-1028",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 1891.93,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300188",
+      "po_date": "2025-09-05T00:00:00.000Z",
+      "supplier_id": "S018",
+      "item_code": "ITM-1030",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 1175.67,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300444",
+      "po_date": "2025-09-06T00:00:00.000Z",
+      "supplier_id": "S043",
+      "item_code": "ITM-1066",
+      "plant": "PUN1",
+      "quantity": 4,
+      "unit_price": 59161.9,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300104",
+      "po_date": "2025-09-13T00:00:00.000Z",
+      "supplier_id": "S010",
+      "item_code": "ITM-1018",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 1325.45,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300175",
+      "po_date": "2025-09-13T00:00:00.000Z",
+      "supplier_id": "S019",
+      "item_code": "ITM-1028",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 1834.98,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300231",
+      "po_date": "2025-09-13T00:00:00.000Z",
+      "supplier_id": "S021",
+      "item_code": "ITM-1037",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 2917.51,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300164",
+      "po_date": "2025-09-14T00:00:00.000Z",
+      "supplier_id": "S013",
+      "item_code": "ITM-1027",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 291.06,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300250",
+      "po_date": "2025-09-15T00:00:00.000Z",
+      "supplier_id": "S024",
+      "item_code": "ITM-1038",
+      "plant": "PUN1",
+      "quantity": 500,
+      "unit_price": 165.88,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300432",
+      "po_date": "2025-09-17T00:00:00.000Z",
+      "supplier_id": "S038",
+      "item_code": "ITM-1064",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 345635.8,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300098",
+      "po_date": "2025-09-20T00:00:00.000Z",
+      "supplier_id": "S010",
+      "item_code": "ITM-1018",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 1314.29,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300219",
+      "po_date": "2025-09-21T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1034",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 45031.66,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300289",
+      "po_date": "2025-09-21T00:00:00.000Z",
+      "supplier_id": "S026",
+      "item_code": "ITM-1042",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 1070.32,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300442",
+      "po_date": "2025-09-21T00:00:00.000Z",
+      "supplier_id": "S043",
+      "item_code": "ITM-1066",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 68338.07,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300153",
+      "po_date": "2025-09-22T00:00:00.000Z",
+      "supplier_id": "S013",
+      "item_code": "ITM-1024",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 303.97,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300389",
+      "po_date": "2025-09-22T00:00:00.000Z",
+      "supplier_id": "S036",
+      "item_code": "ITM-1059",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 2782.19,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300233",
+      "po_date": "2025-09-24T00:00:00.000Z",
+      "supplier_id": "S022",
+      "item_code": "ITM-1037",
+      "plant": "PUN1",
+      "quantity": 10,
+      "unit_price": 2397.14,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300285",
+      "po_date": "2025-09-26T00:00:00.000Z",
+      "supplier_id": "S028",
+      "item_code": "ITM-1042",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 1068.1,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300103",
+      "po_date": "2025-09-27T00:00:00.000Z",
+      "supplier_id": "S009",
+      "item_code": "ITM-1018",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 1279.71,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300370",
+      "po_date": "2025-09-28T00:00:00.000Z",
+      "supplier_id": "S034",
+      "item_code": "ITM-1054",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 214.25,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300043",
+      "po_date": "2025-09-30T00:00:00.000Z",
+      "supplier_id": "S002",
+      "item_code": "ITM-1008",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 96.21,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300213",
+      "po_date": "2025-09-30T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1034",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 41294.22,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300227",
+      "po_date": "2025-09-30T00:00:00.000Z",
+      "supplier_id": "S024",
+      "item_code": "ITM-1036",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 3700.35,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300218",
+      "po_date": "2025-10-03T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1034",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 38804.01,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300166",
+      "po_date": "2025-10-04T00:00:00.000Z",
+      "supplier_id": "S017",
+      "item_code": "ITM-1028",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 1976.01,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300124",
+      "po_date": "2025-10-05T00:00:00.000Z",
+      "supplier_id": "S013",
+      "item_code": "ITM-1021",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 224.02,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300195",
+      "po_date": "2025-10-05T00:00:00.000Z",
+      "supplier_id": "S019",
+      "item_code": "ITM-1031",
+      "plant": "PUN1",
+      "quantity": 500,
+      "unit_price": 268.49,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300315",
+      "po_date": "2025-10-05T00:00:00.000Z",
+      "supplier_id": "S031",
+      "item_code": "ITM-1047",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 30.07,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300310",
+      "po_date": "2025-10-07T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1047",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 29.75,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300169",
+      "po_date": "2025-10-10T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1028",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 1931.61,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300078",
+      "po_date": "2025-10-12T00:00:00.000Z",
+      "supplier_id": "S009",
+      "item_code": "ITM-1015",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 164.33,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300425",
+      "po_date": "2025-10-12T00:00:00.000Z",
+      "supplier_id": "S039",
+      "item_code": "ITM-1063",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 18902.37,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300007",
+      "po_date": "2025-10-14T00:00:00.000Z",
+      "supplier_id": "S004",
+      "item_code": "ITM-1001",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 6279.52,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300034",
+      "po_date": "2025-10-14T00:00:00.000Z",
+      "supplier_id": "S002",
+      "item_code": "ITM-1005",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 66.65,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300046",
+      "po_date": "2025-10-15T00:00:00.000Z",
+      "supplier_id": "S008",
+      "item_code": "ITM-1009",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 8.17,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300344",
+      "po_date": "2025-10-16T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1051",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 9.24,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300141",
+      "po_date": "2025-10-19T00:00:00.000Z",
+      "supplier_id": "S016",
+      "item_code": "ITM-1023",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 1592.64,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300280",
+      "po_date": "2025-10-20T00:00:00.000Z",
+      "supplier_id": "S028",
+      "item_code": "ITM-1041",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 75.13,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300383",
+      "po_date": "2025-10-20T00:00:00.000Z",
+      "supplier_id": "S035",
+      "item_code": "ITM-1057",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 12355.25,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300255",
+      "po_date": "2025-10-21T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1038",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 161.69,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300359",
+      "po_date": "2025-10-24T00:00:00.000Z",
+      "supplier_id": "S034",
+      "item_code": "ITM-1053",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 4271.73,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300460",
+      "po_date": "2025-10-25T00:00:00.000Z",
+      "supplier_id": "S043",
+      "item_code": "ITM-1068",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 18207.8,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300081",
+      "po_date": "2025-10-26T00:00:00.000Z",
+      "supplier_id": "S011",
+      "item_code": "ITM-1015",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 176.26,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300252",
+      "po_date": "2025-10-27T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1038",
+      "plant": "PUN1",
+      "quantity": 500,
+      "unit_price": 182.26,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300330",
+      "po_date": "2025-10-27T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1048",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 90.94,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300335",
+      "po_date": "2025-10-27T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1050",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 126.73,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300355",
+      "po_date": "2025-10-27T00:00:00.000Z",
+      "supplier_id": "S033",
+      "item_code": "ITM-1052",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 29744.24,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300258",
+      "po_date": "2025-10-29T00:00:00.000Z",
+      "supplier_id": "S022",
+      "item_code": "ITM-1039",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 2625.26,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300189",
+      "po_date": "2025-10-31T00:00:00.000Z",
+      "supplier_id": "S017",
+      "item_code": "ITM-1030",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 1330.31,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300329",
+      "po_date": "2025-10-31T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1048",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 103.96,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300235",
+      "po_date": "2025-11-01T00:00:00.000Z",
+      "supplier_id": "S022",
+      "item_code": "ITM-1037",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 2773.9,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300349",
+      "po_date": "2025-11-03T00:00:00.000Z",
+      "supplier_id": "S031",
+      "item_code": "ITM-1051",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 8.51,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300333",
+      "po_date": "2025-11-04T00:00:00.000Z",
+      "supplier_id": "S030",
+      "item_code": "ITM-1049",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 222.14,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300032",
+      "po_date": "2025-11-06T00:00:00.000Z",
+      "supplier_id": "S002",
+      "item_code": "ITM-1004",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 20736.78,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300146",
+      "po_date": "2025-11-07T00:00:00.000Z",
+      "supplier_id": "S015",
+      "item_code": "ITM-1024",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 365.49,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300306",
+      "po_date": "2025-11-07T00:00:00.000Z",
+      "supplier_id": "S030",
+      "item_code": "ITM-1046",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 1132.2,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300230",
+      "po_date": "2025-11-11T00:00:00.000Z",
+      "supplier_id": "S022",
+      "item_code": "ITM-1036",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 3835.14,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300462",
+      "po_date": "2025-11-12T00:00:00.000Z",
+      "supplier_id": "S044",
+      "item_code": "ITM-1068",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 16621.87,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300068",
+      "po_date": "2025-11-13T00:00:00.000Z",
+      "supplier_id": "S007",
+      "item_code": "ITM-1013",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 41.36,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300207",
+      "po_date": "2025-11-13T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1033",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 69607.19,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300080",
+      "po_date": "2025-11-15T00:00:00.000Z",
+      "supplier_id": "S010",
+      "item_code": "ITM-1015",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 174.88,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300458",
+      "po_date": "2025-11-15T00:00:00.000Z",
+      "supplier_id": "S043",
+      "item_code": "ITM-1068",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 17551.25,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300135",
+      "po_date": "2025-11-18T00:00:00.000Z",
+      "supplier_id": "S014",
+      "item_code": "ITM-1022",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 666.77,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300064",
+      "po_date": "2025-11-21T00:00:00.000Z",
+      "supplier_id": "S008",
+      "item_code": "ITM-1011",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 5.63,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300430",
+      "po_date": "2025-11-24T00:00:00.000Z",
+      "supplier_id": "S038",
+      "item_code": "ITM-1063",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 17360.63,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300239",
+      "po_date": "2025-11-28T00:00:00.000Z",
+      "supplier_id": "S022",
+      "item_code": "ITM-1037",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 2665.52,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300331",
+      "po_date": "2025-11-28T00:00:00.000Z",
+      "supplier_id": "S030",
+      "item_code": "ITM-1048",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 105.51,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300416",
+      "po_date": "2025-11-28T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1062",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 267965.83,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300003",
+      "po_date": "2025-11-29T00:00:00.000Z",
+      "supplier_id": "S002",
+      "item_code": "ITM-1001",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 7057.7,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300304",
+      "po_date": "2025-11-29T00:00:00.000Z",
+      "supplier_id": "S031",
+      "item_code": "ITM-1046",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 1066.54,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300364",
+      "po_date": "2025-11-29T00:00:00.000Z",
+      "supplier_id": "S032",
+      "item_code": "ITM-1054",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 218.82,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300427",
+      "po_date": "2025-11-29T00:00:00.000Z",
+      "supplier_id": "S041",
+      "item_code": "ITM-1063",
+      "plant": "PUN1",
+      "quantity": 500,
+      "unit_price": 18008.88,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300013",
+      "po_date": "2025-11-30T00:00:00.000Z",
+      "supplier_id": "S002",
+      "item_code": "ITM-1002",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 9943.03,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300374",
+      "po_date": "2025-11-30T00:00:00.000Z",
+      "supplier_id": "S036",
+      "item_code": "ITM-1056",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 66500.65,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300010",
+      "po_date": "2025-12-02T00:00:00.000Z",
+      "supplier_id": "S004",
+      "item_code": "ITM-1002",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 9981.28,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300115",
+      "po_date": "2025-12-02T00:00:00.000Z",
+      "supplier_id": "S011",
+      "item_code": "ITM-1020",
+      "plant": "PUN1",
+      "quantity": 500,
+      "unit_price": 227.99,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300156",
+      "po_date": "2025-12-02T00:00:00.000Z",
+      "supplier_id": "S014",
+      "item_code": "ITM-1026",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 105.22,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300401",
+      "po_date": "2025-12-03T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1061",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 169300.07,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300279",
+      "po_date": "2025-12-06T00:00:00.000Z",
+      "supplier_id": "S026",
+      "item_code": "ITM-1041",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 75.13,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300090",
+      "po_date": "2025-12-07T00:00:00.000Z",
+      "supplier_id": "S011",
+      "item_code": "ITM-1017",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 1312.09,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300393",
+      "po_date": "2025-12-11T00:00:00.000Z",
+      "supplier_id": "S039",
+      "item_code": "ITM-1061",
+      "plant": "CHK1",
+      "quantity": 4,
+      "unit_price": 196279.11,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300465",
+      "po_date": "2025-12-12T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1070",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 744137.67,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300035",
+      "po_date": "2025-12-13T00:00:00.000Z",
+      "supplier_id": "S001",
+      "item_code": "ITM-1005",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 73.6,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300122",
+      "po_date": "2025-12-13T00:00:00.000Z",
+      "supplier_id": "S013",
+      "item_code": "ITM-1021",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 227.54,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300297",
+      "po_date": "2025-12-13T00:00:00.000Z",
+      "supplier_id": "S027",
+      "item_code": "ITM-1043",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 151.55,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300412",
+      "po_date": "2025-12-13T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1062",
+      "plant": "PUN1",
+      "quantity": 10,
+      "unit_price": 231363.67,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300161",
+      "po_date": "2025-12-14T00:00:00.000Z",
+      "supplier_id": "S015",
+      "item_code": "ITM-1027",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 284.42,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300377",
+      "po_date": "2025-12-15T00:00:00.000Z",
+      "supplier_id": "S036",
+      "item_code": "ITM-1057",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 12734.03,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300067",
+      "po_date": "2025-12-17T00:00:00.000Z",
+      "supplier_id": "S008",
+      "item_code": "ITM-1012",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 0.84,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300271",
+      "po_date": "2025-12-17T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1040",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 17543.22,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300055",
+      "po_date": "2025-12-18T00:00:00.000Z",
+      "supplier_id": "S006",
+      "item_code": "ITM-1009",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 7.56,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300108",
+      "po_date": "2025-12-18T00:00:00.000Z",
+      "supplier_id": "S012",
+      "item_code": "ITM-1019",
+      "plant": "PUN1",
+      "quantity": 10,
+      "unit_price": 40.8,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300386",
+      "po_date": "2025-12-18T00:00:00.000Z",
+      "supplier_id": "S037",
+      "item_code": "ITM-1058",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 242.89,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300089",
+      "po_date": "2025-12-21T00:00:00.000Z",
+      "supplier_id": "S011",
+      "item_code": "ITM-1017",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 1524.69,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300073",
+      "po_date": "2025-12-22T00:00:00.000Z",
+      "supplier_id": "S006",
+      "item_code": "ITM-1014",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 26.26,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300088",
+      "po_date": "2025-12-22T00:00:00.000Z",
+      "supplier_id": "S012",
+      "item_code": "ITM-1017",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 1457.21,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300174",
+      "po_date": "2025-12-25T00:00:00.000Z",
+      "supplier_id": "S017",
+      "item_code": "ITM-1028",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 2061.56,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300354",
+      "po_date": "2025-12-25T00:00:00.000Z",
+      "supplier_id": "S032",
+      "item_code": "ITM-1052",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 33777.44,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300176",
+      "po_date": "2025-12-27T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1028",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 1901.63,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300093",
+      "po_date": "2025-12-29T00:00:00.000Z",
+      "supplier_id": "S011",
+      "item_code": "ITM-1017",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 1396.36,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300138",
+      "po_date": "2025-12-30T00:00:00.000Z",
+      "supplier_id": "S014",
+      "item_code": "ITM-1022",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 581.94,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300332",
+      "po_date": "2025-12-30T00:00:00.000Z",
+      "supplier_id": "S031",
+      "item_code": "ITM-1049",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 217.81,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300096",
+      "po_date": "2025-12-31T00:00:00.000Z",
+      "supplier_id": "S011",
+      "item_code": "ITM-1017",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 1469.82,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300288",
+      "po_date": "2026-01-01T00:00:00.000Z",
+      "supplier_id": "S026",
+      "item_code": "ITM-1042",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 1182.22,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300347",
+      "po_date": "2026-01-02T00:00:00.000Z",
+      "supplier_id": "S031",
+      "item_code": "ITM-1051",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 9.44,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300051",
+      "po_date": "2026-01-03T00:00:00.000Z",
+      "supplier_id": "S008",
+      "item_code": "ITM-1009",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 7.91,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300042",
+      "po_date": "2026-01-05T00:00:00.000Z",
+      "supplier_id": "S001",
+      "item_code": "ITM-1008",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 89.95,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300054",
+      "po_date": "2026-01-07T00:00:00.000Z",
+      "supplier_id": "S008",
+      "item_code": "ITM-1009",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 7.4,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300371",
+      "po_date": "2026-01-07T00:00:00.000Z",
+      "supplier_id": "S034",
+      "item_code": "ITM-1054",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 191.09,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300150",
+      "po_date": "2026-01-08T00:00:00.000Z",
+      "supplier_id": "S015",
+      "item_code": "ITM-1024",
+      "plant": "PUN1",
+      "quantity": 500,
+      "unit_price": 314.41,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300248",
+      "po_date": "2026-01-08T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1038",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 164.34,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300184",
+      "po_date": "2026-01-09T00:00:00.000Z",
+      "supplier_id": "S019",
+      "item_code": "ITM-1029",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 1631.15,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300226",
+      "po_date": "2026-01-09T00:00:00.000Z",
+      "supplier_id": "S022",
+      "item_code": "ITM-1036",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 4232.09,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300118",
+      "po_date": "2026-01-10T00:00:00.000Z",
+      "supplier_id": "S009",
+      "item_code": "ITM-1020",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 234.01,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300222",
+      "po_date": "2026-01-10T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1034",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 43945.86,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300045",
+      "po_date": "2026-01-12T00:00:00.000Z",
+      "supplier_id": "S007",
+      "item_code": "ITM-1009",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 6.85,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300435",
+      "po_date": "2026-01-14T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1064",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 293861.89,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300217",
+      "po_date": "2026-01-16T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1034",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 45081.56,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300157",
+      "po_date": "2026-01-18T00:00:00.000Z",
+      "supplier_id": "S014",
+      "item_code": "ITM-1026",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 86.06,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300260",
+      "po_date": "2026-01-19T00:00:00.000Z",
+      "supplier_id": "S021",
+      "item_code": "ITM-1039",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 2918.11,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300311",
+      "po_date": "2026-01-20T00:00:00.000Z",
+      "supplier_id": "S031",
+      "item_code": "ITM-1047",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 30.01,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300413",
+      "po_date": "2026-01-20T00:00:00.000Z",
+      "supplier_id": "S039",
+      "item_code": "ITM-1062",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 236673.22,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300105",
+      "po_date": "2026-01-21T00:00:00.000Z",
+      "supplier_id": "S011",
+      "item_code": "ITM-1019",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 45.56,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300039",
+      "po_date": "2026-01-22T00:00:00.000Z",
+      "supplier_id": "S001",
+      "item_code": "ITM-1007",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 76.7,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300079",
+      "po_date": "2026-01-23T00:00:00.000Z",
+      "supplier_id": "S011",
+      "item_code": "ITM-1015",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 164.07,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300238",
+      "po_date": "2026-01-23T00:00:00.000Z",
+      "supplier_id": "S024",
+      "item_code": "ITM-1037",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 2550.03,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300363",
+      "po_date": "2026-01-23T00:00:00.000Z",
+      "supplier_id": "S032",
+      "item_code": "ITM-1054",
+      "plant": "PUN1",
+      "quantity": 10,
+      "unit_price": 226.65,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300286",
+      "po_date": "2026-01-26T00:00:00.000Z",
+      "supplier_id": "S025",
+      "item_code": "ITM-1042",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 1132.93,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300362",
+      "po_date": "2026-01-26T00:00:00.000Z",
+      "supplier_id": "S034",
+      "item_code": "ITM-1054",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 197.72,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300084",
+      "po_date": "2026-01-28T00:00:00.000Z",
+      "supplier_id": "S009",
+      "item_code": "ITM-1016",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 135.05,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300132",
+      "po_date": "2026-01-28T00:00:00.000Z",
+      "supplier_id": "S013",
+      "item_code": "ITM-1022",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 583.89,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300065",
+      "po_date": "2026-01-29T00:00:00.000Z",
+      "supplier_id": "S008",
+      "item_code": "ITM-1011",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 5.71,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300240",
+      "po_date": "2026-01-29T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1037",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 2799.25,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300282",
+      "po_date": "2026-01-29T00:00:00.000Z",
+      "supplier_id": "S027",
+      "item_code": "ITM-1041",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 83.67,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300302",
+      "po_date": "2026-01-29T00:00:00.000Z",
+      "supplier_id": "S028",
+      "item_code": "ITM-1045",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 1221.63,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300448",
+      "po_date": "2026-01-29T00:00:00.000Z",
+      "supplier_id": "S044",
+      "item_code": "ITM-1067",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 3265.05,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300060",
+      "po_date": "2026-02-01T00:00:00.000Z",
+      "supplier_id": "S006",
+      "item_code": "ITM-1011",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 5.63,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300214",
+      "po_date": "2026-02-05T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1034",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 45886.7,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300266",
+      "po_date": "2026-02-05T00:00:00.000Z",
+      "supplier_id": "S024",
+      "item_code": "ITM-1039",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 2938.85,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300140",
+      "po_date": "2026-02-07T00:00:00.000Z",
+      "supplier_id": "S014",
+      "item_code": "ITM-1023",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 1493.85,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300158",
+      "po_date": "2026-02-07T00:00:00.000Z",
+      "supplier_id": "S013",
+      "item_code": "ITM-1027",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 269.18,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300117",
+      "po_date": "2026-02-12T00:00:00.000Z",
+      "supplier_id": "S009",
+      "item_code": "ITM-1020",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 210.17,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300446",
+      "po_date": "2026-02-13T00:00:00.000Z",
+      "supplier_id": "S043",
+      "item_code": "ITM-1066",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 67414.15,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300246",
+      "po_date": "2026-02-15T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1038",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 183.78,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300391",
+      "po_date": "2026-02-15T00:00:00.000Z",
+      "supplier_id": "S035",
+      "item_code": "ITM-1059",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 2781.18,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300407",
+      "po_date": "2026-02-15T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1062",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 254378.11,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300309",
+      "po_date": "2026-02-16T00:00:00.000Z",
+      "supplier_id": "S031",
+      "item_code": "ITM-1047",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 31.19,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300212",
+      "po_date": "2026-02-17T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1034",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 43523.62,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300163",
+      "po_date": "2026-02-18T00:00:00.000Z",
+      "supplier_id": "S015",
+      "item_code": "ITM-1027",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 260.91,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300456",
+      "po_date": "2026-02-18T00:00:00.000Z",
+      "supplier_id": "S043",
+      "item_code": "ITM-1068",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 18619.51,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300312",
+      "po_date": "2026-02-20T00:00:00.000Z",
+      "supplier_id": "S031",
+      "item_code": "ITM-1047",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 29.14,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300178",
+      "po_date": "2026-02-22T00:00:00.000Z",
+      "supplier_id": "S019",
+      "item_code": "ITM-1028",
+      "plant": "PUN1",
+      "quantity": 500,
+      "unit_price": 2007.14,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300223",
+      "po_date": "2026-02-22T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1034",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 42028.19,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300320",
+      "po_date": "2026-02-22T00:00:00.000Z",
+      "supplier_id": "S031",
+      "item_code": "ITM-1048",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 98.73,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300336",
+      "po_date": "2026-02-22T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1050",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 130.83,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300410",
+      "po_date": "2026-02-22T00:00:00.000Z",
+      "supplier_id": "S041",
+      "item_code": "ITM-1062",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 258079.6,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300419",
+      "po_date": "2026-02-24T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1062",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 258077.86,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300152",
+      "po_date": "2026-02-26T00:00:00.000Z",
+      "supplier_id": "S015",
+      "item_code": "ITM-1024",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 342.69,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300397",
+      "po_date": "2026-02-26T00:00:00.000Z",
+      "supplier_id": "S038",
+      "item_code": "ITM-1061",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 201725.44,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300281",
+      "po_date": "2026-02-27T00:00:00.000Z",
+      "supplier_id": "S026",
+      "item_code": "ITM-1041",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 75.87,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300459",
+      "po_date": "2026-02-27T00:00:00.000Z",
+      "supplier_id": "S042",
+      "item_code": "ITM-1068",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 18344.65,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300186",
+      "po_date": "2026-03-01T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1029",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 1801.08,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300268",
+      "po_date": "2026-03-01T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1040",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 18327.07,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300076",
+      "po_date": "2026-03-02T00:00:00.000Z",
+      "supplier_id": "S008",
+      "item_code": "ITM-1014",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 25.89,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300361",
+      "po_date": "2026-03-03T00:00:00.000Z",
+      "supplier_id": "S032",
+      "item_code": "ITM-1054",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 203.1,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300467",
+      "po_date": "2026-03-03T00:00:00.000Z",
+      "supplier_id": "S045",
+      "item_code": "ITM-1072",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 2738200.86,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300232",
+      "po_date": "2026-03-04T00:00:00.000Z",
+      "supplier_id": "S021",
+      "item_code": "ITM-1037",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 2546.59,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300276",
+      "po_date": "2026-03-05T00:00:00.000Z",
+      "supplier_id": "S028",
+      "item_code": "ITM-1041",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 83.75,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300305",
+      "po_date": "2026-03-07T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1046",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 1086.64,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300031",
+      "po_date": "2026-03-08T00:00:00.000Z",
+      "supplier_id": "S003",
+      "item_code": "ITM-1004",
+      "plant": "PUN1",
+      "quantity": 10,
+      "unit_price": 23773.75,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300185",
+      "po_date": "2026-03-08T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1029",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 1675.51,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300085",
+      "po_date": "2026-03-11T00:00:00.000Z",
+      "supplier_id": "S010",
+      "item_code": "ITM-1016",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 123.74,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300400",
+      "po_date": "2026-03-12T00:00:00.000Z",
+      "supplier_id": "S039",
+      "item_code": "ITM-1061",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 177907.83,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300022",
+      "po_date": "2026-03-13T00:00:00.000Z",
+      "supplier_id": "S003",
+      "item_code": "ITM-1003",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 100.34,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300119",
+      "po_date": "2026-03-13T00:00:00.000Z",
+      "supplier_id": "S011",
+      "item_code": "ITM-1020",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 212.46,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300409",
+      "po_date": "2026-03-19T00:00:00.000Z",
+      "supplier_id": "S039",
+      "item_code": "ITM-1062",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 242153.11,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300058",
+      "po_date": "2026-03-21T00:00:00.000Z",
+      "supplier_id": "S008",
+      "item_code": "ITM-1010",
+      "plant": "PUN1",
+      "quantity": 10,
+      "unit_price": 1.72,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300014",
+      "po_date": "2026-03-23T00:00:00.000Z",
+      "supplier_id": "S001",
+      "item_code": "ITM-1002",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 10320.12,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300168",
+      "po_date": "2026-03-23T00:00:00.000Z",
+      "supplier_id": "S017",
+      "item_code": "ITM-1028",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 1878.24,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300261",
+      "po_date": "2026-03-26T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1039",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 2639.34,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300206",
+      "po_date": "2026-03-27T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1033",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 68159.46,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300455",
+      "po_date": "2026-03-27T00:00:00.000Z",
+      "supplier_id": "S042",
+      "item_code": "ITM-1067",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 3436.46,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300099",
+      "po_date": "2026-03-28T00:00:00.000Z",
+      "supplier_id": "S009",
+      "item_code": "ITM-1018",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 1344.28,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300225",
+      "po_date": "2026-03-30T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1035",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 391.82,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300380",
+      "po_date": "2026-03-30T00:00:00.000Z",
+      "supplier_id": "S036",
+      "item_code": "ITM-1057",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 12599.29,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300053",
+      "po_date": "2026-03-31T00:00:00.000Z",
+      "supplier_id": "S008",
+      "item_code": "ITM-1009",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 8.34,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300275",
+      "po_date": "2026-04-02T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1040",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 17880.78,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300447",
+      "po_date": "2026-04-03T00:00:00.000Z",
+      "supplier_id": "S043",
+      "item_code": "ITM-1066",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 59059.51,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300023",
+      "po_date": "2026-04-05T00:00:00.000Z",
+      "supplier_id": "S004",
+      "item_code": "ITM-1003",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 88.78,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300029",
+      "po_date": "2026-04-05T00:00:00.000Z",
+      "supplier_id": "S003",
+      "item_code": "ITM-1003",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 87.88,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300378",
+      "po_date": "2026-04-05T00:00:00.000Z",
+      "supplier_id": "S036",
+      "item_code": "ITM-1057",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 12637.46,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300406",
+      "po_date": "2026-04-05T00:00:00.000Z",
+      "supplier_id": "S039",
+      "item_code": "ITM-1062",
+      "plant": "PUN1",
+      "quantity": 4,
+      "unit_price": 227923.54,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300102",
+      "po_date": "2026-04-06T00:00:00.000Z",
+      "supplier_id": "S012",
+      "item_code": "ITM-1018",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 1202.21,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300356",
+      "po_date": "2026-04-07T00:00:00.000Z",
+      "supplier_id": "S033",
+      "item_code": "ITM-1052",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 34848.33,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300437",
+      "po_date": "2026-04-07T00:00:00.000Z",
+      "supplier_id": "S041",
+      "item_code": "ITM-1064",
+      "plant": "PUN1",
+      "quantity": 10,
+      "unit_price": 297573.33,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300205",
+      "po_date": "2026-04-09T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1033",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 70206.08,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300399",
+      "po_date": "2026-04-09T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1061",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 204523.95,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300204",
+      "po_date": "2026-04-10T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1033",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 67995.08,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300215",
+      "po_date": "2026-04-10T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1034",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 40929.88,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300220",
+      "po_date": "2026-04-10T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1034",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 41415.6,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300273",
+      "po_date": "2026-04-15T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1040",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 17982.5,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300170",
+      "po_date": "2026-04-16T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1028",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 1934.17,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300071",
+      "po_date": "2026-04-17T00:00:00.000Z",
+      "supplier_id": "S008",
+      "item_code": "ITM-1014",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 22.29,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300345",
+      "po_date": "2026-04-17T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1051",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 8.38,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300151",
+      "po_date": "2026-04-18T00:00:00.000Z",
+      "supplier_id": "S016",
+      "item_code": "ITM-1024",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 341.79,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300249",
+      "po_date": "2026-04-19T00:00:00.000Z",
+      "supplier_id": "S022",
+      "item_code": "ITM-1038",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 176.39,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300272",
+      "po_date": "2026-04-19T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1040",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 18068.76,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300059",
+      "po_date": "2026-04-20T00:00:00.000Z",
+      "supplier_id": "S008",
+      "item_code": "ITM-1010",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 2,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300307",
+      "po_date": "2026-04-20T00:00:00.000Z",
+      "supplier_id": "S030",
+      "item_code": "ITM-1046",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 1283.14,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300394",
+      "po_date": "2026-04-20T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1061",
+      "plant": "PUN1",
+      "quantity": 4,
+      "unit_price": 197930.8,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300020",
+      "po_date": "2026-04-21T00:00:00.000Z",
+      "supplier_id": "S002",
+      "item_code": "ITM-1003",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 92.57,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300082",
+      "po_date": "2026-04-21T00:00:00.000Z",
+      "supplier_id": "S009",
+      "item_code": "ITM-1015",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 181.71,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300300",
+      "po_date": "2026-04-21T00:00:00.000Z",
+      "supplier_id": "S027",
+      "item_code": "ITM-1044",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 21.59,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300126",
+      "po_date": "2026-04-22T00:00:00.000Z",
+      "supplier_id": "S015",
+      "item_code": "ITM-1021",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 195.3,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300245",
+      "po_date": "2026-04-23T00:00:00.000Z",
+      "supplier_id": "S024",
+      "item_code": "ITM-1038",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 166.64,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300341",
+      "po_date": "2026-04-26T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1051",
+      "plant": "PUN1",
+      "quantity": 10,
+      "unit_price": 9.92,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300107",
+      "po_date": "2026-04-27T00:00:00.000Z",
+      "supplier_id": "S010",
+      "item_code": "ITM-1019",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 44.39,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300200",
+      "po_date": "2026-04-29T00:00:00.000Z",
+      "supplier_id": "S017",
+      "item_code": "ITM-1031",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 265.25,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300190",
+      "po_date": "2026-04-30T00:00:00.000Z",
+      "supplier_id": "S019",
+      "item_code": "ITM-1030",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 1208.77,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300338",
+      "po_date": "2026-04-30T00:00:00.000Z",
+      "supplier_id": "S030",
+      "item_code": "ITM-1050",
+      "plant": "PUN1",
+      "quantity": 10,
+      "unit_price": 120.38,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300342",
+      "po_date": "2026-05-01T00:00:00.000Z",
+      "supplier_id": "S031",
+      "item_code": "ITM-1051",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 8.95,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300439",
+      "po_date": "2026-05-04T00:00:00.000Z",
+      "supplier_id": "S039",
+      "item_code": "ITM-1064",
+      "plant": "PUN1",
+      "quantity": 4,
+      "unit_price": 313583.31,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300327",
+      "po_date": "2026-05-06T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1048",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 88.78,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300372",
+      "po_date": "2026-05-06T00:00:00.000Z",
+      "supplier_id": "S032",
+      "item_code": "ITM-1054",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 189.96,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300324",
+      "po_date": "2026-05-07T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1048",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 99.44,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300052",
+      "po_date": "2026-05-08T00:00:00.000Z",
+      "supplier_id": "S007",
+      "item_code": "ITM-1009",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 8.06,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300395",
+      "po_date": "2026-05-08T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1061",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 172692.94,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300461",
+      "po_date": "2026-05-09T00:00:00.000Z",
+      "supplier_id": "S043",
+      "item_code": "ITM-1068",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 16856.56,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300457",
+      "po_date": "2026-05-10T00:00:00.000Z",
+      "supplier_id": "S043",
+      "item_code": "ITM-1068",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 18045.33,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300033",
+      "po_date": "2026-05-11T00:00:00.000Z",
+      "supplier_id": "S002",
+      "item_code": "ITM-1005",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 78.51,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300155",
+      "po_date": "2026-05-12T00:00:00.000Z",
+      "supplier_id": "S014",
+      "item_code": "ITM-1026",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 106.38,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300428",
+      "po_date": "2026-05-12T00:00:00.000Z",
+      "supplier_id": "S041",
+      "item_code": "ITM-1063",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 18655.29,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300411",
+      "po_date": "2026-05-14T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1062",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 224850.6,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300373",
+      "po_date": "2026-05-17T00:00:00.000Z",
+      "supplier_id": "S035",
+      "item_code": "ITM-1056",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 70504.11,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300368",
+      "po_date": "2026-05-18T00:00:00.000Z",
+      "supplier_id": "S034",
+      "item_code": "ITM-1054",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 221.09,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300005",
+      "po_date": "2026-05-19T00:00:00.000Z",
+      "supplier_id": "S004",
+      "item_code": "ITM-1001",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 6801.67,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300149",
+      "po_date": "2026-05-19T00:00:00.000Z",
+      "supplier_id": "S015",
+      "item_code": "ITM-1024",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 307.53,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300375",
+      "po_date": "2026-05-20T00:00:00.000Z",
+      "supplier_id": "S036",
+      "item_code": "ITM-1056",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 71155.71,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300133",
+      "po_date": "2026-05-21T00:00:00.000Z",
+      "supplier_id": "S014",
+      "item_code": "ITM-1022",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 654.53,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300357",
+      "po_date": "2026-05-21T00:00:00.000Z",
+      "supplier_id": "S034",
+      "item_code": "ITM-1053",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 4308.51,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300441",
+      "po_date": "2026-05-25T00:00:00.000Z",
+      "supplier_id": "S042",
+      "item_code": "ITM-1065",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 10139.65,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300024",
+      "po_date": "2026-05-27T00:00:00.000Z",
+      "supplier_id": "S003",
+      "item_code": "ITM-1003",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 91.28,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300112",
+      "po_date": "2026-05-29T00:00:00.000Z",
+      "supplier_id": "S012",
+      "item_code": "ITM-1019",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 46.29,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300011",
+      "po_date": "2026-05-31T00:00:00.000Z",
+      "supplier_id": "S004",
+      "item_code": "ITM-1002",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 10564.49,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300417",
+      "po_date": "2026-05-31T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1062",
+      "plant": "CHK1",
+      "quantity": 4,
+      "unit_price": 232679.86,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300343",
+      "po_date": "2026-06-01T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1051",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 8.81,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300069",
+      "po_date": "2026-06-02T00:00:00.000Z",
+      "supplier_id": "S007",
+      "item_code": "ITM-1013",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 37.74,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300278",
+      "po_date": "2026-06-02T00:00:00.000Z",
+      "supplier_id": "S028",
+      "item_code": "ITM-1041",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 81.99,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300002",
+      "po_date": "2026-06-07T00:00:00.000Z",
+      "supplier_id": "S003",
+      "item_code": "ITM-1001",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 6628.58,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300016",
+      "po_date": "2026-06-09T00:00:00.000Z",
+      "supplier_id": "S004",
+      "item_code": "ITM-1002",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 10038.51,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300404",
+      "po_date": "2026-06-09T00:00:00.000Z",
+      "supplier_id": "S038",
+      "item_code": "ITM-1061",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 203741.48,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300405",
+      "po_date": "2026-06-11T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1061",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 168819.66,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300001",
+      "po_date": "2026-06-12T00:00:00.000Z",
+      "supplier_id": "S001",
+      "item_code": "ITM-1001",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 6174.8,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300237",
+      "po_date": "2026-06-12T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1037",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 2744.38,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300322",
+      "po_date": "2026-06-12T00:00:00.000Z",
+      "supplier_id": "S031",
+      "item_code": "ITM-1048",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 96.03,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300191",
+      "po_date": "2026-06-14T00:00:00.000Z",
+      "supplier_id": "S017",
+      "item_code": "ITM-1030",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 1149.88,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300381",
+      "po_date": "2026-06-14T00:00:00.000Z",
+      "supplier_id": "S036",
+      "item_code": "ITM-1057",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 10462.14,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300134",
+      "po_date": "2026-06-15T00:00:00.000Z",
+      "supplier_id": "S016",
+      "item_code": "ITM-1022",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 614.81,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300308",
+      "po_date": "2026-06-16T00:00:00.000Z",
+      "supplier_id": "S030",
+      "item_code": "ITM-1046",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 1228.03,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300128",
+      "po_date": "2026-06-17T00:00:00.000Z",
+      "supplier_id": "S013",
+      "item_code": "ITM-1021",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 224.81,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300110",
+      "po_date": "2026-06-19T00:00:00.000Z",
+      "supplier_id": "S009",
+      "item_code": "ITM-1019",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 44.12,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300139",
+      "po_date": "2026-06-19T00:00:00.000Z",
+      "supplier_id": "S016",
+      "item_code": "ITM-1022",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 613.07,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300299",
+      "po_date": "2026-06-19T00:00:00.000Z",
+      "supplier_id": "S028",
+      "item_code": "ITM-1044",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 21.19,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300027",
+      "po_date": "2026-06-20T00:00:00.000Z",
+      "supplier_id": "S005",
+      "item_code": "ITM-1003",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 91.54,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300234",
+      "po_date": "2026-06-23T00:00:00.000Z",
+      "supplier_id": "S024",
+      "item_code": "ITM-1037",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 2856.1,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300028",
+      "po_date": "2026-06-24T00:00:00.000Z",
+      "supplier_id": "S003",
+      "item_code": "ITM-1003",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 102.25,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300074",
+      "po_date": "2026-06-24T00:00:00.000Z",
+      "supplier_id": "S008",
+      "item_code": "ITM-1014",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 21.6,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300159",
+      "po_date": "2026-06-25T00:00:00.000Z",
+      "supplier_id": "S016",
+      "item_code": "ITM-1027",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 240.57,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300087",
+      "po_date": "2026-06-26T00:00:00.000Z",
+      "supplier_id": "S009",
+      "item_code": "ITM-1017",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 1334.91,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300025",
+      "po_date": "2026-06-27T00:00:00.000Z",
+      "supplier_id": "S002",
+      "item_code": "ITM-1003",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 102.17,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300325",
+      "po_date": "2026-06-29T00:00:00.000Z",
+      "supplier_id": "S030",
+      "item_code": "ITM-1048",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 97.2,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300057",
+      "po_date": "2026-06-30T00:00:00.000Z",
+      "supplier_id": "S007",
+      "item_code": "ITM-1010",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 1.77,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300402",
+      "po_date": "2026-06-30T00:00:00.000Z",
+      "supplier_id": "S038",
+      "item_code": "ITM-1061",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 178577.65,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300298",
+      "po_date": "2026-07-02T00:00:00.000Z",
+      "supplier_id": "S028",
+      "item_code": "ITM-1043",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 180.25,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300136",
+      "po_date": "2026-07-04T00:00:00.000Z",
+      "supplier_id": "S014",
+      "item_code": "ITM-1022",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 706.17,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300183",
+      "po_date": "2026-07-04T00:00:00.000Z",
+      "supplier_id": "S019",
+      "item_code": "ITM-1029",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 1545.27,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300257",
+      "po_date": "2026-07-04T00:00:00.000Z",
+      "supplier_id": "S021",
+      "item_code": "ITM-1039",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 2732.52,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300452",
+      "po_date": "2026-07-04T00:00:00.000Z",
+      "supplier_id": "S044",
+      "item_code": "ITM-1067",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 3318.66,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300210",
+      "po_date": "2026-07-05T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1033",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 74563.28,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300254",
+      "po_date": "2026-07-06T00:00:00.000Z",
+      "supplier_id": "S022",
+      "item_code": "ITM-1038",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 177.94,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300385",
+      "po_date": "2026-07-08T00:00:00.000Z",
+      "supplier_id": "S036",
+      "item_code": "ITM-1058",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 257.79,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300436",
+      "po_date": "2026-07-09T00:00:00.000Z",
+      "supplier_id": "S039",
+      "item_code": "ITM-1064",
+      "plant": "PUN1",
+      "quantity": 10,
+      "unit_price": 346742.86,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300148",
+      "po_date": "2026-07-10T00:00:00.000Z",
+      "supplier_id": "S015",
+      "item_code": "ITM-1024",
+      "plant": "CHK1",
+      "quantity": 5,
+      "unit_price": 311.28,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300182",
+      "po_date": "2026-07-11T00:00:00.000Z",
+      "supplier_id": "S017",
+      "item_code": "ITM-1029",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 1497.17,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300346",
+      "po_date": "2026-07-11T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1051",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 8.58,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300443",
+      "po_date": "2026-07-11T00:00:00.000Z",
+      "supplier_id": "S044",
+      "item_code": "ITM-1066",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 66404.67,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300236",
+      "po_date": "2026-07-13T00:00:00.000Z",
+      "supplier_id": "S021",
+      "item_code": "ITM-1037",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 2502.33,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300414",
+      "po_date": "2026-07-14T00:00:00.000Z",
+      "supplier_id": "S039",
+      "item_code": "ITM-1062",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 263658.48,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300061",
+      "po_date": "2026-07-16T00:00:00.000Z",
+      "supplier_id": "S008",
+      "item_code": "ITM-1011",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 6.51,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300382",
+      "po_date": "2026-07-16T00:00:00.000Z",
+      "supplier_id": "S037",
+      "item_code": "ITM-1057",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 12389.44,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300203",
+      "po_date": "2026-07-21T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1033",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 63518.79,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300101",
+      "po_date": "2026-07-22T00:00:00.000Z",
+      "supplier_id": "S011",
+      "item_code": "ITM-1018",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 1188.46,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300066",
+      "po_date": "2026-07-23T00:00:00.000Z",
+      "supplier_id": "S006",
+      "item_code": "ITM-1012",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 0.77,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300194",
+      "po_date": "2026-07-23T00:00:00.000Z",
+      "supplier_id": "S019",
+      "item_code": "ITM-1031",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 237.78,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300283",
+      "po_date": "2026-07-23T00:00:00.000Z",
+      "supplier_id": "S025",
+      "item_code": "ITM-1041",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 84.84,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300353",
+      "po_date": "2026-07-23T00:00:00.000Z",
+      "supplier_id": "S032",
+      "item_code": "ITM-1052",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 33964.57,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300015",
+      "po_date": "2026-07-24T00:00:00.000Z",
+      "supplier_id": "S003",
+      "item_code": "ITM-1002",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 10918.84,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300137",
+      "po_date": "2026-07-24T00:00:00.000Z",
+      "supplier_id": "S014",
+      "item_code": "ITM-1022",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 640.23,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300415",
+      "po_date": "2026-07-24T00:00:00.000Z",
+      "supplier_id": "S039",
+      "item_code": "ITM-1062",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 250166.55,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300125",
+      "po_date": "2026-07-25T00:00:00.000Z",
+      "supplier_id": "S014",
+      "item_code": "ITM-1021",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 198.08,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300295",
+      "po_date": "2026-07-27T00:00:00.000Z",
+      "supplier_id": "S026",
+      "item_code": "ITM-1042",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 1120.81,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300376",
+      "po_date": "2026-07-27T00:00:00.000Z",
+      "supplier_id": "S036",
+      "item_code": "ITM-1057",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 12092.43,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300100",
+      "po_date": "2026-07-28T00:00:00.000Z",
+      "supplier_id": "S009",
+      "item_code": "ITM-1018",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 1186.78,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300143",
+      "po_date": "2026-07-28T00:00:00.000Z",
+      "supplier_id": "S014",
+      "item_code": "ITM-1023",
+      "plant": "PUN1",
+      "quantity": 500,
+      "unit_price": 1500.01,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300424",
+      "po_date": "2026-07-28T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1063",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 16264.23,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300094",
+      "po_date": "2026-07-29T00:00:00.000Z",
+      "supplier_id": "S010",
+      "item_code": "ITM-1017",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 1613.99,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300365",
+      "po_date": "2026-08-02T00:00:00.000Z",
+      "supplier_id": "S033",
+      "item_code": "ITM-1054",
+      "plant": "PUN1",
+      "quantity": 10,
+      "unit_price": 225.12,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300008",
+      "po_date": "2026-08-05T00:00:00.000Z",
+      "supplier_id": "S001",
+      "item_code": "ITM-1001",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 6331.24,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300018",
+      "po_date": "2026-08-05T00:00:00.000Z",
+      "supplier_id": "S004",
+      "item_code": "ITM-1002",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 10268.5,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300323",
+      "po_date": "2026-08-05T00:00:00.000Z",
+      "supplier_id": "S030",
+      "item_code": "ITM-1048",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 98.21,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300123",
+      "po_date": "2026-08-06T00:00:00.000Z",
+      "supplier_id": "S013",
+      "item_code": "ITM-1021",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 201.52,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300418",
+      "po_date": "2026-08-06T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1062",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 241186.93,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300097",
+      "po_date": "2026-08-08T00:00:00.000Z",
+      "supplier_id": "S012",
+      "item_code": "ITM-1017",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 1614.13,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300199",
+      "po_date": "2026-08-09T00:00:00.000Z",
+      "supplier_id": "S019",
+      "item_code": "ITM-1031",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 273.77,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300360",
+      "po_date": "2026-08-10T00:00:00.000Z",
+      "supplier_id": "S032",
+      "item_code": "ITM-1053",
+      "plant": "PUN1",
+      "quantity": 500,
+      "unit_price": 3952.23,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300293",
+      "po_date": "2026-08-11T00:00:00.000Z",
+      "supplier_id": "S026",
+      "item_code": "ITM-1042",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 1260.02,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300317",
+      "po_date": "2026-08-11T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1047",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 31.06,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300056",
+      "po_date": "2026-08-12T00:00:00.000Z",
+      "supplier_id": "S007",
+      "item_code": "ITM-1009",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 7.25,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300270",
+      "po_date": "2026-08-12T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1040",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 19152.28,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300367",
+      "po_date": "2026-08-12T00:00:00.000Z",
+      "supplier_id": "S034",
+      "item_code": "ITM-1054",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 207.13,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300072",
+      "po_date": "2026-08-13T00:00:00.000Z",
+      "supplier_id": "S008",
+      "item_code": "ITM-1014",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 23.06,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300160",
+      "po_date": "2026-08-13T00:00:00.000Z",
+      "supplier_id": "S016",
+      "item_code": "ITM-1027",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 245.97,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300318",
+      "po_date": "2026-08-13T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1047",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 28.64,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300040",
+      "po_date": "2026-08-14T00:00:00.000Z",
+      "supplier_id": "S001",
+      "item_code": "ITM-1007",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 79.49,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300050",
+      "po_date": "2026-08-14T00:00:00.000Z",
+      "supplier_id": "S008",
+      "item_code": "ITM-1009",
+      "plant": "PUN1",
+      "quantity": 10,
+      "unit_price": 7.99,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300348",
+      "po_date": "2026-08-14T00:00:00.000Z",
+      "supplier_id": "S030",
+      "item_code": "ITM-1051",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 9.43,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300063",
+      "po_date": "2026-08-15T00:00:00.000Z",
+      "supplier_id": "S008",
+      "item_code": "ITM-1011",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 5.59,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300121",
+      "po_date": "2026-08-17T00:00:00.000Z",
+      "supplier_id": "S016",
+      "item_code": "ITM-1021",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 189.69,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300352",
+      "po_date": "2026-08-20T00:00:00.000Z",
+      "supplier_id": "S032",
+      "item_code": "ITM-1052",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 32069.3,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300369",
+      "po_date": "2026-08-20T00:00:00.000Z",
+      "supplier_id": "S032",
+      "item_code": "ITM-1054",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 191.61,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300243",
+      "po_date": "2026-08-21T00:00:00.000Z",
+      "supplier_id": "S021",
+      "item_code": "ITM-1038",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 184.42,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300041",
+      "po_date": "2026-08-23T00:00:00.000Z",
+      "supplier_id": "S005",
+      "item_code": "ITM-1008",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 82.74,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300209",
+      "po_date": "2026-08-23T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1033",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 67233.28,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300390",
+      "po_date": "2026-08-24T00:00:00.000Z",
+      "supplier_id": "S035",
+      "item_code": "ITM-1059",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 2876.86,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300287",
+      "po_date": "2026-08-25T00:00:00.000Z",
+      "supplier_id": "S025",
+      "item_code": "ITM-1042",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 1104.15,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300334",
+      "po_date": "2026-08-25T00:00:00.000Z",
+      "supplier_id": "S031",
+      "item_code": "ITM-1050",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 124.69,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300321",
+      "po_date": "2026-08-28T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1048",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 90.62,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300187",
+      "po_date": "2026-08-29T00:00:00.000Z",
+      "supplier_id": "S018",
+      "item_code": "ITM-1029",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 1558.55,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300451",
+      "po_date": "2026-08-29T00:00:00.000Z",
+      "supplier_id": "S044",
+      "item_code": "ITM-1067",
+      "plant": "PUN1",
+      "quantity": 2,
+      "unit_price": 3588.97,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300466",
+      "po_date": "2026-08-29T00:00:00.000Z",
+      "supplier_id": "S045",
+      "item_code": "ITM-1071",
+      "plant": "PUN1",
+      "quantity": 4,
+      "unit_price": 1509176.02,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300241",
+      "po_date": "2026-08-31T00:00:00.000Z",
+      "supplier_id": "S021",
+      "item_code": "ITM-1037",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 2699.66,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300165",
+      "po_date": "2026-09-01T00:00:00.000Z",
+      "supplier_id": "S015",
+      "item_code": "ITM-1027",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 269.44,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300464",
+      "po_date": "2026-09-05T00:00:00.000Z",
+      "supplier_id": "S045",
+      "item_code": "ITM-1069",
+      "plant": "CHK1",
+      "quantity": 4,
+      "unit_price": 4561600.84,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300201",
+      "po_date": "2026-09-07T00:00:00.000Z",
+      "supplier_id": "S019",
+      "item_code": "ITM-1031",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 252.57,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300048",
+      "po_date": "2026-09-08T00:00:00.000Z",
+      "supplier_id": "S006",
+      "item_code": "ITM-1009",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 7.39,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300453",
+      "po_date": "2026-09-08T00:00:00.000Z",
+      "supplier_id": "S042",
+      "item_code": "ITM-1067",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 3180.07,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300211",
+      "po_date": "2026-09-12T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1033",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 65837.89,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300292",
+      "po_date": "2026-09-13T00:00:00.000Z",
+      "supplier_id": "S026",
+      "item_code": "ITM-1042",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 1159.02,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300171",
+      "po_date": "2026-09-16T00:00:00.000Z",
+      "supplier_id": "S019",
+      "item_code": "ITM-1028",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 2037.23,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300173",
+      "po_date": "2026-09-20T00:00:00.000Z",
+      "supplier_id": "S019",
+      "item_code": "ITM-1028",
+      "plant": "PUN1",
+      "quantity": 50,
+      "unit_price": 1682.57,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300180",
+      "po_date": "2026-09-20T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1029",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 1492.36,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300162",
+      "po_date": "2026-09-21T00:00:00.000Z",
+      "supplier_id": "S013",
+      "item_code": "ITM-1027",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 259.35,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300384",
+      "po_date": "2026-09-22T00:00:00.000Z",
+      "supplier_id": "S037",
+      "item_code": "ITM-1057",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 10879.83,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300062",
+      "po_date": "2026-09-23T00:00:00.000Z",
+      "supplier_id": "S006",
+      "item_code": "ITM-1011",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 6.64,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300259",
+      "po_date": "2026-09-23T00:00:00.000Z",
+      "supplier_id": "S024",
+      "item_code": "ITM-1039",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 2967.87,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300265",
+      "po_date": "2026-09-23T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1039",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 2655.92,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300179",
+      "po_date": "2026-09-24T00:00:00.000Z",
+      "supplier_id": "S020",
+      "item_code": "ITM-1029",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 1589.94,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300196",
+      "po_date": "2026-09-24T00:00:00.000Z",
+      "supplier_id": "S018",
+      "item_code": "ITM-1031",
+      "plant": "PUN1",
+      "quantity": 10,
+      "unit_price": 244.38,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300303",
+      "po_date": "2026-09-25T00:00:00.000Z",
+      "supplier_id": "S028",
+      "item_code": "ITM-1045",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 1199.48,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300284",
+      "po_date": "2026-09-26T00:00:00.000Z",
+      "supplier_id": "S026",
+      "item_code": "ITM-1041",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 75.72,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300328",
+      "po_date": "2026-09-26T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1048",
+      "plant": "CHK1",
+      "quantity": 2,
+      "unit_price": 94,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300038",
+      "po_date": "2026-09-27T00:00:00.000Z",
+      "supplier_id": "S003",
+      "item_code": "ITM-1005",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 68.92,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300454",
+      "po_date": "2026-09-27T00:00:00.000Z",
+      "supplier_id": "S043",
+      "item_code": "ITM-1067",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 3862.81,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300387",
+      "po_date": "2026-09-28T00:00:00.000Z",
+      "supplier_id": "S035",
+      "item_code": "ITM-1059",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 2999.66,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300301",
+      "po_date": "2026-09-29T00:00:00.000Z",
+      "supplier_id": "S028",
+      "item_code": "ITM-1045",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 1272.72,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300337",
+      "po_date": "2026-09-29T00:00:00.000Z",
+      "supplier_id": "S031",
+      "item_code": "ITM-1050",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 129.55,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300423",
+      "po_date": "2026-09-29T00:00:00.000Z",
+      "supplier_id": "S039",
+      "item_code": "ITM-1063",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 19522.84,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300229",
+      "po_date": "2026-09-30T00:00:00.000Z",
+      "supplier_id": "S023",
+      "item_code": "ITM-1036",
+      "plant": "PUN1",
+      "quantity": 500,
+      "unit_price": 4360.8,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300017",
+      "po_date": "2026-10-02T00:00:00.000Z",
+      "supplier_id": "S002",
+      "item_code": "ITM-1002",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 10415.92,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300130",
+      "po_date": "2026-10-03T00:00:00.000Z",
+      "supplier_id": "S014",
+      "item_code": "ITM-1021",
+      "plant": "PUN1",
+      "quantity": 500,
+      "unit_price": 215.87,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300398",
+      "po_date": "2026-10-04T00:00:00.000Z",
+      "supplier_id": "S039",
+      "item_code": "ITM-1061",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 206509.39,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300431",
+      "po_date": "2026-10-06T00:00:00.000Z",
+      "supplier_id": "S039",
+      "item_code": "ITM-1064",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 279958.18,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300036",
+      "po_date": "2026-10-07T00:00:00.000Z",
+      "supplier_id": "S003",
+      "item_code": "ITM-1005",
+      "plant": "PUN1",
+      "quantity": 100,
+      "unit_price": 74.34,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300445",
+      "po_date": "2026-10-07T00:00:00.000Z",
+      "supplier_id": "S043",
+      "item_code": "ITM-1066",
+      "plant": "PUN1",
+      "quantity": 1,
+      "unit_price": 67312.43,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300193",
+      "po_date": "2026-10-09T00:00:00.000Z",
+      "supplier_id": "S017",
+      "item_code": "ITM-1031",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 224.99,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300012",
+      "po_date": "2026-10-11T00:00:00.000Z",
+      "supplier_id": "S003",
+      "item_code": "ITM-1002",
+      "plant": "CHK1",
+      "quantity": 20,
+      "unit_price": 10586.51,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300242",
+      "po_date": "2026-10-12T00:00:00.000Z",
+      "supplier_id": "S021",
+      "item_code": "ITM-1037",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 2943.78,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300009",
+      "po_date": "2026-10-13T00:00:00.000Z",
+      "supplier_id": "S003",
+      "item_code": "ITM-1001",
+      "plant": "CHK1",
+      "quantity": 50,
+      "unit_price": 6836.65,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300167",
+      "po_date": "2026-10-14T00:00:00.000Z",
+      "supplier_id": "S019",
+      "item_code": "ITM-1028",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 2039.22,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300044",
+      "po_date": "2026-10-15T00:00:00.000Z",
+      "supplier_id": "S001",
+      "item_code": "ITM-1008",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 86.04,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300030",
+      "po_date": "2026-10-17T00:00:00.000Z",
+      "supplier_id": "S005",
+      "item_code": "ITM-1003",
+      "plant": "PUN1",
+      "quantity": 20,
+      "unit_price": 85.7,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300264",
+      "po_date": "2026-10-17T00:00:00.000Z",
+      "supplier_id": "S024",
+      "item_code": "ITM-1039",
+      "plant": "PUN1",
+      "quantity": 5,
+      "unit_price": 2893.72,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300340",
+      "po_date": "2026-10-17T00:00:00.000Z",
+      "supplier_id": "S029",
+      "item_code": "ITM-1051",
+      "plant": "CHK1",
+      "quantity": 10,
+      "unit_price": 8.76,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300358",
+      "po_date": "2026-10-17T00:00:00.000Z",
+      "supplier_id": "S032",
+      "item_code": "ITM-1053",
+      "plant": "PUN1",
+      "quantity": 200,
+      "unit_price": 4245.19,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300422",
+      "po_date": "2026-10-18T00:00:00.000Z",
+      "supplier_id": "S040",
+      "item_code": "ITM-1063",
+      "plant": "PUN1",
+      "quantity": 10,
+      "unit_price": 16787.93,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300244",
+      "po_date": "2026-10-19T00:00:00.000Z",
+      "supplier_id": "S024",
+      "item_code": "ITM-1038",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 166.41,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300326",
+      "po_date": "2026-10-23T00:00:00.000Z",
+      "supplier_id": "S030",
+      "item_code": "ITM-1048",
+      "plant": "CHK1",
+      "quantity": 500,
+      "unit_price": 89.62,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300296",
+      "po_date": "2026-10-24T00:00:00.000Z",
+      "supplier_id": "S026",
+      "item_code": "ITM-1043",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 175.9,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300449",
+      "po_date": "2026-10-24T00:00:00.000Z",
+      "supplier_id": "S044",
+      "item_code": "ITM-1067",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 3500.5,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300290",
+      "po_date": "2026-10-25T00:00:00.000Z",
+      "supplier_id": "S028",
+      "item_code": "ITM-1042",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 1199.68,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300091",
+      "po_date": "2026-10-27T00:00:00.000Z",
+      "supplier_id": "S011",
+      "item_code": "ITM-1017",
+      "plant": "CHK1",
+      "quantity": 200,
+      "unit_price": 1479.06,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300438",
+      "po_date": "2026-10-27T00:00:00.000Z",
+      "supplier_id": "S038",
+      "item_code": "ITM-1064",
+      "plant": "CHK1",
+      "quantity": 1,
+      "unit_price": 342679.06,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    },
+    {
+      "po_number": "7300379",
+      "po_date": "2026-10-28T00:00:00.000Z",
+      "supplier_id": "S036",
+      "item_code": "ITM-1057",
+      "plant": "CHK1",
+      "quantity": 100,
+      "unit_price": 12348.31,
+      "currency": "INR",
+      "on_time_delivery": false,
+      "quality_accepted": false
+    }
+  ],
+  "contracts": [
+    {
+      "contract_id": "RC-2025-011",
+      "supplier_id": "S001",
+      "effective_date": "2025-04-01T00:00:00.000Z",
+      "expiry_date": "2027-03-31T00:00:00.000Z",
+      "overall_ceiling": 6000000,
+      "consumed_value": 4100000,
+      "lines": [
+        {
+          "item_code": "ITM-1001",
+          "contract_price": 6340.39,
+          "min_order_qty": 1,
+          "ceiling": 6000000
+        },
+        {
+          "item_code": "ITM-1002",
+          "contract_price": 9168.71,
+          "min_order_qty": 1,
+          "ceiling": 6000000
+        },
+        {
+          "item_code": "ITM-1003",
+          "contract_price": 83.69,
+          "min_order_qty": 1,
+          "ceiling": 6000000
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "contract_id": "RC-2025-014",
+      "supplier_id": "S009",
+      "effective_date": "2025-12-01T00:00:00.000Z",
+      "expiry_date": "2026-11-30T00:00:00.000Z",
+      "overall_ceiling": 1500000,
+      "consumed_value": 640000,
+      "lines": [
+        {
+          "item_code": "ITM-1015",
+          "contract_price": 158.51,
+          "min_order_qty": 1,
+          "ceiling": 1500000
+        },
+        {
+          "item_code": "ITM-1016",
+          "contract_price": 115.26,
+          "min_order_qty": 1,
+          "ceiling": 1500000
+        },
+        {
+          "item_code": "ITM-1019",
+          "contract_price": 39.28,
+          "min_order_qty": 1,
+          "ceiling": 1500000
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "contract_id": "RC-2026-002",
+      "supplier_id": "S013",
+      "effective_date": "2026-01-01T00:00:00.000Z",
+      "expiry_date": "2026-12-31T00:00:00.000Z",
+      "overall_ceiling": 1200000,
+      "consumed_value": 1162000,
+      "lines": [
+        {
+          "item_code": "ITM-1021",
+          "contract_price": 202.2,
+          "min_order_qty": 1,
+          "ceiling": 1200000
+        },
+        {
+          "item_code": "ITM-1022",
+          "contract_price": 579.62,
+          "min_order_qty": 1,
+          "ceiling": 1200000
+        },
+        {
+          "item_code": "ITM-1023",
+          "contract_price": 1361.26,
+          "min_order_qty": 1,
+          "ceiling": 1200000
+        },
+        {
+          "item_code": "ITM-1024",
+          "contract_price": 311.24,
+          "min_order_qty": 1,
+          "ceiling": 1200000
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "contract_id": "RC-2026-005",
+      "supplier_id": "S004",
+      "effective_date": "2026-02-01T00:00:00.000Z",
+      "expiry_date": "2027-01-31T00:00:00.000Z",
+      "overall_ceiling": 3500000,
+      "consumed_value": 900000,
+      "lines": [
+        {
+          "item_code": "ITM-1006",
+          "contract_price": 329.54,
+          "min_order_qty": 1,
+          "ceiling": 3500000
+        },
+        {
+          "item_code": "ITM-1007",
+          "contract_price": 65.78,
+          "min_order_qty": 1,
+          "ceiling": 3500000
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "contract_id": "RC-2026-007",
+      "supplier_id": "S029",
+      "effective_date": "2026-01-01T00:00:00.000Z",
+      "expiry_date": "2026-12-31T00:00:00.000Z",
+      "overall_ceiling": 1500000,
+      "consumed_value": 300000,
+      "lines": [
+        {
+          "item_code": "ITM-1046",
+          "contract_price": 1091.63,
+          "min_order_qty": 1,
+          "ceiling": 1500000
+        },
+        {
+          "item_code": "ITM-1047",
+          "contract_price": 26.09,
+          "min_order_qty": 1,
+          "ceiling": 1500000
+        },
+        {
+          "item_code": "ITM-1048",
+          "contract_price": 90.32,
+          "min_order_qty": 1,
+          "ceiling": 1500000
+        },
+        {
+          "item_code": "ITM-1049",
+          "contract_price": 191.31,
+          "min_order_qty": 1,
+          "ceiling": 1500000
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "contract_id": "RC-2026-009",
+      "supplier_id": "S025",
+      "effective_date": "2026-02-01T00:00:00.000Z",
+      "expiry_date": "2027-01-31T00:00:00.000Z",
+      "overall_ceiling": 2500000,
+      "consumed_value": 900000,
+      "lines": [
+        {
+          "item_code": "ITM-1041",
+          "contract_price": 71.5,
+          "min_order_qty": 1,
+          "ceiling": 2500000
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "contract_id": "RC-2025-020",
+      "supplier_id": "S033",
+      "effective_date": "2025-10-01T00:00:00.000Z",
+      "expiry_date": "2026-09-30T00:00:00.000Z",
+      "overall_ceiling": 2000000,
+      "consumed_value": 1350000,
+      "lines": [
+        {
+          "item_code": "ITM-1052",
+          "contract_price": 28594.64,
+          "min_order_qty": 1,
+          "ceiling": 2000000
+        },
+        {
+          "item_code": "ITM-1053",
+          "contract_price": 3928.84,
+          "min_order_qty": 1,
+          "ceiling": 2000000
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "contract_id": "RC-2026-012",
+      "supplier_id": "S038",
+      "effective_date": "2026-04-01T00:00:00.000Z",
+      "expiry_date": "2027-03-31T00:00:00.000Z",
+      "overall_ceiling": 3000000,
+      "consumed_value": 1300000,
+      "lines": [
+        {
+          "item_code": "ITM-1061",
+          "contract_price": 178463.6,
+          "min_order_qty": 1,
+          "ceiling": 3000000
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "contract_id": "RC-2026-013",
+      "supplier_id": "S007",
+      "effective_date": "2026-06-01T00:00:00.000Z",
+      "expiry_date": "2027-05-31T00:00:00.000Z",
+      "overall_ceiling": 800000,
+      "consumed_value": 250000,
+      "lines": [
+        {
+          "item_code": "ITM-1009",
+          "contract_price": 7.06,
+          "min_order_qty": 1,
+          "ceiling": 800000
+        },
+        {
+          "item_code": "ITM-1010",
+          "contract_price": 1.81,
+          "min_order_qty": 1,
+          "ceiling": 800000
+        },
+        {
+          "item_code": "ITM-1011",
+          "contract_price": 5.75,
+          "min_order_qty": 1,
+          "ceiling": 800000
+        },
+        {
+          "item_code": "ITM-1013",
+          "contract_price": 36.18,
+          "min_order_qty": 1,
+          "ceiling": 800000
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "contract_id": "RC-2026-015",
+      "supplier_id": "S006",
+      "effective_date": "2026-07-01T00:00:00.000Z",
+      "expiry_date": "2027-06-30T00:00:00.000Z",
+      "overall_ceiling": 500000,
+      "consumed_value": 488000,
+      "lines": [
+        {
+          "item_code": "ITM-1009",
+          "contract_price": 6.45,
+          "min_order_qty": 1,
+          "ceiling": 500000
+        },
+        {
+          "item_code": "ITM-1014",
+          "contract_price": 20.64,
+          "min_order_qty": 1,
+          "ceiling": 500000
+        }
+      ],
+      "status": "Active"
+    },
+    {
+      "contract_id": "RC-2026-031",
+      "supplier_id": "S021",
+      "effective_date": "2026-11-15T00:00:00.000Z",
+      "expiry_date": "2027-11-14T00:00:00.000Z",
+      "overall_ceiling": 2000000,
+      "consumed_value": 0,
+      "lines": [
+        {
+          "item_code": "ITM-1025",
+          "contract_price": 1250,
+          "min_order_qty": 1,
+          "ceiling": 2000000
+        },
+        {
+          "item_code": "ITM-1026",
+          "contract_price": 1950,
+          "min_order_qty": 1,
+          "ceiling": 2000000
+        },
+        {
+          "item_code": "ITM-1033",
+          "contract_price": 450,
+          "min_order_qty": 1,
+          "ceiling": 2000000
+        }
+      ],
+      "status": "Active",
+      "source_file": "RC-2026-031.pdf"
+    },
+    {
+      "contract_id": "RC-2026-033",
+      "supplier_id": "S035",
+      "effective_date": "2026-11-20T00:00:00.000Z",
+      "expiry_date": "2027-11-19T00:00:00.000Z",
+      "overall_ceiling": 5000000,
+      "consumed_value": 0,
+      "lines": [
+        {
+          "item_code": "ITM-1030",
+          "contract_price": 380,
+          "min_order_qty": 1,
+          "ceiling": 5000000
+        },
+        {
+          "item_code": "ITM-1031",
+          "contract_price": 28000,
+          "min_order_qty": 1,
+          "ceiling": 5000000
+        },
+        {
+          "item_code": "ITM-1032",
+          "contract_price": 12000,
+          "min_order_qty": 1,
+          "ceiling": 5000000
+        }
+      ],
+      "status": "Active",
+      "source_file": "RC-2026-033.pdf"
+    }
+  ]
+}

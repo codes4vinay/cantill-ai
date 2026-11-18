@@ -181,6 +181,30 @@ async function seedAllData() {
 
   store.contracts = Object.values(contractsMap);
 
+  // Fallback to pre-bundled seedData.json if CSV master data files are not present
+  if (store.items.length === 0) {
+    const fallbackPath = path.resolve(__dirname, './seedData.json');
+    if (fs.existsSync(fallbackPath)) {
+      try {
+        const fallbackData = JSON.parse(fs.readFileSync(fallbackPath, 'utf8'));
+        store.items = fallbackData.items || [];
+        store.suppliers = fallbackData.suppliers || [];
+        store.poHistory = (fallbackData.poHistory || []).map(p => ({
+          ...p,
+          po_date: new Date(p.po_date)
+        }));
+        store.contracts = (fallbackData.contracts || []).map(c => ({
+          ...c,
+          effective_date: new Date(c.effective_date),
+          expiry_date: new Date(c.expiry_date)
+        }));
+        console.log(`[SeedService] Loaded from fallback seedData.json: ${store.items.length} items, ${store.suppliers.length} suppliers, ${store.poHistory.length} POs, ${store.contracts.length} contracts.`);
+      } catch (e) {
+        console.error('[SeedService] Failed loading fallback seedData.json:', e.message);
+      }
+    }
+  }
+
   // 5. Policy v5.0
   store.activePolicy = { ...DEFAULT_POLICY_V5 };
 
