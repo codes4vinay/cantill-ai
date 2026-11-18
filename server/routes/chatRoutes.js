@@ -11,9 +11,41 @@ const { clubPRLines } = require('../engine/clubbingService');
 const { evaluateRequirement } = require('../engine/decisionRules');
 const Requirement = require('../models/Requirement');
 
-function extractQuantity(text) {
-  const match = text.match(/\b([0-9]+)\s*(?:nos|pcs|units|pieces|qty|ea|items)?\b/i);
-  return match ? parseInt(match[1], 10) : null;
+function extractQuantity(text, isQuantityContext = false) {
+  if (!text) return null;
+  const lower = text.toLowerCase().trim();
+
+  // If input is purely a number or simple qty answer: e.g. "50", "20", "10 units"
+  const pureNumMatch = lower.match(/^\s*([0-9]+)\s*(?:nos|pcs|units|pieces|qty|ea|items)?\s*$/i);
+  if (pureNumMatch) {
+    return parseInt(pureNumMatch[1], 10);
+  }
+
+  // Explicit quantity with units: "50 pieces", "10 units", "20 nos"
+  const explicitQtyMatch = lower.match(/\b([0-9]+)\s*(?:nos|pcs|units|pieces|boxes|sets|pairs|pair|kg|ltr|cyl)\b/i);
+  if (explicitQtyMatch) {
+    return parseInt(explicitQtyMatch[1], 10);
+  }
+
+  // Need X: "need 50", "order 20"
+  const needMatch = lower.match(/(?:need|order|buy|require|want)\s+([0-9]+)\b/i);
+  if (needMatch) {
+    return parseInt(needMatch[1], 10);
+  }
+
+  // Leading quantity at start of line: e.g. "1 drinking water purifier", "10 pneumatic cylinders", "50 PLC"
+  // BUT do NOT match time expressions like "in 5 weeks" or specifications like "50 lph"
+  const leadingQtyMatch = lower.match(/^([0-9]+)\s+(?!weeks|days|months|hours|cum|kg|sqmm|lph|ton|hp\b)([a-z]+)/i);
+  if (leadingQtyMatch) {
+    return parseInt(leadingQtyMatch[1], 10);
+  }
+
+  if (isQuantityContext) {
+    const fallbackMatch = lower.match(/\b([0-9]+)\b/);
+    if (fallbackMatch) return parseInt(fallbackMatch[1], 10);
+  }
+
+  return null;
 }
 
 function extractPlant(text) {
@@ -23,9 +55,36 @@ function extractPlant(text) {
   return null;
 }
 
-function extractNeedByDate(text) {
-  const lower = text.toLowerCase();
+function extractNeedByDate(text, isEmergency = false) {
+  if (!text) return null;
+  const lower = text.toLowerCase().trim();
   const now = new Date();
+
+  // If urgent breakdown / emergency, automatic default is tomorrow (+1 day)
+  if (isEmergency || lower.includes('urgent') || lower.includes('breakdown') || lower.includes('emergency') || lower.includes('asap') || lower.includes('immediately')) {
+    return new Date(now.getTime() + 24 * 60 * 60 * 1000);
+  }
+
+  // in X weeks / X weeks (e.g. "in 5 weeks", "5 weeks")
+  const weeksMatch = lower.match(/(?:in\s+)?([0-9]+)\s+weeks?/i);
+  if (weeksMatch) {
+    const numWeeks = parseInt(weeksMatch[1], 10);
+    return new Date(now.getTime() + numWeeks * 7 * 24 * 60 * 60 * 1000);
+  }
+
+  // in X days / X days (e.g. "in 10 days", "10 days")
+  const daysMatch = lower.match(/(?:in\s+)?([0-9]+)\s+days?/i);
+  if (daysMatch) {
+    const numDays = parseInt(daysMatch[1], 10);
+    return new Date(now.getTime() + numDays * 24 * 60 * 60 * 1000);
+  }
+
+  // in X months / X months
+  const monthsMatch = lower.match(/(?:in\s+)?([0-9]+)\s+months?/i);
+  if (monthsMatch) {
+    const numMonths = parseInt(monthsMatch[1], 10);
+    return new Date(now.getFullYear(), now.getMonth() + numMonths, now.getDate());
+  }
 
   if (lower.includes('tomorrow')) {
     return new Date(now.getTime() + 24 * 60 * 60 * 1000);
@@ -33,18 +92,17 @@ function extractNeedByDate(text) {
   if (lower.includes('next week') || lower.includes('in a week')) {
     return new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
   }
-  if (lower.includes('in 2 weeks') || lower.includes('in two weeks')) {
-    return new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000);
-  }
-  if (lower.includes('by next friday') || lower.includes('friday')) {
-    return new Date(now.getTime() + 5 * 24 * 60 * 60 * 1000);
-  }
   if (lower.includes('end of month') || lower.includes('month end')) {
     return new Date(now.getFullYear(), now.getMonth() + 1, 0);
   }
+  if (lower.includes('friday') || lower.includes('next friday')) {
+    const day = now.getDay();
+    const diff = (5 + 7 - day) % 7 || 7;
+    return new Date(now.getTime() + diff * 24 * 60 * 60 * 1000);
+  }
 
-  // Explicit YYYY-MM-DD or DD/MM/YYYY
-  const dateMatch = text.match(/\b([0-9]{4}-[0-9]{2}-[0-9]{2}|[0-9]{1,2}[-/][0-9]{1,2}[-/][0-9]{2,4})\b/);
+  // Explicit YYYY-MM-DD or DD/MM/YYYY or DD-MM-YYYY
+  const dateMatch = lower.match(/\b([0-9]{4}-[0-9]{2}-[0-9]{2}|[0-9]{1,2}[-/][0-9]{1,2}[-/][0-9]{2,4})\b/);
   if (dateMatch) {
     const parsed = new Date(dateMatch[1]);
     if (!isNaN(parsed.getTime())) return parsed;
@@ -66,6 +124,14 @@ function extractCapex(text) {
   return lower.includes('capex') || lower.includes('capital') || lower.includes('asset') || lower.includes('machinery');
 }
 
+function isNewProductRequest(text) {
+  const lower = text.toLowerCase().trim();
+  // Check if text looks like a full requisition statement
+  return /^(need|require|please order|order|buy|i want|[0-9]+\s+[a-z]+)/i.test(lower) ||
+    lower.includes('for chakan') || lower.includes('for pune') ||
+    lower.includes('breakdown') || lower.includes('capex');
+}
+
 // POST /api/chat
 router.post('/', async (req, res) => {
   try {
@@ -75,36 +141,56 @@ router.post('/', async (req, res) => {
     }
 
     let currentState = { ...session_state };
+    const isNewReq = isNewProductRequest(message);
 
-    // If previous request completed OR user clearly starts a fresh PR statement, reset session state
-    const isNewStatement = /^(need|require|please|order|i want|[0-9]+\s+[a-z]+)/i.test(message.trim());
-    if (currentState.is_complete || (isNewStatement && !currentState.awaiting_price && !currentState.awaiting_field)) {
+    // If previous request was finished OR user sends a clear new product request, start fresh!
+    if (currentState.is_complete || (isNewReq && !currentState.awaiting_price && currentState.awaiting_field !== 'quantity')) {
       currentState = {};
     }
 
-    // Check if user is answering a unit price question for a new item
+    // 1. Check if user is answering estimated price for a non-catalog item
     if (currentState.awaiting_price) {
-      const priceMatch = message.match(/(?:inr|rs\.?)?\s*([0-9,]+(?:\.[0-9]+)?)/i);
-      if (priceMatch) {
-        currentState.estimated_unit_price = Number(priceMatch[1].replace(/,/g, ''));
+      const priceVal = Number(message.replace(/[^0-9.]/g, ''));
+      if (priceVal > 0) {
+        currentState.estimated_unit_price = priceVal;
         currentState.awaiting_price = false;
       }
     }
 
-    // Extract entities from current message
-    const detectedQty = extractQuantity(message);
-    if (detectedQty !== null) currentState.quantity = detectedQty;
-
-    const detectedPlant = extractPlant(message);
-    if (detectedPlant) currentState.plant = detectedPlant;
-
-    const detectedDate = extractNeedByDate(message);
-    if (detectedDate) currentState.need_by_date = detectedDate.toISOString().slice(0, 10);
-
+    // 2. Extract urgency & capex
     if (extractUrgency(message) === 'Emergency') currentState.urgency = 'Emergency';
     if (extractCapex(message)) currentState.is_capex = true;
 
-    // Item matching if item is not locked yet
+    // 3. Extract quantity only if not already set or actively awaiting quantity
+    if (!currentState.quantity || currentState.awaiting_field === 'quantity') {
+      const isQtyAnswer = currentState.awaiting_field === 'quantity';
+      const detectedQty = extractQuantity(message, isQtyAnswer);
+      if (detectedQty !== null) {
+        currentState.quantity = detectedQty;
+        if (isQtyAnswer) currentState.awaiting_field = null;
+      }
+    }
+
+    // 4. Extract plant
+    const detectedPlant = extractPlant(message);
+    if (detectedPlant) {
+      currentState.plant = detectedPlant;
+      if (currentState.awaiting_field === 'plant') currentState.awaiting_field = null;
+    }
+
+    // 5. Extract need-by date
+    const isEmergency = currentState.urgency === 'Emergency';
+    const detectedDate = extractNeedByDate(message, isEmergency);
+    if (detectedDate) {
+      currentState.need_by_date = detectedDate.toISOString().slice(0, 10);
+      if (currentState.awaiting_field === 'need_by_date') currentState.awaiting_field = null;
+    } else if (isEmergency && !currentState.need_by_date) {
+      // Auto-set tomorrow for emergencies
+      const tomorrow = new Date(Date.now() + 24 * 60 * 60 * 1000);
+      currentState.need_by_date = tomorrow.toISOString().slice(0, 10);
+    }
+
+    // 6. Item matching
     if (!currentState.item_code) {
       const items = store.items || [];
       const match = matchItem({ description: message }, items);
@@ -115,15 +201,20 @@ router.post('/', async (req, res) => {
         currentState.category = match.category;
         currentState.confidence = match.confidence;
         currentState.is_new = false;
-      } else if (match.is_new) {
+      } else {
         currentState.item_code = 'NEW_ITEM';
-        currentState.item_name = message.replace(/(?:need|require|i want|please order)\s*/i, '').trim();
+        currentState.item_name = message
+          .replace(/^(need|order|buy|require|please order|i want)\s+/i, '')
+          .replace(/\b(for chakan|for pune|chk1|pun1|by next friday|urgent breakdown|urgent|capex project|capex|in [0-9]+ weeks?|in [0-9]+ days?)\b/gi, '')
+          .replace(/^[0-9]+\s*(?:pieces|nos|units|pcs)?\s*(?:of)?\s*/i, '')
+          .replace(/\s+/g, ' ')
+          .trim();
         currentState.category = 'Non-Catalog';
         currentState.is_new = true;
       }
     }
 
-    // Conversational follow-ups for missing fields
+    // Check missing fields and build conversational response
     if (!currentState.item_code) {
       return res.json({
         reply: "Hello! What item or spare part would you like to request today?",
@@ -153,7 +244,7 @@ router.post('/', async (req, res) => {
     if (!currentState.need_by_date) {
       currentState.awaiting_field = 'need_by_date';
       return res.json({
-        reply: `Destination plant set to ${currentState.plant}. When do you need this delivered by? (e.g. "next Friday", "in 2 weeks", or YYYY-MM-DD)`,
+        reply: `Destination plant set to ${currentState.plant}. When do you need this delivered by? (e.g. "in 5 weeks", "next Friday", or YYYY-MM-DD)`,
         session_state: currentState,
         is_complete: false
       });
@@ -168,7 +259,7 @@ router.post('/', async (req, res) => {
       });
     }
 
-    // All fields confirmed! Process Requirement and Evaluate Policy
+    // All fields present! Process Requirement through Policy Engine
     currentState.awaiting_field = null;
     currentState.awaiting_price = false;
 
@@ -222,12 +313,11 @@ router.post('/', async (req, res) => {
       await Requirement.create(fullReq);
     } catch (e) {}
 
-    // Clean conversational confirmation without raw markdown markup
-    const cleanReply = `Purchase request confirmed for ${fullReq.total_quantity} units of ${fullReq.item_name}. The policy engine evaluated this requirement and assigned route: ${fullReq.system_route}.`;
+    const cleanReply = `Purchase request confirmed for ${fullReq.total_quantity} units of ${fullReq.item_name}. Policy decision: ${fullReq.system_route}.`;
 
     return res.json({
       reply: cleanReply,
-      session_state: { is_complete: true }, // Mark complete so next prompt starts fresh!
+      session_state: { is_complete: true },
       is_complete: true,
       requirement: fullReq
     });

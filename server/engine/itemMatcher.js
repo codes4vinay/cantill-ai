@@ -20,14 +20,27 @@ const STOPWORDS = new Set([
   'required', 'need', 'plz', 'please', 'nos', 'qty', 'standard', 'make',
   'pieces', 'piece', 'units', 'items', 'chakan', 'pune', 'chk1', 'pun1',
   'friday', 'monday', 'tuesday', 'wednesday', 'thursday', 'saturday', 'sunday',
-  'today', 'tomorrow', 'next', 'week', 'month', 'delivery', 'by', 'in'
+  'today', 'tomorrow', 'next', 'week', 'month', 'delivery', 'by', 'in',
+  'breakdown', 'emergency', 'critical', 'capex', 'project', 'expansion',
+  'replacement', 'line', 'store', 'stores', 'admin', 'quality', 'tool', 'room'
 ]);
+
+function stemWord(w) {
+  if (!w || w.length <= 3) return w;
+  if (w.endsWith('ies')) return w.slice(0, -3) + 'y';
+  if (w.endsWith('es') && (w.endsWith('shes') || w.endsWith('ches') || w.endsWith('xes'))) return w.slice(0, -2);
+  if (w.endsWith('s') && !w.endsWith('ss') && !w.endsWith('us') && !w.endsWith('is')) return w.slice(0, -1);
+  return w;
+}
 
 function normalizeText(text) {
   if (!text) return '';
   let str = String(text).toLowerCase().replace(/[^a-z0-9\s/x-]/g, ' ');
   const words = str.split(/\s+/).filter(Boolean);
-  const mapped = words.map(w => SYNONYMS[w] || w).filter(w => !STOPWORDS.has(w));
+  const mapped = words
+    .map(w => SYNONYMS[w] || w)
+    .filter(w => !STOPWORDS.has(w))
+    .map(stemWord);
   return mapped.join(' ');
 }
 
@@ -49,7 +62,10 @@ function tokenSimilarity(str1, str2) {
     if (tokens2.has(t)) intersection++;
   }
   const union = new Set([...tokens1, ...tokens2]).size;
-  return intersection / union;
+  const jaccard = intersection / union;
+  const overlap = intersection / tokens1.size; // Fraction of query tokens found in item
+
+  return Math.max(jaccard, overlap * 0.85);
 }
 
 /**

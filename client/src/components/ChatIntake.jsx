@@ -29,8 +29,8 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
   const quickPrompts = [
     "Need 50 pieces of bearing 6308 ZZ for Chakan plant by next Friday",
     "10 pneumatic cylinders for Pune urgent breakdown",
-    "1 drinking water purifier 50 LPH for Chakan",
-    "50 PLC CPU modules for Pune plant capex project"
+    "1 drinking water purifier 50 LPH for Chakan in 5 weeks",
+    "1 air compressor 30HP for Pune plant capex project"
   ];
 
   const scrollToBottom = () => {
