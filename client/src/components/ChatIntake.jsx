@@ -185,13 +185,13 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
       </div>
 
       {mode === 'chat' ? (
-        <div className="bg-slate-900/70 border border-slate-800 rounded-2xl shadow-xl flex flex-col h-[650px] overflow-hidden backdrop-blur-md">
+        <div className="bg-slate-900/70 border border-slate-800 rounded-2xl shadow-xl flex flex-col h-[540px] sm:h-[650px] overflow-hidden backdrop-blur-md">
           {/* Messages Stream */}
-          <div className="flex-1 p-6 overflow-y-auto space-y-4">
+          <div className="flex-1 p-3 sm:p-6 overflow-y-auto space-y-3 sm:space-y-4">
             {messages.map((m, idx) => (
               <div
                 key={idx}
-                className={`flex items-start space-x-3 ${m.sender === 'user' ? 'flex-row-reverse space-x-reverse' : 'flex-row'}`}
+                className={`flex items-start space-x-2.5 sm:space-x-3 ${m.sender === 'user' ? 'flex-row-reverse space-x-reverse' : 'flex-row'}`}
               >
                 {/* Avatar */}
                 <div
@@ -206,7 +206,7 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
 
                 {/* Message Bubble */}
                 <div
-                  className={`max-w-2xl rounded-2xl px-5 py-3.5 text-xs leading-relaxed shadow-sm ${
+                  className={`max-w-[88%] sm:max-w-2xl rounded-2xl px-3.5 py-2.5 sm:px-5 sm:py-3.5 text-xs leading-relaxed shadow-sm ${
                     m.sender === 'user'
                       ? 'bg-gradient-to-r from-indigo-600 to-indigo-500 text-white'
                       : 'bg-slate-800/90 text-slate-200 border border-slate-700/80'
@@ -216,8 +216,8 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
 
                   {/* Clean Visual Requirement Card */}
                   {m.requirement && (
-                    <div className="mt-3.5 pt-3 border-t border-slate-700/80 bg-slate-950/70 rounded-xl p-3.5 space-y-3">
-                      <div className="flex items-center justify-between">
+                    <div className="mt-3 pt-3 border-t border-slate-700/80 bg-slate-950/70 rounded-xl p-3 space-y-2.5">
+                      <div className="flex items-center justify-between gap-1 flex-wrap">
                         <div className="flex items-center space-x-2">
                           <span className="font-mono text-xs font-bold text-indigo-400">
                             {m.requirement.req_id}
@@ -242,7 +242,7 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
                       </div>
 
                       {/* Policy Citation Quotation */}
-                      <div className="p-2.5 rounded-lg bg-slate-900 border border-slate-800 text-[11px] text-slate-300 flex items-start space-x-2">
+                      <div className="p-2 sm:p-2.5 rounded-lg bg-slate-900 border border-slate-800 text-[11px] text-slate-300 flex items-start space-x-2">
                         <ShieldCheck className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
                         <div>
                           <strong className="text-white block">Policy Decision Explanation:</strong>
@@ -266,7 +266,7 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
                         </div>
                         <div>
                           <span className="text-slate-500 block uppercase text-[9px] font-semibold">Assigned Supplier</span>
-                          <span className="font-semibold text-indigo-300">
+                          <span className="font-semibold text-indigo-300 truncate block">
                             {m.requirement.system_supplier_name || m.requirement.system_supplier_id || 'Multi-Vendor Sourcing'}
                           </span>
                         </div>
@@ -292,7 +292,7 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
           </div>
 
           {/* Quick Prompts Bar (Scrollbar hidden) */}
-          <div className="px-6 py-2 bg-slate-950/60 border-t border-slate-800/80 flex items-center space-x-2 overflow-x-auto no-scrollbar text-xs">
+          <div className="px-3 sm:px-6 py-2 bg-slate-950/60 border-t border-slate-800/80 flex items-center space-x-2 overflow-x-auto no-scrollbar text-xs">
             <span className="text-slate-500 font-semibold text-[10px] uppercase whitespace-nowrap">Try:</span>
             {quickPrompts.map((p, i) => (
               <button
@@ -311,22 +311,23 @@ export default function ChatIntake({ onRequirementCreated, onNavigateToBuyer }) 
               e.preventDefault();
               handleSend();
             }}
-            className="p-4 bg-slate-900 border-t border-slate-800 flex items-center space-x-3"
+            className="p-3 sm:p-4 bg-slate-900 border-t border-slate-800 flex items-center space-x-2 sm:space-x-3"
           >
             <input
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder="e.g. Need 50 pieces of bearing 6308 ZZ for Chakan plant by next Friday..."
-              className="flex-1 px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-xs transition-all"
+              className="flex-1 px-3 sm:px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-xs transition-all"
               disabled={loading}
             />
             <button
               type="submit"
               disabled={loading || !input.trim()}
-              className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-indigo-500 text-white font-semibold text-xs flex items-center space-x-2 hover:from-indigo-500 hover:to-indigo-400 disabled:opacity-40 disabled:cursor-not-allowed shadow-md shadow-indigo-600/20 transition-all"
+              className="px-3.5 sm:px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-indigo-500 text-white font-semibold text-xs flex items-center space-x-1.5 sm:space-x-2 hover:from-indigo-500 hover:to-indigo-400 disabled:opacity-40 disabled:cursor-not-allowed shadow-md shadow-indigo-600/20 transition-all flex-shrink-0"
             >
-              <span>Submit PR</span>
+              <span className="hidden sm:inline">Submit PR</span>
+              <span className="sm:hidden">Send</span>
               <Send className="w-3.5 h-3.5" />
             </button>
           </form>

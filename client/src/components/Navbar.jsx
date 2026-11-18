@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import {
   MessageSquare, Layers, ShieldCheck, Truck, Sparkles, Activity,
-  HelpCircle, X, CheckCircle2, ArrowRight
+  HelpCircle, X, CheckCircle2, ArrowRight, Menu
 } from 'lucide-react';
 
 export default function Navbar({ activeTab, setActiveTab, activePolicyVersion, isHealthy }) {
   const [showHelp, setShowHelp] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const tabs = [
     { id: 'chat', label: '1. AI Intake & Batch', icon: MessageSquare },
@@ -14,41 +15,48 @@ export default function Navbar({ activeTab, setActiveTab, activePolicyVersion, i
     { id: 'suppliers', label: '4. Suppliers & Contracts', icon: Truck },
   ];
 
+  const handleTabClick = (tabId) => {
+    setActiveTab(tabId);
+    setMobileMenuOpen(false);
+  };
+
   return (
     <>
-      <header className="sticky top-0 z-50 bg-slate-900/80 backdrop-blur-xl border-b border-slate-800/80 shadow-2xl shadow-black/40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <header className="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-xl border-b border-slate-800/80 shadow-2xl shadow-black/40">
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
             {/* Logo & Brand */}
-            <div className="flex items-center space-x-3.5">
+            <div className="flex items-center space-x-2.5 sm:space-x-3.5">
               <div className="relative group">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-cyan-400 flex items-center justify-center text-white shadow-lg shadow-indigo-500/25 transition-transform group-hover:scale-105 duration-200">
-                  <Sparkles className="w-5 h-5 text-white" />
+                <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-cyan-400 flex items-center justify-center text-white shadow-lg shadow-indigo-500/25 transition-transform group-hover:scale-105 duration-200">
+                  <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
                 </div>
-                <span className="absolute -top-1 -right-1 w-3 h-3 bg-emerald-500 rounded-full border-2 border-slate-900 animate-pulse"></span>
+                <span className="absolute -top-1 -right-1 w-2.5 h-2.5 sm:w-3 sm:h-3 bg-emerald-500 rounded-full border-2 border-slate-900 animate-pulse"></span>
               </div>
               <div>
-                <div className="flex items-center space-x-2">
-                  <span className="text-base font-extrabold tracking-tight text-white">
+                <div className="flex items-center space-x-1.5 sm:space-x-2">
+                  <span className="text-sm sm:text-base font-extrabold tracking-tight text-white">
                     Cantill<span className="text-indigo-400">.ai</span>
                   </span>
-                  <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-300 border border-indigo-500/20">
+                  <span className="text-[9px] sm:text-[10px] uppercase font-bold tracking-wider px-1.5 sm:px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-300 border border-indigo-500/20">
                     ProcureOS
                   </span>
                 </div>
-                <p className="text-[11px] text-slate-400 font-medium tracking-tight">Policy-Driven PR-to-PO Decision Platform</p>
+                <p className="text-[10px] sm:text-[11px] text-slate-400 font-medium tracking-tight hidden sm:block">
+                  Policy-Driven PR-to-PO Decision Platform
+                </p>
               </div>
             </div>
 
-            {/* Navigation Pill Bar */}
-            <nav className="flex items-center bg-slate-950/70 p-1 rounded-xl border border-slate-800/90 shadow-inner">
+            {/* Desktop Navigation Pill Bar */}
+            <nav className="hidden lg:flex items-center bg-slate-950/70 p-1 rounded-xl border border-slate-800/90 shadow-inner">
               {tabs.map((tab) => {
                 const Icon = tab.icon;
                 const isActive = activeTab === tab.id;
                 return (
                   <button
                     key={tab.id}
-                    onClick={() => setActiveTab(tab.id)}
+                    onClick={() => handleTabClick(tab.id)}
                     className={`flex items-center space-x-2 px-3.5 py-2 rounded-lg text-xs font-semibold transition-all duration-200 ${
                       isActive
                         ? 'bg-gradient-to-r from-indigo-600 to-indigo-500 text-white shadow-md shadow-indigo-600/30'
@@ -62,9 +70,8 @@ export default function Navbar({ activeTab, setActiveTab, activePolicyVersion, i
               })}
             </nav>
 
-            {/* Status & Guide Buttons */}
-            <div className="flex items-center space-x-2.5">
-              {/* How it Works Button */}
+            {/* Desktop Status & Guide Buttons */}
+            <div className="hidden sm:flex items-center space-x-2">
               <button
                 onClick={() => setShowHelp(true)}
                 className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition-all shadow-md shadow-indigo-600/20"
@@ -73,14 +80,65 @@ export default function Navbar({ activeTab, setActiveTab, activePolicyVersion, i
                 <span>How It Works</span>
               </button>
 
-              {/* Policy Badge */}
-              <div className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-950 border border-slate-800 text-xs font-medium text-indigo-300">
+              <div className="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-lg bg-slate-950 border border-slate-800 text-xs font-medium text-indigo-300">
                 <ShieldCheck className="w-3.5 h-3.5 text-indigo-400" />
                 <span>Policy: <strong className="text-white font-mono">{activePolicyVersion || 'v5.0'}</strong></span>
               </div>
             </div>
+
+            {/* Mobile Hamburger Toggle & Compact Badge */}
+            <div className="flex items-center space-x-2 lg:hidden">
+              <div className="px-2 py-1 rounded-lg bg-slate-950 border border-slate-800 text-[10px] font-semibold text-indigo-300 flex items-center space-x-1">
+                <ShieldCheck className="w-3 h-3 text-indigo-400" />
+                <span>{activePolicyVersion || 'v5.0'}</span>
+              </div>
+
+              <button
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                className="p-2 rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:text-white transition-colors"
+                aria-label="Toggle navigation"
+              >
+                {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+              </button>
+            </div>
           </div>
         </div>
+
+        {/* Mobile Dropdown Menu */}
+        {mobileMenuOpen && (
+          <div className="lg:hidden bg-slate-950/95 border-b border-slate-800 px-4 pt-2 pb-5 space-y-3 backdrop-blur-2xl">
+            <div className="space-y-1 pt-1">
+              {tabs.map((tab) => {
+                const Icon = tab.icon;
+                const isActive = activeTab === tab.id;
+                return (
+                  <button
+                    key={tab.id}
+                    onClick={() => handleTabClick(tab.id)}
+                    className={`w-full flex items-center space-x-3 px-4 py-2.5 rounded-xl text-xs font-semibold transition-all ${
+                      isActive
+                        ? 'bg-gradient-to-r from-indigo-600 to-indigo-500 text-white shadow-md shadow-indigo-600/30'
+                        : 'text-slate-300 hover:bg-slate-900 hover:text-white'
+                    }`}
+                  >
+                    <Icon className={`w-4 h-4 ${isActive ? 'text-white' : 'text-slate-400'}`} />
+                    <span>{tab.label}</span>
+                  </button>
+                );
+              })}
+            </div>
+
+            <div className="pt-2 border-t border-slate-800/80 flex items-center justify-between gap-2">
+              <button
+                onClick={() => { setShowHelp(true); setMobileMenuOpen(false); }}
+                className="flex-1 flex items-center justify-center space-x-1.5 px-3 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition-all shadow-md shadow-indigo-600/20"
+              >
+                <HelpCircle className="w-3.5 h-3.5" />
+                <span>💡 How It Works Guide</span>
+              </button>
+            </div>
+          </div>
+        )}
       </header>
 
       {/* "How It Works" Explainer Modal */}

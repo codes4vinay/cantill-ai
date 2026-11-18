@@ -226,19 +226,19 @@ export default function BuyerWorkspace() {
               return (
                 <div key={req.req_id} className="transition-colors hover:bg-slate-800/30">
                   {/* Summary Row */}
-                  <div className="p-4 flex flex-col md:flex-row md:items-center justify-between gap-3 text-xs">
-                    <div className="flex items-center space-x-3">
+                  <div className="p-3 sm:p-4 flex flex-col lg:flex-row lg:items-center justify-between gap-3 text-xs">
+                    <div className="flex items-start sm:items-center space-x-2.5 sm:space-x-3">
                       <button
                         onClick={() => setExpandedId(isExpanded ? null : req.req_id)}
-                        className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors"
+                        className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors flex-shrink-0 mt-0.5 sm:mt-0"
                       >
                         {isExpanded ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
                       </button>
 
-                      <div>
-                        <div className="flex items-center space-x-2">
+                      <div className="min-w-0">
+                        <div className="flex items-center space-x-1.5 sm:space-x-2 flex-wrap gap-y-1">
                           <span className="font-mono font-bold text-indigo-400 text-sm">{req.req_id}</span>
-                          <span className={`px-2.5 py-0.5 rounded-full font-bold text-[10px] border ${routeBadges[req.system_route] || 'bg-slate-800 text-slate-300'}`}>
+                          <span className={`px-2 py-0.5 rounded-full font-bold text-[10px] border ${routeBadges[req.system_route] || 'bg-slate-800 text-slate-300'}`}>
                             {req.system_route}
                           </span>
                           {isOverridden && (
@@ -257,14 +257,14 @@ export default function BuyerWorkspace() {
                             </span>
                           )}
                         </div>
-                        <div className="font-medium text-slate-200 text-xs mt-1">
+                        <div className="font-medium text-slate-200 text-xs mt-1 truncate">
                           {req.item_name || req.item_code}
                           <span className="text-slate-500 font-mono ml-1.5 text-[11px]">({req.item_code})</span>
                         </div>
                       </div>
                     </div>
 
-                    <div className="flex items-center space-x-6 text-slate-300 text-xs">
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-4 text-slate-300 text-xs py-2 lg:py-0 border-y lg:border-y-0 border-slate-800/60">
                       <div>
                         <span className="text-slate-500 block text-[9px] uppercase font-semibold">Plant</span>
                         <span className="font-semibold text-white">{req.plant}</span>
@@ -279,14 +279,14 @@ export default function BuyerWorkspace() {
                       </div>
                       <div>
                         <span className="text-slate-500 block text-[9px] uppercase font-semibold">Assigned / Lead</span>
-                        <span className="font-medium text-indigo-300">
+                        <span className="font-medium text-indigo-300 truncate block">
                           {req.system_supplier_name || req.system_supplier_id || 'Competitive'}
                         </span>
                       </div>
                     </div>
 
                     {/* Action Buttons */}
-                    <div className="flex items-center space-x-2">
+                    <div className="flex items-center space-x-2 self-end lg:self-center">
                       {req.status !== 'Approved' ? (
                         <button
                           onClick={() => handleApprove(req.req_id)}
