@@ -86,19 +86,42 @@ function extractNeedByDate(text, isEmergency = false) {
     return new Date(now.getFullYear(), now.getMonth() + numMonths, now.getDate());
   }
 
+  if (lower.includes('day after tomorrow')) {
+    return new Date(now.getTime() + 2 * 24 * 60 * 60 * 1000);
+  }
   if (lower.includes('tomorrow')) {
     return new Date(now.getTime() + 24 * 60 * 60 * 1000);
   }
   if (lower.includes('next week') || lower.includes('in a week')) {
     return new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
   }
+  if (lower.includes('next month')) {
+    return new Date(now.getFullYear(), now.getMonth() + 1, now.getDate());
+  }
   if (lower.includes('end of month') || lower.includes('month end')) {
     return new Date(now.getFullYear(), now.getMonth() + 1, 0);
   }
-  if (lower.includes('friday') || lower.includes('next friday')) {
-    const day = now.getDay();
-    const diff = (5 + 7 - day) % 7 || 7;
-    return new Date(now.getTime() + diff * 24 * 60 * 60 * 1000);
+
+  // Days of week: monday through sunday (e.g. "next monday", "this friday", "by monday", "monday")
+  const daysMap = {
+    sunday: 0,
+    monday: 1,
+    tuesday: 2,
+    wednesday: 3,
+    thursday: 4,
+    friday: 5,
+    saturday: 6
+  };
+  for (const [dayName, targetDay] of Object.entries(daysMap)) {
+    const dayRegex = new RegExp(`\\b(?:next\\s+|this\\s+|by\\s+|on\\s+)?${dayName}\\b`, 'i');
+    if (dayRegex.test(lower)) {
+      const currentDay = now.getDay();
+      let diff = (targetDay - currentDay + 7) % 7;
+      if (diff === 0 || lower.includes(`next ${dayName}`)) {
+        diff = diff === 0 ? 7 : diff;
+      }
+      return new Date(now.getTime() + diff * 24 * 60 * 60 * 1000);
+    }
   }
 
   // Explicit YYYY-MM-DD or DD/MM/YYYY or DD-MM-YYYY
