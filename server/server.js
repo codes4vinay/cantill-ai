@@ -7,6 +7,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+const https = require('https');
 
 const connectDB = require('./config/db');
 const { seedAllData, store } = require('./services/seedService');
@@ -61,6 +62,23 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: err.message || 'Internal Server Error' });
 });
 
+// Self-Ping Keep-Alive for Render Free Tier (Pings every 14 minutes to prevent sleep)
+function startKeepAlive() {
+  const targetBase = process.env.SELF_PING_URL || process.env.RENDER_EXTERNAL_URL || 'https://cantill-ai-pk3w.onrender.com';
+  const pingUrl = `${targetBase.replace(/\/+$/, '')}/api/health`;
+  const INTERVAL_MS = 14 * 60 * 1000; // 14 minutes
+
+  console.log(`[Keep-Alive] Initialized self-ping service targeting ${pingUrl} every 14 minutes.`);
+
+  setInterval(() => {
+    https.get(pingUrl, (res) => {
+      console.log(`[Keep-Alive] Ping to ${pingUrl} - Status: ${res.statusCode} at ${new Date().toISOString()}`);
+    }).on('error', (err) => {
+      console.warn(`[Keep-Alive] Ping warning at ${new Date().toISOString()}: ${err.message}`);
+    });
+  }, INTERVAL_MS);
+}
+
 // Start Server and Seed Data
 let serverInstance = null;
 
@@ -74,6 +92,8 @@ async function startServer() {
     console.log(` Active Policy: ${store.activePolicy?.version || 'v5.0'}`);
     console.log(` Environment: ${process.env.NODE_ENV || 'development'}`);
     console.log(`====================================================`);
+
+    startKeepAlive();
   });
 
   return serverInstance;
