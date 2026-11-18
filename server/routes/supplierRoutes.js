@@ -70,20 +70,32 @@ router.get('/preferred/export-csv', (req, res) => {
     const poHistory = store.poHistory || [];
     const contracts = store.contracts || [];
 
-    const headers = ['item_code', 'rank', 'supplier_id', 'supplier_name', 'score', 'reference_price'];
+    const isVerbose = req.query.verbose === 'true';
+    const headers = isVerbose
+      ? ['item_code', 'rank', 'supplier_id', 'supplier_name', 'score', 'reference_price']
+      : ['item_code', 'rank', 'supplier_id', 'reference_price'];
     const rows = [];
 
     for (const it of items) {
       const ranked = rankSuppliersForItem(it.item_code, asOfDate, suppliers, poHistory, contracts);
       ranked.slice(0, 3).forEach((s, idx) => {
-        rows.push([
-          it.item_code,
-          idx + 1,
-          s.supplier_id,
-          `"${(s.name || '').replace(/"/g, '""')}"`,
-          s.score,
-          s.reference_price
-        ].join(','));
+        if (isVerbose) {
+          rows.push([
+            it.item_code,
+            idx + 1,
+            s.supplier_id,
+            `"${(s.name || '').replace(/"/g, '""')}"`,
+            s.score,
+            s.reference_price
+          ].join(','));
+        } else {
+          rows.push([
+            it.item_code,
+            idx + 1,
+            s.supplier_id,
+            s.reference_price
+          ].join(','));
+        }
       });
     }
 

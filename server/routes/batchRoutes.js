@@ -35,48 +35,63 @@ function parseCSVBuffer(buffer) {
   return rows;
 }
 
-function generateCSVOutput(evaluatedRequirements) {
+function generateCSVOutput(evaluatedRequirements, version = '5.0') {
   const headers = [
-    'req_id',
-    'pr_ids',
-    'item_code',
-    'plant',
-    'total_quantity',
-    'need_by_date',
-    'estimated_unit_price',
-    'valuation_method',
-    'total_value',
+    'pr_no',
+    'pr_line',
+    'resolved_item_code',
+    'group_id',
+    'po_id',
+    'decision',
     'route',
-    'rule_clause',
     'supplier_id',
-    'suggested_suppliers',
-    'po_number'
+    'unit_price',
+    'group_value_inr',
+    'suggested_supplier_ids',
+    'policy_version',
+    'reason'
   ];
 
-  const rows = evaluatedRequirements.map(req => {
-    const prIds = (req.lines || []).map(l => l.pr_id).filter(Boolean).join(';');
-    const needBy = req.need_by_date ? new Date(req.need_by_date).toISOString().slice(0, 10) : '';
-    const suggested = (req.suggested_suppliers || []).map(s => s.supplier_id || s.name).join(';');
-    const clauseCleaned = `"${(req.system_clause || '').replace(/"/g, '""')}"`;
-    const po = req.po_number || '';
+  const rows = [];
 
-    return [
-      req.req_id,
-      prIds,
-      req.item_code,
-      req.plant,
-      req.total_quantity,
-      needBy,
-      req.estimated_unit_price,
-      req.valuation_method,
-      req.total_value_inr,
-      req.system_route,
-      clauseCleaned,
-      req.system_supplier_id || '',
-      suggested,
-      po
-    ].join(',');
-  });
+  for (const req of evaluatedRequirements) {
+    const isPO = ['CONTRACT_PO', 'SPOT_PO', 'EMERGENCY_PO'].includes(req.system_route);
+    const decision = isPO ? 'PO' : 'SOURCING_REQUEST';
+    const poId = isPO ? (req.po_number || '') : '';
+    const suppId = isPO ? (req.system_supplier_id || '') : '';
+    const unitPrice = isPO ? (req.estimated_unit_price ?? '') : '';
+    const suggested = isPO
+      ? ''
+      : (req.suggested_suppliers || []).map(s => s.supplier_id || s.name || s).join(';');
+    const groupVal = Math.round(req.total_value_inr || 0);
+    const reasonClean = `"${(req.system_clause || '').replace(/"/g, '""')}"`;
+    const resolvedItem = req.is_new_item || req.item_code === 'NEW_ITEM' ? 'NEW' : req.item_code;
+    const policyVer = version || store.activePolicy?.version?.replace(/^v/, '') || '5.0';
+
+    const lines = req.lines && req.lines.length > 0 ? req.lines : [{ pr_id: req.req_id, line_number: 1 }];
+
+    for (const l of lines) {
+      const prNo = l.pr_id || l.pr_no || req.req_id;
+      const prLine = l.line_number || l.pr_line || 1;
+      const itemForLine = l.is_new ? 'NEW' : (l.item_code || resolvedItem);
+
+      rows.push([
+        prNo,
+        prLine,
+        itemForLine,
+        req.req_id,
+        poId,
+        decision,
+        req.system_route,
+        suppId,
+        unitPrice,
+        groupVal,
+        suggested,
+        policyVer,
+        reasonClean
+      ].join(','));
+    }
+  }
 
   return [headers.join(','), ...rows].join('\n');
 }
