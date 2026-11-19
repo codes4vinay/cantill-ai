@@ -1,0 +1,191 @@
+pr_no,pr_line,resolved_item_code,group_id,po_id,decision,route,supplier_id,unit_price,group_value_inr,suggested_supplier_ids,policy_version,reason
+PR-26-00501,1,ITM-1009,REQ-0003,PO-0001,PO,CONTRACT_PO,S007,7.06,173958,,5.1,Clause 5.2: Rate contract RC-2026-013 used at ₹7.06
+PR-26-00502,1,ITM-1021,REQ-0141,PO-0076,PO,SPOT_PO,S014,215.87,74814,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S014"
+PR-26-00503,1,ITM-1052,REQ-0136,PO-0072,PO,SPOT_PO,S033,34848.33,96208,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S033"
+PR-26-00504,1,ITM-1024,REQ-0106,PO-0057,PO,CONTRACT_PO,S013,311.24,12450,,5.1,Clause 5.2: Rate contract RC-2026-002 used at ₹311.24
+PR-26-00505,1,ITM-1007,REQ-0098,,SOURCING_REQUEST,RFQ,,,301267,S001;S003;S002,5.1,"Clause 5.5: Value ₹301,267 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00506,1,ITM-1049,REQ-0047,PO-0031,PO,CONTRACT_PO,S029,191.31,145396,,5.1,Clause 5.2: Rate contract RC-2026-007 used at ₹191.31
+PR-26-00507,1,ITM-1001,REQ-0155,PO-0081,PO,CONTRACT_PO,S001,6340.39,31702,,5.1,Clause 5.2: Rate contract RC-2025-011 used at ₹6340.39
+PR-26-00508,1,ITM-1047,REQ-0099,PO-0053,PO,CONTRACT_PO,S029,26.09,300035,,5.1,Clause 5.2: Rate contract RC-2026-007 used at ₹26.09
+PR-26-00509,1,ITM-1019,REQ-0056,PO-0036,PO,CONTRACT_PO,S009,39.28,14534,,5.1,Clause 5.2: Rate contract RC-2025-014 used at ₹39.28
+PR-26-00510,1,ITM-1002,REQ-0024,PO-0016,PO,CONTRACT_PO,S001,9168.71,110025,,5.1,Clause 5.2: Rate contract RC-2025-011 used at ₹9168.71
+PR-26-00511,1,ITM-1048,REQ-0139,PO-0075,PO,CONTRACT_PO,S029,90.32,74966,,5.1,Clause 5.2: Rate contract RC-2026-007 used at ₹90.32
+PR-26-00512,1,ITM-1015,REQ-0021,PO-0013,PO,CONTRACT_PO,S009,158.51,163265,,5.1,Clause 5.2: Rate contract RC-2025-014 used at ₹158.51
+PR-26-00513,1,ITM-1010,REQ-0004,PO-0001,PO,CONTRACT_PO,S007,1.81,276912,,5.1,Clause 5.2: Rate contract RC-2026-013 used at ₹1.81
+PR-26-00514,1,ITM-1023,REQ-0034,PO-0021,PO,SPOT_PO,S014,1500.01,176964,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S014"
+PR-26-00515,1,ITM-1022,REQ-0137,PO-0073,PO,CONTRACT_PO,S013,579.62,23185,,5.1,Clause 5.2: Rate contract RC-2026-002 used at ₹579.62
+PR-26-00516,1,ITM-1053,REQ-0058,,SOURCING_REQUEST,RFQ,,,212259,S032;S033,5.1,"Clause 5.5: Value ₹212,259 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00517,1,NEW,REQ-0039,,SOURCING_REQUEST,NEW_ITEM_SOURCING,,,344378,,5.1,Clause 1.2: New item not in item master
+PR-26-00518,1,ITM-1006,REQ-0046,,SOURCING_REQUEST,RFQ,,,284700,S003;S001;S002,5.1,"Clause 5.5: Value ₹284,700 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00519,1,ITM-1041,REQ-0083,PO-0048,PO,CONTRACT_PO,S025,71.5,253825,,5.1,Clause 5.2: Rate contract RC-2026-009 used at ₹71.5
+PR-26-00520,1,ITM-1016,REQ-0028,PO-0013,PO,CONTRACT_PO,S009,115.26,149838,,5.1,Clause 5.2: Rate contract RC-2025-014 used at ₹115.26
+PR-26-00521,1,ITM-1046,REQ-0092,PO-0053,PO,CONTRACT_PO,S029,1091.63,251075,,5.1,Clause 5.2: Rate contract RC-2026-007 used at ₹1091.63
+PR-26-00522,1,ITM-1013,REQ-0072,PO-0042,PO,SPOT_PO,S007,37.74,69104,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S007"
+PR-26-00523,1,ITM-1003,REQ-0015,PO-0009,PO,CONTRACT_PO,S001,83.69,266971,,5.1,Clause 5.2: Rate contract RC-2025-011 used at ₹83.69
+PR-26-00524,1,ITM-1014,REQ-0063,,SOURCING_REQUEST,RFQ,,,231581,S006;S007,5.1,"Clause 5.5: Value ₹231,581 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00525,1,ITM-1022,REQ-0006,PO-0002,PO,SPOT_PO,S014,640.23,63758,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S014"
+PR-26-00526,1,ITM-1023,REQ-0154,PO-0080,PO,SPOT_PO,S014,1500.01,68063,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S014"
+PR-26-00527,1,ITM-1023,REQ-0040,PO-0026,PO,SPOT_PO,S014,1500.01,95288,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S014"
+PR-26-00528,1,ITM-1022,REQ-0105,PO-0056,PO,SPOT_PO,S014,640.23,110128,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S014"
+PR-26-00529,1,ITM-1022,REQ-0119,PO-0064,PO,SPOT_PO,S014,640.23,127516,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S014"
+PR-26-00530,1,ITM-1022,REQ-0105,PO-0056,PO,SPOT_PO,S014,640.23,110128,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S014"
+PR-26-00531,1,ITM-1009,REQ-0082,PO-0047,PO,SPOT_PO,S006,7.39,17931,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S006"
+PR-26-00532,1,ITM-1009,REQ-0003,PO-0001,PO,CONTRACT_PO,S007,7.06,173958,,5.1,Clause 5.2: Rate contract RC-2026-013 used at ₹7.06
+PR-26-00533,1,ITM-1009,REQ-0013,PO-0008,PO,CONTRACT_PO,S007,7.06,22098,,5.1,Clause 5.2: Rate contract RC-2026-013 used at ₹7.06
+PR-26-00534,1,ITM-1009,REQ-0003,PO-0001,PO,CONTRACT_PO,S007,7.06,173958,,5.1,Clause 5.2: Rate contract RC-2026-013 used at ₹7.06
+PR-26-00535,1,ITM-1009,REQ-0122,PO-0065,PO,SPOT_PO,S006,7.39,16834,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S006"
+PR-26-00536,1,ITM-1057,REQ-0009,PO-0004,PO,CONTRACT_PO,S035,10689.51,320685,,5.1,Clause 5.2: Rate contract RC-2026-033 used at ₹10689.51
+PR-26-00537,1,ITM-1036,REQ-0055,PO-0035,PO,CONTRACT_PO,S021,3537.76,70755,,5.1,Clause 5.2: Rate contract RC-2026-031 used at ₹3537.76
+PR-26-00538,1,ITM-1039,REQ-0012,PO-0007,PO,CONTRACT_PO,S021,2746.87,164812,,5.1,Clause 5.2: Rate contract RC-2026-031 used at ₹2746.87
+PR-26-00539,1,ITM-1056,REQ-0112,PO-0061,PO,CONTRACT_PO,S035,64654.36,193963,,5.1,Clause 5.2: Rate contract RC-2026-033 used at ₹64654.36
+PR-26-00540,1,ITM-1037,REQ-0051,PO-0033,PO,CONTRACT_PO,S021,2439.01,195121,,5.1,Clause 5.2: Rate contract RC-2026-031 used at ₹2439.01
+PR-26-00541,1,ITM-1056,REQ-0064,PO-0039,PO,CONTRACT_PO,S035,64654.36,129309,,5.1,Clause 5.2: Rate contract RC-2026-033 used at ₹64654.36
+PR-26-00542,1,ITM-1057,REQ-0114,PO-0063,PO,CONTRACT_PO,S035,10689.51,85516,,5.1,Clause 5.2: Rate contract RC-2026-033 used at ₹10689.51
+PR-26-00543,1,ITM-1036,REQ-0091,PO-0052,PO,CONTRACT_PO,S021,3537.76,60142,,5.1,Clause 5.2: Rate contract RC-2026-031 used at ₹3537.76
+PR-26-00544,1,ITM-1037,REQ-0016,PO-0010,PO,CONTRACT_PO,S021,2439.01,219511,,5.1,Clause 5.2: Rate contract RC-2026-031 used at ₹2439.01
+PR-26-00545,1,ITM-1039,REQ-0130,PO-0069,PO,CONTRACT_PO,S021,2746.87,137344,,5.1,Clause 5.2: Rate contract RC-2026-031 used at ₹2746.87
+PR-26-00546,1,ITM-1073,REQ-0074,,SOURCING_REQUEST,CAPEX_SOURCING,,,2300000,S045;S047;S020;S048;S046,5.1,Clause 5.1: Item type is Capex. Requires capex approval.
+PR-26-00547,1,ITM-1072,REQ-0145,,SOURCING_REQUEST,CAPEX_SOURCING,,,2738201,S045;S047;S020;S048;S046,5.1,Clause 5.1: Item type is Capex. Requires capex approval.
+PR-26-00548,1,ITM-1071,REQ-0033,,SOURCING_REQUEST,CAPEX_SOURCING,,,4527528,S045;S047;S020;S048;S046,5.1,Clause 5.1: Item type is Capex. Requires capex approval.
+PR-26-00549,1,ITM-1073,REQ-0044,,SOURCING_REQUEST,CAPEX_SOURCING,,,4600000,S045;S047;S020;S048;S046,5.1,Clause 5.1: Item type is Capex. Requires capex approval.
+PR-26-00550,1,ITM-1060,REQ-0121,,SOURCING_REQUEST,RFQ,,,145000,S036;S035;S037,5.1,"Clause 5.5: Value ₹145,000 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00551,1,ITM-1032,REQ-0109,,SOURCING_REQUEST,RFQ,,,47000,S019;S020;S017,5.1,"Clause 5.5: Value ₹47,000 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00552,1,ITM-1055,REQ-0002,,SOURCING_REQUEST,RFQ,,,13800,S033;S032,5.1,"Clause 5.5: Value ₹13,800 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00553,1,ITM-1032,REQ-0115,,SOURCING_REQUEST,RFQ,,,258500,S019;S020;S017,5.1,"Clause 5.5: Value ₹258,500 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00554,1,ITM-1060,REQ-0143,,SOURCING_REQUEST,RFQ,,,174000,S036;S035;S037,5.1,"Clause 5.5: Value ₹174,000 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00555,1,ITM-1042,REQ-0131,PO-0070,PO,EMERGENCY_PO,S026,1159.02,419888,,5.1,Clause 5.3: Emergency PO to 1st preferred supplier S026 at reference price
+PR-26-00556,1,ITM-1004,REQ-0066,PO-0040,PO,EMERGENCY_PO,S003,23773.75,380380,,5.1,Clause 5.3: Emergency PO to 1st preferred supplier S003 at reference price
+PR-26-00557,1,ITM-1043,REQ-0007,PO-0003,PO,EMERGENCY_PO,S026,175.9,344764,,5.1,Clause 5.3: Emergency PO to 1st preferred supplier S026 at reference price
+PR-26-00558,1,ITM-1031,REQ-0014,,SOURCING_REQUEST,RFQ,,,161993,S019;S017;S018,5.1,"Clause 5.2A: Chakan electrical safety requirement >= ₹50,000 must be sourced. RFQ with 3 suggested suppliers"
+PR-26-00559,1,ITM-1051,REQ-0035,PO-0022,PO,EMERGENCY_PO,S029,8.76,279882,,5.1,Clause 5.3: Emergency PO to 1st preferred supplier S029 at reference price
+PR-26-00560,1,ITM-1033,REQ-0010,PO-0005,PO,EMERGENCY_PO,S020,65837.89,131676,,5.1,Clause 5.3: Emergency PO to 1st preferred supplier S020 at reference price
+PR-26-00561,1,ITM-1027,REQ-0127,PO-0067,PO,SPOT_PO,S013,259.35,10374,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S013"
+PR-26-00562,1,ITM-1050,REQ-0036,PO-0023,PO,SPOT_PO,S029,130.83,78247,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S029"
+PR-26-00563,1,ITM-1012,REQ-0029,PO-0018,PO,SPOT_PO,S006,0.77,104936,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S006"
+PR-26-00564,1,ITM-1038,REQ-0104,PO-0055,PO,SPOT_PO,S024,166.41,69892,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S024"
+PR-26-00565,1,ITM-1058,REQ-0084,PO-0049,PO,SPOT_PO,S036,257.79,157252,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S036"
+PR-26-00566,1,ITM-1045,REQ-0065,,SOURCING_REQUEST,RFQ,,,236726,S028;S027;S026,5.1,"Clause 5.5: Value ₹236,726 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00567,1,ITM-1059,REQ-0059,PO-0037,PO,SPOT_PO,S035,2999.66,41995,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S035"
+PR-26-00568,1,ITM-1026,REQ-0134,PO-0071,PO,SPOT_PO,S014,106.38,168080,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S014"
+PR-26-00569,1,ITM-1034,REQ-0037,PO-0024,PO,SPOT_PO,S020,40929.88,163720,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S020"
+PR-26-00570,1,ITM-1017,REQ-0041,PO-0027,PO,SPOT_PO,S012,1614.13,100076,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S012"
+PR-26-00571,1,ITM-1018,REQ-0088,PO-0051,PO,SPOT_PO,S009,1186.78,119865,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S009"
+PR-26-00572,1,ITM-1030,REQ-0113,PO-0062,PO,SPOT_PO,S017,1149.88,14948,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S017"
+PR-26-00573,1,ITM-1029,REQ-0054,,SOURCING_REQUEST,RFQ,,,222592,S020;S017;S019,5.1,"Clause 5.2A: Chakan electrical safety requirement >= ₹50,000 must be sourced. RFQ with 3 suggested suppliers"
+PR-26-00574,1,ITM-1054,REQ-0043,PO-0029,PO,SPOT_PO,S032,191.61,53651,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S032"
+PR-26-00575,1,ITM-1035,REQ-0147,PO-0078,PO,SPOT_PO,S023,391.82,94037,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S023"
+PR-26-00576,1,ITM-1020,REQ-0128,PO-0068,PO,SPOT_PO,S009,210.17,31525,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S009"
+PR-26-00577,1,ITM-1005,REQ-0045,PO-0030,PO,SPOT_PO,S003,74.34,75827,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S003"
+PR-26-00578,1,ITM-1044,REQ-0053,PO-0034,PO,SPOT_PO,S027,21.59,50220,,5.1,"Clause 5.4: Value under ₹100,000 and bought in 365d. 1st preferred supplier S027"
+PR-26-00579,1,ITM-1008,REQ-0048,PO-0032,PO,SPOT_PO,S001,86.04,133362,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S001"
+PR-26-00580,1,ITM-1028,REQ-0031,,SOURCING_REQUEST,RFQ,,,448628,S019;S017;S020,5.1,"Clause 5.5: Value ₹448,628 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00581,1,ITM-1040,REQ-0124,PO-0066,PO,SPOT_PO,S023,19152.28,19152,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S023"
+PR-26-00582,1,ITM-1033,REQ-0138,PO-0074,PO,SPOT_PO,S020,65837.89,65838,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S020"
+PR-26-00583,1,ITM-1054,REQ-0142,PO-0077,PO,SPOT_PO,S032,191.61,153288,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S032"
+PR-26-00584,1,ITM-1045,REQ-0065,,SOURCING_REQUEST,RFQ,,,236726,S028;S027;S026,5.1,"Clause 5.5: Value ₹236,726 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00585,1,ITM-1050,REQ-0050,PO-0028,PO,SPOT_PO,S029,130.83,156494,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S029"
+PR-26-00586,1,ITM-1020,REQ-0128,PO-0068,PO,SPOT_PO,S009,210.17,31525,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S009"
+PR-26-00587,1,ITM-1038,REQ-0030,PO-0019,PO,SPOT_PO,S024,166.41,14977,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S024"
+PR-26-00588,1,ITM-1058,REQ-0017,PO-0011,PO,SPOT_PO,S036,257.79,107756,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S036"
+PR-26-00589,1,ITM-1066,REQ-0005,,SOURCING_REQUEST,RFP,,,807749,S043;S044;S042,5.1,"Clause 5.6: Value ₹807,749 >= ₹800,000. RFP with 5 suggested suppliers"
+PR-26-00590,1,ITM-1068,REQ-0135,,SOURCING_REQUEST,RFQ,,,415043,S043;S042;S044,5.1,"Clause 5.5: Value ₹415,043 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00591,1,ITM-1044,REQ-0100,,SOURCING_REQUEST,RFQ,,,556238,S027;S028;S026,5.1,"Clause 5.5: Value ₹556,238 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00592,1,ITM-1031,REQ-0027,,SOURCING_REQUEST,RFQ,,,206991,S019;S017;S018,5.1,"Clause 5.5: Value ₹206,991 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00593,1,ITM-1028,REQ-0025,,SOURCING_REQUEST,RFQ,,,795296,S019;S017;S020,5.1,"Clause 5.2A: Chakan electrical safety requirement >= ₹50,000 must be sourced. RFQ with 3 suggested suppliers"
+PR-26-00594,1,ITM-1034,REQ-0061,,SOURCING_REQUEST,RFQ,,,491159,S020;S019;S017,5.1,"Clause 5.2A: Chakan electrical safety requirement >= ₹50,000 must be sourced. RFQ with 3 suggested suppliers"
+PR-26-00595,1,ITM-1061,REQ-0080,PO-0045,PO,CONTRACT_PO,S038,178463.6,535391,,5.1,Clause 5.2: Rate contract RC-2026-012 used at ₹178463.6
+PR-26-00596,1,ITM-1029,REQ-0101,,SOURCING_REQUEST,RFQ,,,476982,S020;S017;S019,5.1,"Clause 5.5: Value ₹476,982 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00597,1,ITM-1030,REQ-0094,,SOURCING_REQUEST,RFQ,,,218477,S017;S019;S018,5.1,"Clause 5.2A: Chakan electrical safety requirement >= ₹50,000 must be sourced. RFQ with 3 suggested suppliers"
+PR-26-00598,1,ITM-1043,REQ-0049,,SOURCING_REQUEST,RFQ,,,580470,S026;S027;S028,5.1,"Clause 5.5: Value ₹580,470 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00599,1,ITM-1004,REQ-0151,,SOURCING_REQUEST,RFP,,,1664162,S003;S002;S001;S005,5.1,"Clause 5.6: Value ₹1,664,162 >= ₹800,000. RFP with 5 suggested suppliers"
+PR-26-00600,1,ITM-1040,REQ-0146,,SOURCING_REQUEST,RFP,,,2451492,S023;S024;S022;S021,5.1,"Clause 5.6: Value ₹2,451,492 >= ₹800,000. RFP with 5 suggested suppliers"
+PR-26-00601,1,ITM-1059,REQ-0070,,SOURCING_REQUEST,RFP,,,2321737,S035;S036;S037,5.1,"Clause 5.6: Value ₹2,321,737 >= ₹800,000. RFP with 5 suggested suppliers"
+PR-26-00602,1,ITM-1035,REQ-0108,,SOURCING_REQUEST,RFP,,,1430143,S023;S024;S022;S021,5.1,"Clause 5.6: Value ₹1,430,143 >= ₹800,000. RFP with 5 suggested suppliers"
+PR-26-00603,1,ITM-1042,REQ-0086,,SOURCING_REQUEST,RFQ,,,179952,S026;S028;S025,5.1,"Clause 5.5: Value ₹179,952 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00604,1,ITM-1042,REQ-0095,,SOURCING_REQUEST,RFQ,,,179952,S026;S028;S025,5.1,"Clause 5.5: Value ₹179,952 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00605,1,ITM-1045,REQ-0090,,SOURCING_REQUEST,RFQ,,,131090,S028;S027;S026,5.1,"Clause 5.5: Value ₹131,090 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00606,1,ITM-1044,REQ-0096,,SOURCING_REQUEST,RFQ,,,148966,S027;S028;S026,5.1,"Clause 5.5: Value ₹148,966 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00607,1,ITM-1043,REQ-0126,,SOURCING_REQUEST,RFQ,,,193490,S026;S027;S028,5.1,"Clause 5.5: Value ₹193,490 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00608,1,ITM-1045,REQ-0140,,SOURCING_REQUEST,RFQ,,,123454,S028;S027;S026,5.1,"Clause 5.5: Value ₹123,454 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00609,1,ITM-1043,REQ-0049,,SOURCING_REQUEST,RFQ,,,580470,S026;S027;S028,5.1,"Clause 5.5: Value ₹580,470 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00610,1,ITM-1044,REQ-0089,,SOURCING_REQUEST,RFQ,,,151508,S027;S028;S026,5.1,"Clause 5.5: Value ₹151,508 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00611,1,ITM-1029,REQ-0132,,SOURCING_REQUEST,RFQ,,,127195,S020;S017;S019,5.1,"Clause 5.2A: Chakan electrical safety requirement >= ₹50,000 must be sourced. RFQ with 3 suggested suppliers"
+PR-26-00612,1,ITM-1031,REQ-0103,,SOURCING_REQUEST,RFQ,,,98996,S019;S017;S018,5.1,"Clause 5.2A: Chakan electrical safety requirement >= ₹50,000 must be sourced. RFQ with 3 suggested suppliers"
+PR-26-00613,1,ITM-1030,REQ-0097,,SOURCING_REQUEST,RFQ,,,80492,S017;S019;S018,5.1,"Clause 5.2A: Chakan electrical safety requirement >= ₹50,000 must be sourced. RFQ with 3 suggested suppliers"
+PR-26-00614,1,ITM-1033,REQ-0123,,SOURCING_REQUEST,RFQ,,,131676,S020;S019;S017,5.1,"Clause 5.2A: Chakan electrical safety requirement >= ₹50,000 must be sourced. RFQ with 3 suggested suppliers"
+PR-26-00615,1,ITM-1034,REQ-0076,,SOURCING_REQUEST,RFQ,,,81860,S020;S019;S017,5.1,"Clause 5.2A: Chakan electrical safety requirement >= ₹50,000 must be sourced. RFQ with 3 suggested suppliers"
+PR-26-00616,1,ITM-1028,REQ-0079,,SOURCING_REQUEST,RFQ,,,163138,S019;S017;S020,5.1,"Clause 5.2A: Chakan electrical safety requirement >= ₹50,000 must be sourced. RFQ with 3 suggested suppliers"
+PR-26-00617,1,ITM-1029,REQ-0144,,SOURCING_REQUEST,RFQ,,,158994,S020;S017;S019,5.1,"Clause 5.2A: Chakan electrical safety requirement >= ₹50,000 must be sourced. RFQ with 3 suggested suppliers"
+PR-26-00618,1,ITM-1031,REQ-0073,,SOURCING_REQUEST,RFQ,,,76497,S019;S017;S018,5.1,"Clause 5.2A: Chakan electrical safety requirement >= ₹50,000 must be sourced. RFQ with 3 suggested suppliers"
+PR-26-00619,1,ITM-1030,REQ-0001,,SOURCING_REQUEST,RFQ,,,206978,S017;S019;S018,5.1,"Clause 5.5: Value ₹206,978 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00620,1,ITM-1028,REQ-0031,,SOURCING_REQUEST,RFQ,,,448628,S019;S017;S020,5.1,"Clause 5.5: Value ₹448,628 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00621,1,ITM-1017,REQ-0125,,SOURCING_REQUEST,RFP,,,1054027,S012;S009;S010,5.1,"Clause 5.6: Value ₹1,054,027 >= ₹800,000. RFP with 5 suggested suppliers"
+PR-26-00622,1,ITM-1018,REQ-0120,,SOURCING_REQUEST,RFP,,,804637,S009;S012;S010,5.1,"Clause 5.6: Value ₹804,637 >= ₹800,000. RFP with 5 suggested suppliers"
+PR-26-00623,1,ITM-1008,REQ-0129,,SOURCING_REQUEST,RFP,,,896537,S001;S005;S002;S003,5.1,"Clause 5.6: Value ₹896,537 >= ₹800,000. RFP with 5 suggested suppliers"
+PR-26-00624,1,ITM-1026,REQ-0087,,SOURCING_REQUEST,RFP,,,1063800,S014;S013;S015;S016,5.1,"Clause 5.6: Value ₹1,063,800 >= ₹800,000. RFP with 5 suggested suppliers"
+PR-26-00625,1,ITM-1051,REQ-0133,,SOURCING_REQUEST,RFP,,,819673,S029;S030,5.1,"Clause 5.6: Value ₹819,673 >= ₹800,000. RFP with 5 suggested suppliers"
+PR-26-00626,1,ITM-1012,REQ-0111,PO-0060,PO,SPOT_PO,S006,0.77,133387,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S006"
+PR-26-00627,1,ITM-1012,REQ-0111,PO-0060,PO,SPOT_PO,S006,0.77,133387,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S006"
+PR-26-00628,1,ITM-1012,REQ-0111,PO-0060,PO,SPOT_PO,S006,0.77,133387,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S006"
+PR-26-00629,1,ITM-1005,REQ-0107,PO-0058,PO,SPOT_PO,S003,74.34,150910,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S003"
+PR-26-00630,1,ITM-1005,REQ-0107,PO-0058,PO,SPOT_PO,S003,74.34,150910,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S003"
+PR-26-00631,1,ITM-1005,REQ-0107,PO-0058,PO,SPOT_PO,S003,74.34,150910,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S003"
+PR-26-00632,1,ITM-1027,REQ-0026,PO-0017,PO,SPOT_PO,S015,269.44,145236,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S015"
+PR-26-00633,1,ITM-1027,REQ-0026,PO-0017,PO,SPOT_PO,S015,269.44,145236,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S015"
+PR-26-00634,1,ITM-1027,REQ-0026,PO-0017,PO,SPOT_PO,S015,269.44,145236,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S015"
+PR-26-00635,1,ITM-1018,REQ-0081,PO-0046,PO,SPOT_PO,S009,1186.78,157842,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S009"
+PR-26-00636,1,ITM-1018,REQ-0081,PO-0046,PO,SPOT_PO,S009,1186.78,157842,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S009"
+PR-26-00637,1,ITM-1018,REQ-0081,PO-0046,PO,SPOT_PO,S009,1186.78,157842,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S009"
+PR-26-00638,1,ITM-1051,REQ-0035,PO-0022,PO,EMERGENCY_PO,S029,8.76,279882,,5.1,Clause 5.3: Emergency PO to 1st preferred supplier S029 at reference price
+PR-26-00639,1,ITM-1051,REQ-0035,PO-0022,PO,EMERGENCY_PO,S029,8.76,279882,,5.1,Clause 5.3: Emergency PO to 1st preferred supplier S029 at reference price
+PR-26-00640,1,ITM-1051,REQ-0035,PO-0022,PO,EMERGENCY_PO,S029,8.76,279882,,5.1,Clause 5.3: Emergency PO to 1st preferred supplier S029 at reference price
+PR-26-00641,1,ITM-1008,REQ-0093,PO-0054,PO,SPOT_PO,S001,86.04,171220,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S001"
+PR-26-00642,1,ITM-1008,REQ-0093,PO-0054,PO,SPOT_PO,S001,86.04,171220,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S001"
+PR-26-00643,1,ITM-1008,REQ-0093,PO-0054,PO,SPOT_PO,S001,86.04,171220,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S001"
+PR-26-00644,1,ITM-1008,REQ-0093,PO-0054,PO,SPOT_PO,S001,86.04,171220,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S001"
+PR-26-00645,1,ITM-1059,REQ-0070,,SOURCING_REQUEST,RFP,,,2321737,S035;S036;S037,5.1,"Clause 5.6: Value ₹2,321,737 >= ₹800,000. RFP with 5 suggested suppliers"
+PR-26-00646,1,ITM-1059,REQ-0077,PO-0044,PO,SPOT_PO,S035,2999.66,11999,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S035"
+PR-26-00647,1,ITM-1059,REQ-0085,PO-0050,PO,SPOT_PO,S035,2999.66,14998,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S035"
+PR-26-00648,1,ITM-1050,REQ-0023,PO-0015,PO,SPOT_PO,S029,130.83,16853,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S029"
+PR-26-00649,1,ITM-1050,REQ-0032,PO-0020,PO,SPOT_PO,S029,130.83,14446,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S029"
+PR-26-00650,1,ITM-1050,REQ-0042,PO-0028,PO,SPOT_PO,S029,130.83,9630,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S029"
+PR-26-00651,1,ITM-1004,REQ-0062,PO-0038,PO,SPOT_PO,S003,23773.75,23774,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S003"
+PR-26-00652,1,ITM-1004,REQ-0066,PO-0040,PO,EMERGENCY_PO,S003,23773.75,380380,,5.1,Clause 5.3: Emergency PO to 1st preferred supplier S003 at reference price
+PR-26-00653,1,ITM-1004,REQ-0075,PO-0043,PO,SPOT_PO,S003,23773.75,23774,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S003"
+PR-26-00654,1,ITM-1046,REQ-0092,PO-0053,PO,CONTRACT_PO,S029,1091.63,251075,,5.1,Clause 5.2: Rate contract RC-2026-007 used at ₹1091.63
+PR-26-00655,1,ITM-1047,REQ-0099,PO-0053,PO,CONTRACT_PO,S029,26.09,300035,,5.1,Clause 5.2: Rate contract RC-2026-007 used at ₹26.09
+PR-26-00656,1,ITM-1048,REQ-0102,PO-0053,PO,CONTRACT_PO,S029,90.32,14451,,5.1,Clause 5.2: Rate contract RC-2026-007 used at ₹90.32
+PR-26-00657,1,ITM-1049,REQ-0110,PO-0059,PO,CONTRACT_PO,S029,191.31,17218,,5.1,Clause 5.2: Rate contract RC-2026-007 used at ₹191.31
+PR-26-00658,1,ITM-1009,REQ-0003,PO-0001,PO,CONTRACT_PO,S007,7.06,173958,,5.1,Clause 5.2: Rate contract RC-2026-013 used at ₹7.06
+PR-26-00659,1,ITM-1010,REQ-0004,PO-0001,PO,CONTRACT_PO,S007,1.81,276912,,5.1,Clause 5.2: Rate contract RC-2026-013 used at ₹1.81
+PR-26-00660,1,ITM-1011,REQ-0008,PO-0001,PO,CONTRACT_PO,S007,5.75,32832,,5.1,Clause 5.2: Rate contract RC-2026-013 used at ₹5.75
+PR-26-00661,1,ITM-1013,REQ-0011,PO-0006,PO,CONTRACT_PO,S007,36.18,35818,,5.1,Clause 5.2: Rate contract RC-2026-013 used at ₹36.18
+PR-26-00662,1,ITM-1060,REQ-0143,,SOURCING_REQUEST,RFQ,,,174000,S036;S035;S037,5.1,"Clause 5.5: Value ₹174,000 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00662,2,ITM-1065,REQ-0152,PO-0079,PO,SPOT_PO,S042,10139.65,91257,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S042"
+PR-26-00662,3,ITM-1062,REQ-0153,,SOURCING_REQUEST,RFQ,,,241187,S040;S039;S041,5.1,"Clause 5.5: Value ₹241,187 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00663,1,ITM-1073,REQ-0067,,SOURCING_REQUEST,CAPEX_SOURCING,,,1150000,S045;S047;S020;S048;S046,5.1,Clause 5.1: Item type is Capex. Requires capex approval.
+PR-26-00663,2,ITM-1067,REQ-0068,,SOURCING_REQUEST,RFQ,,,203029,S044;S043;S042,5.1,"Clause 5.5: Value ₹203,029 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00663,3,ITM-1063,REQ-0069,PO-0041,PO,SPOT_PO,S039,19522.84,67152,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S039"
+PR-26-00664,1,ITM-1071,REQ-0033,,SOURCING_REQUEST,CAPEX_SOURCING,,,4527528,S045;S047;S020;S048;S046,5.1,Clause 5.1: Item type is Capex. Requires capex approval.
+PR-26-00664,2,ITM-1070,REQ-0078,,SOURCING_REQUEST,CAPEX_SOURCING,,,744138,S020;S047;S048;S045;S046,5.1,Clause 5.1: Item type is Capex. Requires capex approval.
+PR-26-00665,1,ITM-1064,REQ-0148,,SOURCING_REQUEST,RFQ,,,342679,S039;S038;S041,5.1,"Clause 5.5: Value ₹342,679 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00665,2,ITM-1055,REQ-0149,,SOURCING_REQUEST,RFQ,,,218500,S033;S032,5.1,"Clause 5.5: Value ₹218,500 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00665,3,ITM-1069,REQ-0150,,SOURCING_REQUEST,CAPEX_SOURCING,,,4561601,S045;S047;S020;S048;S046,5.1,Clause 5.1: Item type is Capex. Requires capex approval.
+PR-26-00666,1,ITM-1032,REQ-0115,,SOURCING_REQUEST,RFQ,,,258500,S019;S020;S017,5.1,"Clause 5.5: Value ₹258,500 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00666,2,ITM-1025,REQ-0116,,SOURCING_REQUEST,RFQ,,,171600,S014;S013;S015,5.1,"Clause 5.5: Value ₹171,600 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00666,3,ITM-1072,REQ-0117,,SOURCING_REQUEST,CAPEX_SOURCING,,,2738201,S045;S047;S020;S048;S046,5.1,Clause 5.1: Item type is Capex. Requires capex approval.
+PR-26-00666,4,ITM-1011,REQ-0118,PO-0060,PO,SPOT_PO,S006,6.64,189060,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S006"
+PR-26-00667,1,ITM-1066,REQ-0005,,SOURCING_REQUEST,RFP,,,807749,S043;S044;S042,5.1,"Clause 5.6: Value ₹807,749 >= ₹800,000. RFP with 5 suggested suppliers"
+PR-26-00667,2,ITM-1001,REQ-0018,PO-0009,PO,CONTRACT_PO,S001,6340.39,253616,,5.1,Clause 5.2: Rate contract RC-2025-011 used at ₹6340.39
+PR-26-00667,3,ITM-1002,REQ-0019,PO-0009,PO,CONTRACT_PO,S001,9168.71,174205,,5.1,Clause 5.2: Rate contract RC-2025-011 used at ₹9168.71
+PR-26-00667,4,ITM-1065,REQ-0020,PO-0012,PO,SPOT_PO,S042,10139.65,182514,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S042"
+PR-26-00668,1,NEW,REQ-0052,,SOURCING_REQUEST,NEW_ITEM_SOURCING,,,149600,,5.1,Clause 1.2: New item not in item master
+PR-26-00669,1,NEW,REQ-0071,,SOURCING_REQUEST,NEW_ITEM_SOURCING,,,145400,,5.1,Clause 1.2: New item not in item master
+PR-26-00670,1,NEW,REQ-0060,,SOURCING_REQUEST,NEW_ITEM_SOURCING,,,37000,,5.1,Clause 1.2: New item not in item master
+PR-26-00671,1,ITM-1042,REQ-0057,,SOURCING_REQUEST,RFQ,,,143962,S026;S028;S025,5.1,"Clause 5.5: Value ₹143,962 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00672,1,ITM-1042,REQ-0057,,SOURCING_REQUEST,RFQ,,,143962,S026;S028;S025,5.1,"Clause 5.5: Value ₹143,962 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00673,1,ITM-1042,REQ-0057,,SOURCING_REQUEST,RFQ,,,143962,S026;S028;S025,5.1,"Clause 5.5: Value ₹143,962 < ₹800,000. RFQ with 3 suggested suppliers"
+PR-26-00674,1,ITM-1034,REQ-0038,PO-0025,PO,SPOT_PO,S020,40929.88,0,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S020"
+PR-26-00675,1,ITM-1034,REQ-0022,PO-0014,PO,SPOT_PO,S020,40929.88,40930,,5.1,"Clause 5.4: Value under ₹200,000 and bought in 365d. 1st preferred supplier S020"
+PR-26-00676,1,ITM-1029,REQ-0054,,SOURCING_REQUEST,RFQ,,,222592,S020;S017;S019,5.1,"Clause 5.2A: Chakan electrical safety requirement >= ₹50,000 must be sourced. RFQ with 3 suggested suppliers"
+PR-26-00677,1,ITM-1029,REQ-0054,,SOURCING_REQUEST,RFQ,,,222592,S020;S017;S019,5.1,"Clause 5.2A: Chakan electrical safety requirement >= ₹50,000 must be sourced. RFQ with 3 suggested suppliers"

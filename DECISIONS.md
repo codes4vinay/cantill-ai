@@ -186,3 +186,62 @@ This formula was calibrated and verified to reproduce 100% of the rankings given
 | **5.6** | RFP | Value $\ge$ ₹10,00,000 | `RFP` | `SOURCING_REQUEST` | 5 suggested suppliers (preferred list + category top-up) |
 | **5.7** | Supplier Sanctions | Supplier status `Blocked` or `Inactive` | Hard block | — | Never issue PO or suggest for sourcing |
 
+---
+
+## 10. Round 1 Blind Test & Amendment No. 1 (v5.1)
+
+### 10.1 Blind Test PR Batch Ingestion
+* **Dataset:** `hidden_pr_batch.csv` (190 PR lines raised between 23 Nov 2026 and 11 Dec 2026 across plants `CHK1`, `PUN1`, and `PUN2`).
+* **Un-coded Line Resolution:** 37 PR lines lacked catalog `item_code` and were resolved using normalized token overlap and technical string matching:
+  - `"brg 6308-ZZ"` / `"brg 6308-zz"` → `ITM-1022` (Deep groove ball bearing 6308-ZZ)
+  - `"cotton hand gloves"` → `ITM-1047` (Cotton hand gloves)
+  - `"Hex nut M10 GR 8"` → `ITM-1010` (Hex nut M10 Gr 8)
+  - `"Anchor fastener M12x100"` → `ITM-1013` (Anchor fastener M12x100)
+  - `"hex bolt m10x40 gr 8.8"` → `ITM-1009` (Hex bolt M10x40 Gr 8.8)
+  - `"Hydraulic press 100 ton"` → `ITM-1072` (Hydraulic press 100 ton - Capex)
+  - `"forklift electric 2 ton as per sample"` → `ITM-1073` (Forklift electric 2 ton - Capex)
+  - `"slideway oil 220"` → `ITM-1055` (Slideway oil ISO VG 220)
+  - `"Copper cable 4 core 6 sqmm"` → `ITM-1031` (Copper cable 4 core 6 sqmm)
+  - `"spring washer m10"` → `ITM-1012` (Spring washer M10)
+  - `"Toner cartridge HP 88A"` → `ITM-1059` (Toner cartridge HP 88A)
+  - `"Gearbox oil seal 45x62x8"` → `ITM-1026` (Oil seal 45x62x8)
+* **Non-Catalog / New Items:** 4 items were identified as non-catalog and routed to `NEW_ITEM_SOURCING` (Clause 1.2):
+  1. `PR-26-00517/1`: `"housekeeping service for month"`
+  2. `PR-26-00668/1`: `"Ultrasonic thickness gauge"`
+  3. `PR-26-00669/1`: `"Drinking water purifier 50 LPH"`
+  4. `PR-26-00670/1`: `"Thermal imaging camera for maintenance"`
+
+### 10.2 Policy Amendment No. 1 (v5.1) Implementation
+The Procurement Committee and CFO approved Amendment No. 1 on 20 November 2026 (effective 1 December 2026), amending `CORVO-PROC-POL-04` to version 5.1:
+
+1. **A1 Packaging Spot Limit (Rule 5.4 Amendment):**
+   - For items in the `Packaging` category, the spot purchase threshold is reduced from ₹2,00,000 to ₹1,00,000.
+   - Any Packaging requirement $\ge$ ₹1,00,000 cannot be awarded via Spot PO and must be competitively sourced.
+   - *Impact:* Requirements for wooden pallets (`ITM-1042`), corrugated boxes (`ITM-1043`), stretch film (`ITM-1044`), and PP strapping (`ITM-1045`) valued between ₹1,20,000 and ₹1,95,000 moved from `SPOT_PO` to `RFQ`.
+
+2. **A2 RFP Threshold Reduction (Rules 5.5 and 5.6 Amendment):**
+   - The threshold requiring a formal sealed RFP is lowered from ₹10,00,000 to ₹8,00,000.
+   - Sourcing requirements $\ge$ ₹8,00,000 now route to `RFP` requiring 5 quotations; requirements $<$ ₹8,00,000 route to `RFQ` with 3 quotations.
+   - *Impact:* Requirements valued between ₹8,00,000 and ₹10,00,000 (e.g., `ITM-1008` MS plate 12mm, `ITM-1018` SS pipe 2 inch, `ITM-1051` Nitrile safety shoes, `ITM-1066` CNC turning center) shifted from `RFQ` to `RFP`.
+
+3. **A3 New Rule 5.2A: Chakan Electrical Safety:**
+   - At the Chakan plant (`CHK1`), any requirement in the `Electrical Spares` category valued at ₹50,000 or more must be sourced (`RFQ`, or `RFP` if $\ge$ ₹8,00,000), even if it would otherwise qualify for an emergency or spot PO.
+   - **Precedence:** Evaluated *immediately after* Rule 5.2. As explicitly stipulated in the amendment ("A contract PO (rule 5.2) is still allowed"), if an active rate contract exists with remaining ceiling, `CONTRACT_PO` is awarded. If no usable contract exists, the requirement bypasses Rules 5.3 (Emergency) and 5.4 (Spot) and routes directly to competitive sourcing.
+   - *Impact:* Multiple electrical items at `CHK1` (MCB 3-pole 32A `ITM-1028`, Contactor 32A `ITM-1029`, Proximity sensor `ITM-1030`, Copper cable `ITM-1031`, Relay 24V DC `ITM-1033`, LED floodlight `ITM-1034`) valued between ₹75,000 and ₹1,65,000 moved from `SPOT_PO`/`EMERGENCY_PO` to `RFQ`.
+
+### 10.3 Temporal Boundaries & Reprocessing
+* **Effective Date Application:** Amendment No. 1 has a stated effective date of 1 December 2026.
+* **Reprocessing Behavior (Run 2):** When the amendment is uploaded and activated via the app's Policy Manager, the active policy version is updated to v5.1. Reprocessing the batch evaluates requirements under the amended policy parameters (producing `vinaykumar__run2.csv` with `policy_version = 5.1`).
+* **Line-Level Sensitivity Analysis:**
+  - 18 lines created on or after 1 Dec 2026 directly change routes under the amendment.
+  - 6 lines created between 23 Nov and 30 Nov 2026 were also evaluated under v5.1 parameters during the post-amendment batch run. Notably, requirements `PR-26-00671`, `PR-26-00672`, and `PR-26-00673` for `ITM-1042` at `PUN1` form a clubbed cluster spanning 29 Nov to 2 Dec 2026. Under the amended policy, this requirement exceeds the ₹1,00,000 packaging threshold (total value ₹1,43,962) and is routed to `RFQ`.
+
+### 10.4 Preferred Supplier Ranking as of 2026-12-01
+* **As-of Date:** Evaluated strictly as of `2026-12-01`.
+* **Lookback Windows:**
+  - PO History: 548 calendar days prior to 2026-12-01 (1 June 2025 to 1 December 2026).
+  - Recency: 90 days (1 September 2026) for 1.0 weight; 365 days (1 December 2025) for 0.5 weight.
+* **Contract Integration:** The newly signed PDF contracts `RC-2026-031` (effective 15 Nov 2026) and `RC-2026-033` (effective 20 Nov 2026) are fully active and contribute to contract qualification (+15 points).
+  - *Key Shift:* On `ITM-1056` (Laptop i5 16GB 512GB), supplier `S035` (Infoline Systems) was awarded `RC-2026-033` on 20 Nov 2026, boosting its score from Rank 2 (Nov 15) to **Rank 1** as of 2026-12-01, with reference price ₹70,504.11.
+
+
